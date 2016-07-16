@@ -1,4 +1,4 @@
-/*
+  /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -9,7 +9,11 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
+ *    
+ *  Note about: = require_tree .= require_self
+ *  They don't allow Bootstrap to acces the mixins and variables.
  *
- *= require_tree .
- *= require_self
  */
+
+// Custom bootstrap variables must be set or imported before bootstrap itself.
+@import "bootstrap";
