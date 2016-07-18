@@ -1,10 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
-  def homepage
-    render "homepage.html.erb"
-  end
-
   # GET /posts
   # GET /posts.json
   def index

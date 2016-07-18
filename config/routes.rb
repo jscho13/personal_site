@@ -4,17 +4,12 @@ Rails.application.routes.draw do
     resources :comments, :only => [:create]
   end
 
-  # scaffolding stuff
-  # resources :comments
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
   # You can have the root of your site routed with "root"
-  root 'posts#homepage'
+  root 'homes#homepage'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+  get 'contact' => 'homes#contact'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
