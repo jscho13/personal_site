@@ -10,10 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *    
- *  Note about: = require_tree .= require_self
- *  They don't allow Bootstrap to acces the mixins and variables.
+ *= require_tree
+ *= require_self
+ *= require custom_bootstrap/custom_bootstrap
  *
  */
 
-// Custom bootstrap variables must be set or imported before bootstrap itself.
-@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
