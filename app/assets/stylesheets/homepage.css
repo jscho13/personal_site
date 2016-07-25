@@ -30,3 +30,8 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+.center-row {
+  text-align: center;
+  font-size: 32px;
+}
