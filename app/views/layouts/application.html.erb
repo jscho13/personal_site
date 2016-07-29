@@ -9,8 +9,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
-  <div class="row">
+  <div class="container-fluid">
     <div class="col-md-10 col-md-offset-1">
       <!-- navbar -->
       <div class="row">
@@ -18,7 +17,7 @@
           <a href="/"><h3>Home</h3></a>
         </div>
         <div class="col-md-2 header">
-          <a href="/work"><h3>Work</h3></a>
+          <a href="/projects"><h3>Projects</h3></a>
         </div>
         <div class="col-md-2 header">
           <a href="/blog"><h3>Blog</h3></a>
@@ -28,10 +27,12 @@
         </div>
       </div>
       <hr>
-        <%= yield %>
     </div>
   </div>
-</div>
+
+  <div class="container-fluid">
+    <%= yield %>
+  </div>
 
 </body>
 </html>

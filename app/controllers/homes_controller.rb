@@ -3,7 +3,7 @@ class HomesController < ApplicationController
   def homepage
   end
 
-  def work
+  def projects
   end
 
   def blog

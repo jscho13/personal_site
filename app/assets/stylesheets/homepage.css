@@ -15,9 +15,9 @@
 }
 
 a {
-  /* First we need to help some browsers along for this to work.
+  /* First we need to help some browsers along for this to projects.
      Just because a vendor prefix is there, doesn't mean it will
-     work in a browser made by that vendor either, it's just for
+     projects in a browser made by that vendor either, it's just for
      future-proofing purposes I guess. */
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -33,5 +33,6 @@ a:hover {
 
 .center-row {
   text-align: center;
-  font-size: 32px;
+  font-size: 42px;
+  padding-top: 10%;
 }
