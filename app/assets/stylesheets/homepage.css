@@ -31,8 +31,38 @@ a:hover {
   text-decoration: none;
 }
 
-.center-row {
+.contact-row {
   text-align: center;
   font-size: 42px;
   padding-top: 10%;
+}
+
+.project-label {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 5%;
+}
+
+@keyframes float {
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes bob {
+  0% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float {
+  animation-name: float, bob;
+  animation-duration: 0.3s, 0.7s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-delay: 0s, 0.3s;
+  animation-direction: normal, alternate;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
 }
