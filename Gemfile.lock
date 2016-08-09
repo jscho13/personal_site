@@ -52,6 +52,7 @@ GEM
     commonjs (0.2.7)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
+    dotenv (2.1.1)
     erubis (2.7.0)
     execjs (2.7.0)
     font-awesome-sass (4.6.2)
@@ -173,6 +174,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  dotenv
   font-awesome-sass
   jquery-rails
   less-rails-bootstrap
