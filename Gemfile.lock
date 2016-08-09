@@ -85,7 +85,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
-    mysql2 (0.4.4)
+    mysql (2.9.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -178,7 +178,7 @@ DEPENDENCIES
   font-awesome-sass
   jquery-rails
   less-rails-bootstrap
-  mysql2 (>= 0.3.13, < 0.5)
+  mysql
   pg
   pry
   puma
