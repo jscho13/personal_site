@@ -9,7 +9,6 @@ gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Frontend Gems
 gem 'sass-rails', '~> 5.0'
 gem 'therubyracer'  # If using Ruby
-gem 'jquery-rails'  # If using Bootstrap's JS plugins.
 gem 'less-rails-bootstrap'
 gem 'font-awesome-sass'
 
@@ -30,7 +29,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'rails_12factor'
 gem 'puma'
 
 group :development, :test do
@@ -45,3 +43,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
+gem 'mysql2'
