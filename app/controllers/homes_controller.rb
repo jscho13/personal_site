@@ -9,7 +9,7 @@ class HomesController < ApplicationController
   def blog
   end
   
-  def contact
+  def about
   end  
 
 end
