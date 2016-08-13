@@ -32,8 +32,12 @@ a:hover {
 }
 
 .contact-row {
+  margin: 5% 0;
+}
+
+.contact-container {
   text-align: center;
-  font-size: 42px;
+  font-size: 42px;  
 }
 
 .project-label {
