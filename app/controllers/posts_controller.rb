@@ -4,7 +4,17 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts = Post.all    
+    @monthly_groups = Post.find_by_sql(
+      "SELECT
+        p.title,
+        updated_at,
+        MONTHNAME(updated_at) as 'month',
+        COUNT(p.id) countInMonth
+      FROM posts p
+      GROUP BY MONTHNAME(updated_at)
+      ORDER BY MONTH(updated_at);"
+    )
   end
 
   # GET /posts/1
