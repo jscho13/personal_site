@@ -1,43 +1,43 @@
 <div class="row animated fadeIn">
-  <div class="col-md-10 col-md-offset-1">
+  <div class="col-md-8 col-md-offset-2">
     <div class="row row-padding">
-      <div class="col-md-8">
-        <%= image_tag "jumper1.png", class: "img-responsive" %>
+      <div class="col-md-4">
+        <%= image_tag "jumper1.png", class: "img-responsive", :data => {"toggle" => "modal", "target" => "#myModal"} %>
       </div>
       <div class="col-md-4">
-        <div class="project-label">Jumper</div>
-      </div>
-    </div>
-    <div class="row row-padding">
-      <div class="col-md-8">
         <%= image_tag "wingme1.png", class: "img-responsive" %>
       </div>
       <div class="col-md-4">
-        <div class="project-label">WingMe</div>
-      </div>
-      </div>
-    <div class="row row-padding">
-      <div class="col-md-8">
         <%= image_tag "csgo1.png", class: "img-responsive" %>
       </div>
-      <div class="col-md-4">
-        <div class="project-label">CS:Go Webcrawler</div>
-      </div>
     </div>
-    <div class="row row-padding">
-      <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-4">
         <%= image_tag "arcadia1.png", class: "img-responsive" %>
+        <div class="project-label">Jumper</div>
       </div>
       <div class="col-md-4">
-        <div class="project-label">Arcadia Healthcare Solutions</div>
+        <%= image_tag "mackey1.png", class: "img-responsive" %>
+        <div class="project-label">Jumper</div>
       </div>
     </div>
-    <div class="row row-padding">
-      <div class="col-md-8">
-        <%= image_tag "mackey1.png", class: "img-responsive" %>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
-      <div class="col-md-4">
-        <div class="project-label">MackeyRMS</div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

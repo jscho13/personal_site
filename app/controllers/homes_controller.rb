@@ -12,4 +12,20 @@ class HomesController < ApplicationController
   def about
   end  
 
+  def jumper
+  end
+
+  def wingme
+  end
+
+  def webcrawler
+  end
+
+  def arcadia
+  end
+
+  def mackey
+  end
+
+
 end
