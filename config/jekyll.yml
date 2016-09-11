@@ -27,3 +27,15 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-assets
+assets:
+  dirname: assets # _assets
+  baseurl: /blog/assets/
+  sources: # asset subdirectories
+      - _assets/stylesheets
+      - _assets/javascripts
+      - _assets/images
+  cachebust: hard
+  js_compressor: uglifier # included by rails
+  css_compressor: sass # included by rails
