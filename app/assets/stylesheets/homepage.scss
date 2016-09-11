@@ -1,18 +1,40 @@
+$turquoise: #7FC6DB;
+
 html {
   background: white;
 }
 
 body {
-  margin: 3% 3%;
+  margin: 0 10%;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 .modal-dialog {
   width: 70%;
 }
 
-.header {
+.navbar {
+  background-color: white;
+  padding-bottom: 2%;
+}
+
+.navbar__item {
   text-align: center;
   padding-top: 1%;
+  
+  a {
+    color: $turquoise;
+  }
+}
+
+.navbar__item--hover {
+  a:hover {
+    color: black;
+  }  
 }
 
 .left-box {
