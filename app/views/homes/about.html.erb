@@ -1,12 +1,13 @@
-<hr>
 <div class="row">
-  <div class="col-md-12">
-    <div class="col-md-6 left-box">
-      <h1 class="float"><b>Hi there,</b></h1>
-      <h4>My name's Joseph.</h4>
-      <h3><i>I like to code, play chess, and laugh.</i></h3>
+    <div class="col-md-12 splash">
+      <div class="splash__text">
+        <h1 class="float"><b>Hi there,</b></h1>
+        <h3>My name's Joseph.</h3>
+        <h5><i>I like to code, play chess, and laugh.</i></h5>
+      </div>
+      <%= image_tag "peru.jpg", class: "splash__picture animated fadeIn" %>
     </div>
-    <div class="col-md-4 right-box animated fadeInRight">
+    <div class="col-md-12">
       <h4>Programming is my art form.<br></h4>
       <h6>
         <p>Problems have all sorts of solutions. Like in art, how they're expressed depends on the person behind the code.
@@ -18,41 +19,34 @@
         I could read for hours completely immersed in my imagination.</p>
       </h6>
     </div>
-  </div>
 </div>
 
 <hr>
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="row row-padding">
-      <div class="col-xs-12 col-md-4">
-        <div class="darken">
-          <%= image_tag "jumper1.png", class: "project-img", :data => {"toggle" => "modal", "target" => "#modal1"} %>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <div class="darken">
-          <%= image_tag "wingme1.png", class: "project-img", :data => {"toggle" => "modal", "target" => "#modal2"} %>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <div class="darken">
-          <%= image_tag "csgo1.png", class: "project-img", :data => {"toggle" => "modal", "target" => "#modal3"} %>
-        </div>
-      </div>
+<div class="row project__list">
+  <div class="col-xs-12 project__list--item">
+    <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
+      <%= image_tag "jumper.png", class: "css-device__image" %>
     </div>
-    <div class="row row-padding">
-      <div class="col-xs-12 col-md-4">
-        <div class="darken">
-          <%= image_tag "arcadia1.png", class: "project-img", :data => {"toggle" => "modal", "target" => "#modal4"} %>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <div class="darken">
-          <%= image_tag "mackey1.png", class: "project-img", :data => {"toggle" => "modal", "target" => "#modal5"} %>
-        </div>
-      </div>
+  </div>
+  <div class="col-xs-12 project__list--item">
+    <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
+      <%= image_tag "wingme.png", class: "css-device__image" %>
+    </div>
+  </div>
+  <div class="col-xs-12 project__list--item">
+    <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
+      <%= image_tag "csgo.png", class: "css-device__image" %>
+    </div>
+  </div>
+  <div class="col-xs-12 project__list--item">
+    <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
+      <%= image_tag "arcadia.png", class: "css-device__image" %>
+    </div>
+  </div>
+  <div class="col-xs-12 project__list--item">
+    <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
+      <%= image_tag "mackey.png", class: "css-device__image" %>
     </div>
   </div>
 </div>

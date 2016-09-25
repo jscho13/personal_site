@@ -1,39 +1,43 @@
-$turquoise: #7FC6DB;
+/* =============================================================================
+  PRIMARY LAYOUT STUFF
+============================================================================= */
+$turquoise: #bfe2ed;
 
 html {
   background: white;
 }
 
-.modal-dialog {
-  width: 70%;
-}
-
+/* =============================================================================
+  NAVBAR STUFF
+============================================================================= */
 .navbar__item {
   text-align: center;
-  padding-top: 1%;
-  
-  a {
-    color: $turquoise;
-  }
+  float: right;
 }
 
 .navbar__item--hover {
   a:hover {
-    color: black;
+    color: white;
   }  
 }
 
-.left-box {
-  text-align: right;
-  padding-top: 10%;
-  padding-right: 10%;
+/* =============================================================================
+  LANDING PAGE STUFF
+============================================================================= */
+.splash__text {
+  float: left;
 }
 
-.right-box {
-  text-align: left;
-  padding-top: 5%;
+.splash__picture {
+  border-radius: 25px;
+  float: right;
+  max-width: 50%;
+  height: auto;
 }
 
+/* =============================================================================
+  LINKS
+============================================================================= */
 a {
   /* First we need to help some browsers along for this to projects.
      Just because a vendor prefix is there, doesn't mean it will
@@ -51,20 +55,9 @@ a:hover {
   text-decoration: none;
 }
 
-.row-padding {
-  margin: 3% 0;
-}
-
-.contact-container {
-  text-align: center;
-  font-size: 42px;  
-}
-
-.project-img {
-  width: 300px;
-  height: 300px;
-}
-
+/* =============================================================================
+  ANIMATIONS
+============================================================================= */
 @keyframes float {
   100% {
     transform: translateY(0);
@@ -87,4 +80,11 @@ a:hover {
   animation-direction: normal, alternate;
   animation-iteration-count: 1, infinite;
   animation-fill-mode: forwards;
+}
+
+/* =============================================================================
+  BOX-SIZING
+============================================================================= */
+.project__list--item {
+  padding: 2% 0%;
 }
