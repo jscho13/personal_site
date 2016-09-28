@@ -1,4 +1,4 @@
-namespace :jekyll do
+task :jekyll do
   dest = Rails.root.join('public/blog')
 
   options = {
