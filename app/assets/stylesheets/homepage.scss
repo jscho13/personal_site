@@ -1,5 +1,5 @@
 /* =============================================================================
-  PRIMARY LAYOUT STUFF
+  BASE LAYOUT STUFF
 ============================================================================= */
 $turquoise: #bfe2ed;
 
@@ -7,31 +7,70 @@ html {
   background: white;
 }
 
+hr {
+  margin: 0.5em;
+}
+
+h1, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* =============================================================================
+  CONTAINERS
+============================================================================= */
+.project__list--label {
+  padding: 0 1em;
+}
+
+.project__list {
+  padding-bottom: 3em;
+}
+
 /* =============================================================================
   NAVBAR STUFF
 ============================================================================= */
-.navbar__item {
-  text-align: center;
-  float: right;
+nav {
+  background-color: #000;
+  padding: 0.5em 16em;
 }
 
-.navbar__item--hover {
+.navbar__item {
+  text-align: right;
+  a {
+    color: #fff;
+  }
+  
   a:hover {
-    color: white;
+    color: $turquoise;
   }  
+}
+
+/* =============================================================================
+  FOOTER STUFF
+============================================================================= */
+footer {
+  text-align: right;
+  padding: 1em 16em;
+  background-color: #fff;
+  
+  a:hover {
+    color: $turquoise;
+  }
 }
 
 /* =============================================================================
   LANDING PAGE STUFF
 ============================================================================= */
+.splash {
+  padding-top: 2em;
+}
+
 .splash__text {
   float: left;
 }
 
 .splash__picture {
   border-radius: 25px;
-  float: right;
-  max-width: 50%;
   height: auto;
 }
 
@@ -80,11 +119,4 @@ a:hover {
   animation-direction: normal, alternate;
   animation-iteration-count: 1, infinite;
   animation-fill-mode: forwards;
-}
-
-/* =============================================================================
-  BOX-SIZING
-============================================================================= */
-.project__list--item {
-  padding: 2% 0%;
 }
