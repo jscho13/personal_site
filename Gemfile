@@ -33,7 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'puma'
 gem 'dotenv'
 gem "jekyll", "3.2.1"
-gem "minima"
+# gem "minima"
+# gem "redcarpet"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

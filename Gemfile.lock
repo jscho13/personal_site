@@ -107,7 +107,6 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
-    minima (1.1.0)
     minitest (5.9.0)
     mysql (2.9.1)
     mysql2 (0.4.4)
@@ -211,7 +210,6 @@ DEPENDENCIES
   jekyll (= 3.2.1)
   jquery-rails
   less-rails-bootstrap
-  minima
   mysql
   mysql2 (>= 0.3.13, < 0.5)
   pg
@@ -231,4 +229,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
