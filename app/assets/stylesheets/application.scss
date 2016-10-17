@@ -1,4 +1,4 @@
-  /*
+/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -15,9 +15,15 @@
  *= require custom_bootstrap/custom_bootstrap
  */
  
-// @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 // @import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+
+// 'Roboto', sans-serif;
+// 'Quicksand', sans-serif;
+// 'Open Sans', sans-serif;
+// 'Slabo 27px', serif;
+
 @import "font-awesome-sprockets";
 @import "font-awesome";

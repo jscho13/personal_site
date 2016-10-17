@@ -12,7 +12,7 @@
       I could read for hours completely immersed in my imagination.</p>
   </div>
   <div class="col-md-6">
-    <%= image_tag "peru.jpg", class: "splash__picture animated fadeIn" %>
+    <%= image_tag "peru.jpg", class: "splash__picture animated fadeIn pull-right" %>
   </div>
 </div>
 
@@ -26,20 +26,24 @@
       </div>
     </div>
     <div class="col-md-6 col-sm-12 project__list--label">
-      <h6>Ruby on Rails, or simply Rails, is a web application framework written in Ruby under MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.
-        Foundation is a responsive front-end framework that utilizes a responsive grid, HTML and CSS components. It includes code snippets for typography, forms, buttons, navigation and other common interface components. It also includes optional JavaScript extensions for a more responsive application. Foundation is maintained by ZURB and is an open source project.
-        PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance. As a database server, its primary function is to store data securely, supporting best practices, and to allow for retrieval at the request of other software applications.
-      </h6>
+      <h3>Jumper</h3>
+      <h5>
+        <p>Jumper is a collaborative project aimed towards rating team-orientated entertainment venues. Rock climbing, Escape the Room, and sky diving are some of the venues rated. Technologies used were Rails, Foundation, MiniTest and PostgreSQL.</p>
+        <p>Key lessons that I took away from this project were leading a team of four junior developers, and expanding my css knowledge of emebeded videos, positioning elements, and animations.</p>
+      </h5>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6 col-sm-12 project__list--label">
-      <h6>WingMe is a dating app where instead of you matching yourself, you get your friends to match you! Check it out at WingMe.co.</p>
-        Masonry.js is a cascading grid library. It supplements Foundation by breaking out of it's fixed grid system, for a more dynamic grid system that renders well both on desktops and mobile platforms.
-        The above gems are used to add functionality to Rails apps. Devise is used for user authentication, Kaminari is used for pagination, and PG Search is used to add search functionality on database columns of choice.
-        WingMe allows Facebook Authentication. I dived deep into Facebooks API documentation, to figure out the best way to get their code to communicate with the source code of the Devise gem.
-      </h6>
+      <h3>WingMe</h3>
+      <h5>
+        <p>WingMe is a dating app where instead of you matching yourself, your friends to match you.</p>
+        <p>WingMe is a project aimed at helping singles connect in the most organic way possible - through friends.
+        Some libraries I experimented with were Masonry.js, Devise, Kaminari, PG Search, and Facebook API Authentication.</p>
+        <p>A key challenge was creating user-to-user (self-referential) associations for the friend and match system. Adding another user and referencing them required some ActiveRecord trickery.
+        Some other lessons learned were overriding Foundations fixed grid system with Masonry.js flexible grid system, and integrating Devise authentication with Facebook Authentication. The latter was my first experience getting two different API's to work together.</p>
+      </h5>
     </div>
     <div class="col-md-6 col-sm-12 project__list--image">
       <div class="css-device css-device--browser" data-url="http://wingme.co">
@@ -47,32 +51,31 @@
       </div>
     </div>
   </div>
-  
+
   <div class="row">
     <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--browser" data-url="">
-        <%= image_tag "csgo.png", class: "css-device__image" %>
+      <div class="css-device css-device--tablet" data-url="">
+        <%= image_tag "csgo-mobile.png", class: "css-device__image" %>
       </div>
     </div>
     <div class="col-md-6 col-sm-12 project__list--label">
-      <h6>
-        <p>There were several design decisions made while coding of the webcrawler. When iterating through the websites it was tempting to use either an array of hashes or an array of objects. Both were considered because they contain a list of attributes stored within a single unit. However, an array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes.</p>
-        <p>Ruby gems are useful for adding additional functionality with ease. Nokogiri is a gem (another name for Ruby library) that allows Ruby to parse through XML/HTML or similar markup languages. It was used to extract betting odds, usernames, and items being bet from the page during a set extraction interval. The extracted data was stored on the cloud, so the user could amass data on betting statistics.</p>
-        <p>XPath was used to select the elements from the page. I extensively used Chrome’s developer tools to navigate through the DOM (Document Object Model). The DOM is particularly useful to understand the structure of the website. HTML, CSS, and JavaScript can all be used within the DOM to manipulate the site client-side.</p>
-        Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser. It parses and searches XML/HTML very quickly, and also has correctly implemented CSS3 selector support as well as XPath 1.0 support.
-        XPath, the XML Path Language, is a query language for selecting nodes from an XML document. In addition, XPath may be used to compute values (e.g., strings, numbers, or Boolean values) from the content of an XML document.
-      </h6>
+      <h3>CS:GO Webcrawler</h3>
+      <h5>
+        <p>This webcrawler was a project for a good friend. The focus was to parse and export into a CSV win rates, items gambled, and who gambled the items</p>
+        <p>An interesting problem I encountered on this project was how to architect the data. When iterating through the websites I was given the choice to use either an array of hashes or an array of objects. An array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes in Ruby.
+        <p>On this project I took my first dive into Nokogiri and by extension, Xpath. The XML/HTML parsing functions helped pick out usernames and items. The extraction code was placed inside of a loop that executed at a certain interval and pushed the information to Google Docs (shout out to Chrome’s developer tools to help me navigate through the Document Object Model aka DOM).</p>
+      </h5>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6 col-sm-12 project__list--label">
-      <h6>
-        SQL is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS). Originally based upon relational algebra and tuple relational calculus, SQL consists of a data definition, manipulation, control language. The scope of SQL includes data insert, query, update, delete, schema creation and modification, and data access control. Although SQL is often described as, and to a great extent is, a declarative language, it also includes procedural elements.
-        Informatica Cloud is a bulk data integration and data warehousing system. While their technology spans a variety of cloud and non-cloud applications, their data integration and ETL processes more are particularly robust. Informatica Cloud is able to extract data using a secure agent installed cloud side. This data is then encrypted and transferred locally. As of August 2015 they have been acquisitioned by Microsoft and Salesforce.
-        <p>The bottom section of the query always contains the FROM and WHERE statement. SQL queries always come with a SELECT and FROM statement. The WHERE statement is an optional statement frequently used to filter extraction results.</p>
-        <p>In this query, the FROM statement includes a left outer join, inner join, and left join. Joins are used to link tables together, and are integral to creating more complex queries that span across the database. This WHERE statement is used to filter our certain results. NULL patient ids, or test usernames are being parsed based on a wildcard search function.</p>
-      </h6>
+      <h3>Arcadia</h3>
+      <h5>
+        <p>Arcadia is a health care consulting company specializing in EHR data aggregation and advanced analytics.</p>
+        <p>I spent time here as a SQL Data Analyst and made queries that spanned across various databases. Technologies used here were T-SQL, P/L-SQL, and Informatica Cloud Software.</p>
+        <p>Some sample queries I created used joins to link tables together. Queries would filter for certain results sucuh as NULL patient ID's, or “Test Accounts” by using wildcard characters. Informatica Cloud Agents were used to transfer data over. These lightweight clients would create secure SSH tunnels and transfer encrypted data locked with public and private keys.</p>
+      </h5>
     </div>
     <div class="col-md-6 col-sm-12 project__list--image">
       <div class="css-device css-device--browser" data-url="">
@@ -88,7 +91,9 @@
       </div>
     </div>
     <div class="col-md-6 col-sm-12 project__list--label">
-      <h6>Currently I'm hacking away here</h6>
+      <h3>Mackey LLC</h3>
+      <h5>Currently I'm hacking away here as a Software Engineer.</h5>
+      <h5>I do anything ranging from adding features, addressing custom client requests, or adding flashy SASS + jQuery effects.</h5>
     </div>
   </div>
 </div>
