@@ -8,7 +8,7 @@ Rails.application.config.after_initialize do
     Jekyll::Site.new(
       Jekyll.configuration({
         "config" => Rails.root.join('config', 'jekyll.yml').to_s,
-        "source" => Rails.root.join('blog').to_s,
+        "source" => Rails.root.join('money').to_s,
         "destination" => dest.to_s
       })
     ).process
