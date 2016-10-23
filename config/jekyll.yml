@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Young Easy Life
 email: jscho13@gmail.com
-tagline: 'Millennial Advice You Wish You Learned'
+tagline: 'The Millennial Advice You Forgot To Learn'
 description: 'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 baseurl: "/money" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
