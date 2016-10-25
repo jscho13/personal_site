@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Indicator of An Effective Budget"
+title:  "The Key to Building An Effective Budget"
 date:   2016-10-18 22:03:00 -0400
 categories: budgeting
 ---
