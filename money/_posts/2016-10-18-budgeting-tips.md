@@ -1,20 +1,22 @@
 ---
 layout: post
-title:  "The Key to Building An Effective Budget"
+title:  "The Trick To Hitting Your Budget"
 date:   2016-10-18 22:03:00 -0400
 categories: budgeting
 ---
-### Giving every dollar a job
-One of the key tricks to effective budgeting is making sure you budget every dollar, also known as a zero-based budget.
+### Zero-Based Budget
+Zero-based budgeting is where you give every dollar a job. That means the total you earn is the total you spend. It's one of the key tricks to create a budget that stays focused.
 
-A common mental trap is believing unbudgeted money will automatically go into savings. While it's possible to respect your budgets limit, psychologically it's easy use the extra as a crutch. I found the brain is primed to spend more on top of going over budget when all of your money isn't tasked! Saving leftovers can be difficult, and you may find the leftover 200 dollars that were for your savings can quickly turn into some extra spending money.
+A common mental trap is that unfocused money turns into money saved. While it's possible to respect your budgets limit, it's easy to squander unbudgeted money. I found myself primed to spend even after going over budget when all of my money wasn't. Saving money can be difficult, and you may find the money you meant to save turn into extraneous spending money.
 
-In my early 20's I made the critical mistake of not giving every dollar a job. I would convince myself it's okay to spend a little bit more since I always had that extra cash padding. I would love to splurge on concert tickets, alcohol, and things to keep the party going. The extra cash that I thought would go into my savings would disappear like magic. Once I nailed down my extra cash towards better [investments][investing-money], I found myself consistently hitting my budget.
+In my early 20's I made the critical mistake of not giving every dollar a job. I would tell myself it's okay to spend a bit outside of my means since I had a little cash padding anyways. Splurging on concert tickets, alcohol, and smokes became justified. Overnight money that could should have gone into my savings would evaporate. Once I slimmed down my spending and put it towards better [investments][investing-money], I found myself consistently hitting my budget.
 
 ### So now what?
-Take time now to assess your budget and look at any gaps. Have money you haven't budgeted yet? The job isn't finished. Some common options are a savings account, a [nest egg][building-a-nest-egg], or 401k/IRA's. There's a big difference between money though of as unbudgeted "savings" versus money goes specifically towards savings.
+Take time now to assess your budget and look at any gaps. Are there places you've where you spend more and or spend less? Not sure what to do with hard saved money? The job isn't finished. Some common options are a savings account, a [nest egg][building-a-nest-egg], and 401k/IRA's. 
 
-Going over and under (if you're lucky!) budget happens all the time. No one can predict their monthly spending on the dot. But making sure all of your money is going somewhere goes a long way in your path to building wealth. Going over and under your budget is natural, but knowing all of your money has a delegated task goes a long way to keeping you focused and preventing overspending.
+> There's a big difference between unfocused money and money that goes straight towards savings.
+
+Going over and under (if you're lucky!) budget always happens. But making sure all of your money is going to a specific place does a lot towards building wealth.
 
 [building-a-nest-egg]: http://money.josephscho.com/money/building-a-nest-egg
 [investing-money]: http://money.josephscho.com/money/beginners-guide-to-investing
