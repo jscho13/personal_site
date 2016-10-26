@@ -72,17 +72,29 @@ h3 {
 nav {
   background-color: #000;
   padding: 0.5em 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar__item {
-  text-align: right;
   a {
     color: #fff;
   }
   
   a:hover {
     color: $turquoise;
-  }
+  }  
+}
+
+.navbar__item--left {
+  @extend .navbar__item;
+  text-align: left;
+  float: left;
+}
+
+.navbar__item--right {
+  @extend .navbar__item;
+  text-align: right;
 }
 
 /* =============================================================================
