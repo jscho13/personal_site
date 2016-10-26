@@ -17,7 +17,7 @@ title: Better Millennial
 email: jscho13@gmail.com
 tagline: 'Because Everyday Is Another Opportunity'
 description: 'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-baseurl: "/money" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username:  jscho13
 paginate:         5
