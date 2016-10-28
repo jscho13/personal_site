@@ -1,20 +1,32 @@
 ---
 layout: post
-title:  "Managing Your Credit"
-date:   2016-10-25 23:27:00 -0400
+title:  "Controlling Your Credit Score"
+date:   2016-10-27 22:51:00 -0400
 categories: money matters
 ---
+### What's it good for anyways?
+Credit scores are an important tool for determining your qualification and interest rates on loans. It could mean thousands of dollars in savings. Whenever you make a major financial decision, like buying a house or getting a new car, your credit score will be part of the picture.
+
 ### Credit Score Factors
-Zero-based budgeting is where you give every dollar a job. That means the total you earn is the total you spend. It's one of the key tricks to create a budget that stays focused.
+There are a <a href="https://www.credit.com/credit-scores/what-does-fico-stand-for-and-what-is-a-fico-credit-score/">number of factors</a> to your credit score.
+* Payment history - (35%)
+* Credit Utilization (Total debt owed) - (30%)
+* Length of credit history (15%)
+* Amount of New Credit/Inquiries (10%)
+* Credit mix (10%)
 
-A common mental trap is that unfocused money turns into money saved. While it's possible to respect your budgets limit, it's easy to squander unbudgeted money. I found myself primed to spend even after going over budget when all of my money wasn't. Saving money can be difficult, and you may find the money you meant to save turn into extraneous spending money.
+Note the single biggest thing you can do for yourself is paying your bills on time. Forgetting to pay a bill is a double whammy of additional fees and credit damage. Automatic payments go a long way to ensure bills are paid on time.
 
-In my early 20's I made the critical mistake of not giving every dollar a job. I would tell myself it's okay to spend a bit outside of my means since I had a little cash padding anyways. Splurging on concert tickets, alcohol, and smokes became justified. Overnight money that could should have gone into my savings would evaporate. Once I slimmed down my spending and put it towards better [investments][investing-money], I found myself consistently hitting my budget.
+### How to Cheat The Credit System
+The second largest impact is credit utilization, which is calculated by the the total debt owed vs your credit limit. If you have a debt of $500 and a credit limit of $1000 ($500/$1000), your credit limit is 50%. Creditors like to see a utilization less than 35%. Luckily for us, there are a few tricks you can use to game the credit system.
 
-### Improve Your Credit Score
-Take time now to assess your budget and look at any gaps. Are there places you've where you spend more and or spend less? Not sure what to do with hard saved money? The job isn't finished. Some common options are a savings account, a [nest egg][building-a-nest-egg], and 401k/IRA's. 
-There's a big difference between unfocused money and money that goes straight towards savings.
-Going over and under (if you're lucky!) budget always happens. But making sure all of your money is going to a specific place does a lot towards building wealth.
+1. After you've been with a credit card for a year or more you ask for a credit score increase.
+2. Apply aggressively for credit cards if you haven't had any recent hard inquiries.
 
-[building-a-nest-egg]: http://money.josephscho.com/money/building-a-nest-egg
-[investing-money]: http://money.josephscho.com/money/beginners-guide-to-investing
+Credit increases are good for two reasons. A. They lowers your utilization ($500/$1000 vs $500/$1500) B. It's not considered a hard pull.
+
+Applying aggressively helps because older credit cards translate directly to longer credit history. These cards typically don't shut down if you use them once a year. Remember, having too many credit pulls within a two year period impacts your score.
+
+Having a solid handle on credit important, but it's also important to [budget][budgeting-money] your existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
+
+[budgeting-money]: http://money.josephscho.com/money/budgeting-tips

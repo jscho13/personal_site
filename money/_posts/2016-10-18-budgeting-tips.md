@@ -12,7 +12,7 @@ A common mental trap is that unfocused money turns into money saved. While it's 
 In my early 20's I made the critical mistake of not giving every dollar a job. I would tell myself it's okay to spend a bit outside of my means since I had a little cash padding anyways. Splurging on concert tickets, alcohol, and smokes became justified. Overnight money that could should have gone into my savings would evaporate. Once I slimmed down my spending and put it towards better [investments][investing-money], I found myself consistently hitting my budget.
 
 ### So now what?
-Take time now to assess your budget and look at any gaps. Are there places you've where you spend more and or spend less? Not sure what to do with hard saved money? The job isn't finished. Some common options are a savings account, a [nest egg][building-a-nest-egg], and 401k/IRA's. 
+Take time now to assess your budget and look at any gaps. Are there places you've where you spend more and or spend less? Not sure what to do with hard saved money? The job isn't finished. Some common options are a savings account, a [nest egg][building-a-nest-egg], and 401k/IRA's.
 
 > There's a big difference between unfocused money and money that goes straight towards savings.
 
