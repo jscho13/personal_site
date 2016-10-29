@@ -18,4 +18,4 @@ Take time now to assess your budget and look at any gaps. Are there places you'v
 
 Going over and under (if you're lucky!) budget always happens. But making sure all of your money is going to a specific place does a lot towards building wealth.
 
-[investing-money]: http://money.josephscho.com/moneymanagement/2016/10/27/managing-credit-score/
+[investing-money]: http://money.josephscho.com/moneymanagement/2016/10/29/beginner-investing/

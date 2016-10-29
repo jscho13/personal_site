@@ -29,4 +29,4 @@ Applying aggressively helps because older credit cards translate directly to lon
 
 Having a solid handle on credit important, but it's also important to [budget][budgeting-money] your existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
 
-[budgeting-money]: http://money.josephscho.com/moneymanagement/2016/10/27/managing-credit-score/
+[budgeting-money]: http://money.josephscho.com/moneymanagement/2016/10/19/budgeting-tips/
