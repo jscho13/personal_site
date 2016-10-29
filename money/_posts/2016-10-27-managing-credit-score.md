@@ -2,7 +2,7 @@
 layout: post
 title:  "Controlling Your Credit Score"
 date:   2016-10-27 22:51:00 -0400
-categories: money matters
+categories: moneymanagement
 ---
 ### What's it good for anyways?
 Credit scores are an important tool for determining your qualification and interest rates on loans. It could mean thousands of dollars in savings. Whenever you make a major financial decision, like buying a house or getting a new car, your credit score will be part of the picture.
@@ -29,4 +29,4 @@ Applying aggressively helps because older credit cards translate directly to lon
 
 Having a solid handle on credit important, but it's also important to [budget][budgeting-money] your existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
 
-[budgeting-money]: http://money.josephscho.com/money/budgeting-tips
+[budgeting-money]: http://money.josephscho.com/moneymanagement/2016/10/27/managing-credit-score/
