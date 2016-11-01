@@ -20,6 +20,9 @@ John C. Bogle is an investor arguably as talented as Warren Buffet within the in
 
 A Vanguard Fund has a yearly fee of 0.07%, lets say you find a fund that goes for 1.32%. 1.25% isn't so big of a deal right?
 
+![retirement-gains](http://static5.businessinsider.com/image/530165616da811d21435db22-1200-858/retirement%20chart.jpg)
+
+
 Wrong, it amounts to 27% of your retirement savings going to someone for no reason. It's because not only are you losing your money to fees, you're also losing on the potential returns of that money. On top of that don't forget a majority of mutual funds can't outperform the market.
 
 ### Next Steps
