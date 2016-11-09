@@ -20,6 +20,7 @@ John C. Bogle is an investor arguably as talented as Warren Buffet within the in
 
 A Vanguard Fund has a yearly fee of 0.07%, lets say you find a fund that goes for 1.32%. 1.25% isn't so big of a deal right?
 
+<img src="assets/retirement_chart.jpg" alt="Millennial Retirement Chart" style="width: 640px;"/>
 ![retirement-gains](http://static5.businessinsider.com/image/530165616da811d21435db22-1200-858/retirement%20chart.jpg)
 
 

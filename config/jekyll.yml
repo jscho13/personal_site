@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Better Millennial
+title: Smarter Millennial
 email: jscho13@gmail.com
-tagline: 'Because Everyday Is Another Opportunity'
-description: 'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline: 'Millennial Adivce We Never Learned'
+description: 'Millennial personal finance and money management site aimed at educating Millennials just beginning to get a handle on their finances.'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username:  jscho13
 paginate:         5
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Joseph Cho'
+  url:            https://josephscho.com
 
 # Build settings
 markdown: kramdown
