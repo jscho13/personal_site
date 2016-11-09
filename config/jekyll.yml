@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Smarter Millennial
 email: jscho13@gmail.com
-tagline: 'Millennial Adivce We Never Learned'
+tagline: 'Millennial Advice That Was Supposed To Be A Secret'
 description: 'Millennial personal finance and money management site aimed at educating Millennials just beginning to get a handle on their finances.'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
