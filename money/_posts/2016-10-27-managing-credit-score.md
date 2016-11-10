@@ -30,7 +30,7 @@ In general, creditors like to see a utilization less than 35%. Luckily for us, t
 2. Apply for credit cards if you haven't had any recent hard inquiries. Credit increases are good for three reasons. A. It lowers utilization (compare $500/$1000 vs $500/$1500) B. It diversifies the credit mix. Having a mix of cards, loans, and mortgages tells lenders you're a responsible creditor.  C. It's not considered a hard pull. Why say no to a free higher limit?
 
 ### Some Caveats to Keep In Mind
-Staying aggressive early on especially helps because longer credit history directly translates to a higher score. While cards can shut down after a period of time, using a card at least once a year keeps you in the safe zone. Do not ask for more credit cards if you've had more than four hard pulls within a two year period! A high number of inquiries is considered suspicious activity because you may be desperately shopping around for credit. 
+Staying aggressive early on especially helps because longer credit history directly translates to a higher score. While cards can shut down after a period of time, using a card at least once a year keeps you in the safe zone. Do not ask for more credit cards if you've had more than four hard pulls within a two year period! A high number of inquiries is considered suspicious activity because you may be desperately shopping around for credit.
 
 Having a solid grasp on credit important, but it's also important to [budget][budgeting-tips] existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
 
