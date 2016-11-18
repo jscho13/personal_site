@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Smarter Millennial
+title: Adult Financing
 email: jscho13@gmail.com
-tagline: 'The Leading Authority On Millennial Personal Finance'
+tagline: 'Personal Finance Made Simple'
 description: 'Millennial personal finance and money management site aimed at educating Millennials just beginning to get a handle on their finances.'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ github_username:  jscho13
 paginate:         5
 author:
   name:           'Joseph Cho'
-  url:            http://smartermillennial.com
+  url:            http://adultfinancing.com
 
 # Build settings
 markdown: kramdown

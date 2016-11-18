@@ -28,9 +28,9 @@ His point especially drives home how important it is to have low management fees
 Woah there. It turns out a whopping 27% of your potential retirement savings is lost when estimated over a 40 year period. The reason is the double whammy of losing money to fees, and on top of that losing the potential earnings of that hard earned cash. Don't forget, countless resources prove that actively managed accounts have trouble beating index funds even before accounting for all the management fees.
 
 ### Next Steps
-Skip paying exorbitantly high fees and start investing into Vanguard funds now. Speak to HR about looking into a [401k or Roth 401k][Roth 401k vs 401k]. If your employer doesn't offer any matches, consider opening an IRA instead. Once you've started your path towards a stable financial future and you're ready to take another step, dive deeper into investments by learning more about the importance of [diversifying your portfolio][diverse portfolio millennial].
+Skip paying exorbitantly high fees and start investing into Vanguard funds now. Speak to HR about looking into a [401k or Roth 401k][Roth 401k vs 401k]. If your employer doesn't offer any matches, consider opening an IRA instead. Once you've started your path towards a stable financial future and you're ready to take another step, dive deeper into investments by learning more about the importance of [diversifying your portfolio][diversifying portfolio].
 
-[diverse portfolio millennial]: http://smartermillennial.com/budget/2016/10/19/budgeting-tips/
+[diversifying portfolio]: http://smartermillennial.com/investment/2016/11/16/diversifying-your-portfolio/
 
 [building credit]: http://smartermillennial.com/credit/2016/10/28/managing-credit-score/
 
