@@ -5,7 +5,7 @@ date:   2016-10-31 22:40:00 -0400
 categories: investment
 ---
 ### The One Stock You Need
-One of the earliest barriers to getting started on investing is figuring out where to start. While its true that there's a wealth of knowledge involved in investments, there are simple ways to get your best bang for buck early on. All you need to begin your investment is purchasing [Vanguard 500 Index Mutual Funds](http://performance.morningstar.com/fund/performance-return.action?t=VFINX){:rel="nofollow"}. It's a good fund to start with because it index funds are considered passive (versus an active fund).
+One of the earliest barriers to getting started on investing is figuring out where to start. While its true that there's a wealth of knowledge involved in investments, there are simple ways to get your best bang for buck early on. All you need to begin your investment is purchasing [Vanguard 500 Index Funds](http://performance.morningstar.com/fund/performance-return.action?t=VFINX){:rel="nofollow"}. It's a good fund to start with because it index funds are considered passive (versus an active fund).
 
 Index funds consistently outperform any active fund for two main reasons:
 - They have lower management fees.
@@ -28,7 +28,7 @@ His point especially drives home how important it is to have low management fees
 Woah there. It turns out a whopping 27% of your potential retirement savings is lost when estimated over a 40 year period. The reason is the double whammy of losing money to fees, and on top of that losing the potential earnings of that hard earned cash. Don't forget, countless resources prove that actively managed accounts have trouble beating index funds even before accounting for all the management fees.
 
 ### Next Steps
-Skip paying exorbitantly high fees and start investing into Vanguard funds now. Speak to HR about looking into a [401k or Roth 401k][Roth 401k vs 401k]. If your employer doesn't offer any matches, consider opening an IRA instead. Once you've started your path towards a stable financial future and you're ready to take another step, dive deeper into investments by learning more about the importance of [diversifying your portfolio][diversifying portfolio].
+While it's possible to get excellent returns in stock, most people simply don't have the time to do their homework and look deep into their portfolios to actively maintain it. Skip paying exorbitantly high fees and start investing into Vanguard funds for simplicity and bang for buck. HR can help look into [401k or Roth 401k's][Roth 401k vs 401k] and other investment options. If your employer doesn't offer any matches, consider opening an IRA instead. Once you've started your path towards a stable financial future and you're ready to take another step, dive deeper into investments by learning more about the importance of [diversifying your portfolio][diversifying portfolio].
 
 [diversifying portfolio]: http://smartermillennial.com/investment/2016/11/16/diversifying-your-portfolio/
 
