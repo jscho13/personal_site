@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Smarter Millennial
+title: Adult Financing
 email: jscho13@gmail.com
 tagline: 'A Millennials Guide to Personal Finance'
 description: 'Personal finance and money management is not easy. This site is aimed at educating Millennials just beginning to get a handle on their own finances. It is a place for beginners and experts alike to gather and learn more.'
@@ -23,7 +23,7 @@ github_username:  jscho13
 paginate:         5
 author:
   name:           'Joseph Cho'
-  url:            http://smartermillennial.com
+  url:            http://adultfinancing.com
 
 # Build settings
 markdown: kramdown
