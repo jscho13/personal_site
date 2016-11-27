@@ -14,8 +14,8 @@ email: jscho13@gmail.com
 name: Joseph Cho
 subtitle: 'Your Afternoon Guide to Personal Finance'
 description: 'Personal finance and money management is not easy. This site is aimed at educating Millennials just beginning to get a handle on their own finances. It is a place for beginners and experts alike to gather and learn more.'
-baseurl: "/" # the subpath of your site, e.g. /blog
-cover: "/assets/header_image.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+cover: "/jekyll_images/coffee_work.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
@@ -24,7 +24,7 @@ paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai_sublime"
-
+  
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
   enabled:

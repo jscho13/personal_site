@@ -36,6 +36,7 @@ gem "jekyll"
 gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
+gem 'sass'
 
 # gem "minima"
 # gem "redcarpet"
