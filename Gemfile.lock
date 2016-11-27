@@ -36,6 +36,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.4.0)
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -73,9 +74,13 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.1.1)
+      jekyll (>= 2.4)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
+    jekyll-sitemap (0.11.0)
+      addressable (~> 2.4.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     jquery-rails (4.1.1)
@@ -208,8 +213,10 @@ DEPENDENCIES
   byebug
   dotenv
   font-awesome-sass
-  jekyll (= 3.2.1)
+  jekyll
+  jekyll-archives
   jekyll-paginate
+  jekyll-sitemap
   jquery-rails
   less-rails-bootstrap
   mysql
@@ -231,4 +238,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
