@@ -178,6 +178,7 @@ pre code.hljs {
   }
   li.nav-link {
   	a {
+			color: $white;
 	    display: inline-block;
 	    @include media ($tablet) {
 	      padding-right: 1.5em;
