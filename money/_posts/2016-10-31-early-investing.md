@@ -22,7 +22,7 @@ John C. Bogle is a famous investor best known for his low cost portfolios that p
 
 His point especially drives home how important it is to have low management fees with consistent performance over time. Actively managed funds have trouble beating a low-cost index fund especially after accounting for the higher fees in active funds. Below is a graph that draws out a Vanguard Fund with a yearly fee of 0.07% compared to a fund that runs for 1.32%. The total difference of 1.25% isn't so big of a deal right?
 
-![retirement fund comparison](/jekyll_images/retirement_chart.jpg){:style="width: 640px;"}
+![retirement fund comparison](/assets/blog/retirement_chart.jpg){:style="width: 640px;"}
 *Source: [theatlantic](http://www.theatlantic.com/business/archive/2014/02/the-crushingly-expensive-mistake-killing-your-retirement/283866/){:rel="nofollow" alt="retirement fund comparison"}*
 
 Woah there. It turns out a whopping 27% of your potential retirement savings is lost when estimated over a 40 year period. The reason is the double whammy of losing money to fees, and on top of that losing the potential earnings of that hard earned cash. Don't forget, countless resources prove that actively managed accounts have trouble beating index funds even before accounting for all the management fees.

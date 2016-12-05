@@ -8,7 +8,7 @@ The importance of diversifying your portfolio is a piece of advice every financi
 
 ### What Does a Diversified Portfolio Look Like?
 A diverse portfolio contains a number of ingredients in the mix. Having a combination of bonds, short-term investments (i.e. CDs), foreign stocks, and U.S. stocks as a strong indicator of a well diversified portfolio.
-![diversified portfolio](/jekyll_images/portfolio_balances.png){:style="width: 640px;"}
+![diversified portfolio](/assets/blog/portfolio_balances.png){:style="width: 640px;"}
 *Source: [fidelity](https://www.fidelity.com/viewpoints/guide-to-diversification){:rel="nofollow" alt="retirement fund comparison"}*
 
 A general rule of thumb for stock percentage is 120 - your age, with the rest invested into bonds. For example, a 30 year old would have 90% stocks with 10% bonds. On the flip side, a 60 year old investor would have 60% stocks and 40% bonds.

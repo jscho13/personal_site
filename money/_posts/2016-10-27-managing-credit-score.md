@@ -19,7 +19,7 @@ Note the single biggest thing you can do to pat yourself on the back is making s
 
 ### Credit Utilization
 The second largest influence to credit rating is your total debt owed versus maximum credit, also known as credit utilization. Utilization is calculated by the the total debt owed vs your credit limit. If you have a total debt of $2,000 and a credit limit of $8,000 your credit utilization is 25%.
-![credit-utilization](/jekyll_images/credit_utilization.png){:style="width: 640px"}
+![credit-utilization](/assets/blog/credit_utilization.png){:style="width: 640px"}
 *Source: [comparecards](http://www.comparecards.com/blog/infographics/credit-utilization/){:rel="nofollow" alt="credit utilization graph"}*
 
 ### Gaming the System
