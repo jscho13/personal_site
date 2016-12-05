@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem 'puma'
 gem 'dotenv'
-gem "jekyll"
+gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'

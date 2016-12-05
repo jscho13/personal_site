@@ -1,5 +1,3 @@
-# External gems
-# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
@@ -36,7 +34,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: bencentra
+disqus_shortname: jscho13
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
