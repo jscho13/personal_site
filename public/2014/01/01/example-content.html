@@ -42,11 +42,11 @@
   
   <!-- Facebook OGP cards -->
   <meta property="og:description" content="  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.Cum sociis natoque penatibus et magnis dis parturient ..." />
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="brunchbucks.com" />
   <meta property="og:site_name" content="Brunch Bucks" />
   <meta property="og:title" content="Example content" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/assets/logo.png" />
+  <meta property="og:image" content="brunchbucks.com/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="612" />
   <meta property="og:image:height" content="605" />
@@ -57,18 +57,18 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Example content">
   <meta name="twitter:description" content="  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.Cum sociis natoque penatibus et magnis dis parturient ...">
-  <meta name="twitter:image" content="/assets/logo.png">
-  <meta name="twitter:url" content="">
+  <meta name="twitter:image" content="brunchbucks.com/assets/logo.png">
+  <meta name="twitter:url" content="brunchbucks.com">
   
 
   
 
   <!-- Site styles -->
   <!-- <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/2014/01/01/example-content.html"> -->
+  <link rel="canonical" href="brunchbucks.com/2014/01/01/example-content.html"> -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/2014/01/01/example-content.html">
-  <link rel="alternate" type="application/rss+xml" title="Brunch Bucks" href="/feed.xml" />
+  <link rel="canonical" href="brunchbucks.com/2014/01/01/example-content.html">
+  <link rel="alternate" type="application/rss+xml" title="Brunch Bucks" href="brunchbucks.com/feed.xml" />
 </head>
 
 
@@ -76,11 +76,6 @@
 
     <header class="navigation" role="banner">
   <div class="navigation-wrapper">
-    <!-- <a href="/" class="logo">
-      
-      <img src="/assets/logo.png" alt="Brunch Bucks">
-      
-    </a> -->
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
       <i class="fa fa-bars"></i>
     </a>
@@ -88,36 +83,44 @@
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link"><a href="/about/">About</a>
         <li class="nav-link"><a href="/posts/">Archives</a>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
-        <!-- 
-          
-        
-          
-        
-          
-          <li class="nav-link"><a href="/posts/">Posts</a>
-          
-        
-          
-          <li class="nav-link"><a href="/typography/">Typography</a>
-          
-        
-          
-          <li class="nav-link"><a href="/category/budget/">budget</a>
-          
-        
-          
-          <li class="nav-link"><a href="/category/credit/">credit</a>
-          
-        
-          
-          <li class="nav-link"><a href="/category/investment/">investment</a>
-          
-         -->
       </ul>
     </nav>
   </div>
 </header>
+
+
+<!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+<!-- 
+  
+
+  
+
+  
+  <li class="nav-link"><a href="/posts/">Posts</a>
+  
+
+  
+  <li class="nav-link"><a href="/typography/">Typography</a>
+  
+
+  
+  <li class="nav-link"><a href="/category/budget/">budget</a>
+  
+
+  
+  <li class="nav-link"><a href="/category/credit/">credit</a>
+  
+
+  
+  <li class="nav-link"><a href="/category/investment/">investment</a>
+  
+ -->
+
+<!-- <a href="/" class="logo">
+  
+  <img src="/assets/logo.png" alt="Brunch Bucks">
+  
+</a> -->
 
 
     <div class="page-content">
@@ -301,7 +304,7 @@
     
     
     
-      <a href="//www.linkedin.com/shareArticle?mini=true&url=%2F2014%2F01%2F01%2Fexample-content.html"
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=brunchbucks.com%2F2014%2F01%2F01%2Fexample-content.html"
         onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
         <i class="fa fa-linkedin-square fa-lg"></i>
       </a>
@@ -331,25 +334,28 @@
 </section>
 
 
-
-
 <section class="disqus">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_shortname = 'jscho13';
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    var disqus_config = function () {
+    this.page.url = "brunchbucks.com/2014/01/01/example-content.html";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "/2014/01/01/example-content.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//brunchbucks-com-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();      
   </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
-
-
 
 </div>
 </div>
