@@ -30,4 +30,4 @@ Furthermore, 86% of the fund is invested in large companies, and 14% is invested
 ### Tuning Your Portfolio
 It's important to diversify portfolios because not all growth happens in one place. Factors to keep in mind is the size of the companies stock, whether it's domestic or international, and and the type of investment. If you've covered all these bases you can begin to consider your portfolio well-rounded.
 
-[early-investing]: http://smartermillennial.com/investment/2016/11/01/early-investing/
+[early-investing]: http://brunchbucks.com/investment/2016/11/01/early-investing/

@@ -29,6 +29,6 @@ If you already have a budget take time now to assess it and look for any gaps. A
 
 Creating an initial plan for [your first budget][building-a-budget] can seem intimidating, vut going over and under (if you're lucky!) budget always happens. A last note is that while budgets initially seem constricting in how much you spend, they gradually become liberating. Once you start to follow your budget you won't feel guilty for occasionally splurging your hard-earned money since you know it's within your limits.
 
-[investing-money]: http://smartermillennial.com/investment/2016/11/01/early-investing/
+[investing-money]: http://brunchbucks.com/investment/2016/11/01/early-investing/
 
-[building-a-budget]: http://smartermillennial.com/budget/2016/10/19/budgeting-tips/
+[building-a-budget]: http://brunchbucks.com/budget/2016/10/19/budgeting-tips/
