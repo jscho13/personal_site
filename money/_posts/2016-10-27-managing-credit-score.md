@@ -34,4 +34,4 @@ Staying aggressive early on especially helps because longer credit history direc
 
 Having a solid grasp on credit important, but it's also important to [budget][budgeting-tips] existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
 
-[budgeting-tips]: http://money.josephscho.com/moneymanagement/2016/10/19/budgeting-tips/
+[budgeting-tips]: http://brunchbucks.com/moneymanagement/2016/10/19/budgeting-tips/
