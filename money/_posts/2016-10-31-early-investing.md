@@ -31,5 +31,4 @@ Woah there. It turns out a whopping 27% of your potential retirement savings is 
 While it's possible to get excellent returns in stock, most people simply don't have the time to do their homework and look deep into their portfolios to actively maintain it. Skip paying exorbitantly high fees and start investing into Vanguard funds for simplicity and bang for buck. HR can help look into [401k or Roth 401k's][Roth 401k vs 401k] and other investment options. If your employer doesn't offer any matches, consider opening an IRA instead. Once you've started your path towards a stable financial future and you're ready to take another step, dive deeper into investments by learning more about the importance of [diversifying your portfolio][diversifying portfolio].
 
 [diversifying portfolio]: http://brunchbucks.com/investment/2016/11/16/diversifying-your-portfolio/
-[building credit]: http://brunchbucks.com/credit/2016/10/28/managing-credit-score/
 [Roth 401k vs 401k]:http://brunchbucks.com/credit/2016/10/28/managing-credit-score/
