@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saving Money is Spending Money
+title: Saved Money Is Not Unspent Money
 date: 2016-12-10 17:23:00 -0400
 categories: budget
 ---
@@ -22,6 +22,6 @@ To really translate discounts into savings, try taking money saved and putting i
 
 There's a lot of wisdom in the words "time is money". Try to think of savings as **spending money now, for the future.** In essence, spending money now for potential gains in the future is the same concept behind making an investment! Conversely, **spending money from the future, for now** is the concept behind tapping into your credit.
 
-By adopting the mindset that saving money is spending money, things like creating a [zero-based budget](http://brunchbucks.com/moneymanagement/2016/10/19/budgeting-tips/) become significantly easier. I believe this happens because it forces us to limit the amount of spending money we have. Imagine picking up a box of chocolates with the intent of only eating one or two chocolates. Instead of the box being almost empty, you pleasantly realize you actually have an abundance of chocolates! You consume a handful since you have extra to spare.
+By adopting the mindset that saving money is spending money, things like creating a [zero-based budget](http://brunchbucks.com/budget/2016/10/19/budgeting-tips/) become significantly easier. I believe this happens because it forces us to limit the amount of spending money we have. Imagine picking up a box of chocolates with the intent of only eating one or two chocolates. Instead of the box being almost empty, you pleasantly realize you actually have an abundance of chocolates! You consume a handful since you have extra to spare.
 
 Money often operates in the same way. With today's online banking it's easy to monitor your account balances with a few strokes. If I have extra padding in the checkings account, I noticed I have a tendency to spend more. Shifting money into a savings account and leaving it for an emergency can work wonders. When you treat saved money as spent money, it becomes much easier to limit yourself from using it in the future.

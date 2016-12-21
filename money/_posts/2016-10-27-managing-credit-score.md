@@ -32,6 +32,4 @@ In general, creditors like to see a utilization less than 35%. Luckily for us, t
 ### Some Caveats to Keep In Mind
 Staying aggressive early on especially helps because longer credit history directly translates to a higher score. While cards can shut down after a period of time, using a card at least once a year keeps you in the safe zone. Do not ask for more credit cards if you've had more than four hard pulls within a two year period! A high number of inquiries is considered suspicious activity because you may be desperately shopping around for credit.
 
-Having a solid grasp on credit important, but it's also important to [budget][budgeting-tips] existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
-
-[budgeting-tips]: http://brunchbucks.com/moneymanagement/2016/10/19/budgeting-tips/
+Having a solid grasp on credit important, but it's also important to [budget](http://brunchbucks.com/budget/2016/10/19/budgeting-tips/) existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
