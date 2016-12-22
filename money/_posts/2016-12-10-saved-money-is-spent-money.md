@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saved Money Is Not Unspent Money
+title: Saved Money Is Spent Money
 date: 2016-12-10 17:23:00 -0400
 categories: budget
 ---

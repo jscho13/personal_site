@@ -9,27 +9,38 @@ During the beginning steps to financial freedom it can be tough to get a strong 
 There are many ways to begin building a budget, but all effective budgets share one trait: zero-based budgeting.
 
 ### Zero-Based Budgeting in a Nutshell
-Zero-based budgeting is a method that assigns every dollar you earn, a purpose. To start you need two numbers.
+Zero-based budgeting is a method that gives every dollar you earn a purpose. To start you need two numbers:
 
-* Take the total amount of money you earn
-* Make the total amount of money you spend (this includes [saved money](http://brunchbucks.com/budget/2016/12/10/saved-money-is-not-unspent-money.html)) equal to that
+* Your total income (the total amount of money you earn)
+* Your total expenses (the sum of your spendings, including [saved money](http://brunchbucks.com/budget/2016/12/10/saved-money-is-spent-money.html))
 
-If you make $4,000 a month all of your cash flow needs to go into something. Note that for a proper zero-based budget its critical to keep proper track of your expenses, whether it be rent, groceries, investments, or various savings accounts. I highly recommend a tool like Mint or YNAB to keep track. It's a foundational element in making a budget that stays focused and to the point.
+Lets say you make $2,000 a month. To make your money work for you all of that cash needs to be assigned a task. Note that for a proper zero-based budget its imperative to keep proper track of expenses. Rent, groceries, cash purchases, and other investments can be tough to keep track of, so I highly recommend a tools like Mint help keep track.
 
 ### Why's it useful?
-A common mental trap with unfocused money is that it doesn't necessarily convert to savings. While it's possible to respect your budgets limit, it's easy to squander unbudgeted money. Personally, I noticed myself primed to spend more money in a category (let's say dining out) even after I hit my limit of $400. I believe this happens because I know I can safely get away with spending extra.
+While it's possible to respect your budgets limit it's significantly easier to squander unfocused money. When 100% of the cash is delegated a task, we become less likely to go over a particular budgeted category. When I used to set arbitrary limits on categories, I noticed I would frequently over spend anyways. Money would continue to pour into concert tickets, alcohol, and entertainment activities even after I hit my limit. Looking back, this happened because I knew I could safely get away with spending just a bit extra.
 
-When there's extra padding it can be tempting to go over the limit, and money that could have been saved will quickly evaporate. However, once I delegated my unbudgeted income and put it towards [investments](http://brunchbucks.com/investment/2016/11/01/early-investing/), I found myself consistently hitting budget. There are studies that show zero-based budgeting can lead to a double win of paying off more debt, and saving more money! Creating a zero-based budget today goes a long way to paving a stable financial future. It's important to make your money work for you.
+Without a zero-based budget you end up with an extra padding that tempts everyone to go over the limit, and any potential savings from unassigned income can quickly evaporate. Once I delegated my unbudgeted income towards productive outlets such as [IRA's](http://brunchbucks.com/investment/2016/12/17/roth-vs-traditional/) or [mutual fund investments](http://brunchbucks.com/investment/2016/11/01/early-investing/), I noticed I started to consistently hit my budget. 
+
+There are studies that show zero-based budgeting can lead to a double whammy of paying off debt faster, and saving more money! It's clear creating a zero-based budget goes a long way towards paving a stable financial future.
 
 ### So now what?
-To properly create a zero-based budget gather all the sources of your annual income, whether it be from work, side gigs, or another business.
+Once you've gathered your income from all sources, whether it be from work, side gigs, or another business, decide how much you want to spend in different categories. Here's a sample budget that I used to get started:
 
-From there **delegate every dollar** to a job. Even if there's $50 left over assign it to a specific category like Transportation or Entertainment. Don't stress on getting the numbers exactly right, as long as you have a general estimate. As more time passes and you accumulate more spending history it will become easier to assess how much you'll spend.
+- Rent - $1,300
+- Transportation - $200
+- Utilities - $150
+- Food and Dining - $700
+- Credit card payments - $600
+- Nest egg - $100
+- Retirement fund - $100
+- Entertainment and Shopping - $500
 
-If you already have a budget take time now to give it a look over for any gaps. Are there places where you've spent more or spent less? Not sure what to do with hard saved money? The job isn't finished. Some common options are a savings account, building your nest egg, 401k's, and IRA's.
+Notice how **every dollar is delegated a job**. Even a minute amount such as $30 left over needs to be assigned to a specific category. Don't stress on getting the numbers right the first time, what's more important is to outline a financial game plan that you can adapt. An initial general estimate is nice because as you gather more spending history, your estimations will become more exact.
 
+If you already have a budget in place take some time to give it another look. Are there any gaps? Are there places that need tweaking? If you're not sure where to place leftover money the job isn't finished. Some common options are savings accounts, 401k's, and IRA's, or building a nest egg.
+<!-- Financial flow chart reference here -->
 > There's a big difference between unfocused money and money that goes straight towards savings.
 
-Creating an initial plan for [your first budget][building-a-budget] can seem intimidating, but going over and under (if you're lucky!) budget always happens. A last note is that while budgets initially seem constricting in how much you spend, they gradually become liberating. Once you start to follow your budget you won't feel guilty for occasionally splurging since you know it's within your limits.
+Creating an initial plan for [your first budget][building-a-budget] can seem intimidating, but don't worry. Improving your budget whenever you go over/under is part of an ongoing process. One last note to keep in mind is that while budgeting initially feels constricting, it gradually becomes liberating. When you're progressing with your budget you become aware of when you can afford to splurge money or tighten up your purse. It allows for the freedom of guilt free spending.
 
 [building-a-budget]: http://brunchbucks.com/budget/2016/10/19/budgeting-tips/
