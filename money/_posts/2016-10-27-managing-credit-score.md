@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Controlling Your Credit Score"
+title:  "How to Boost Your Credit Score"
 date:   2016-10-27 22:51:00 -0400
 categories: credit
 ---

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://brunchbucks.com/2016/12/21/money-milestones.html</loc>
-<lastmod>2016-12-21T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>http://brunchbucks.com/retirement/2016/12/16/roth-vs-traditional.html</loc>
 <lastmod>2016-12-16T20:12:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://brunchbucks.com/budget/2016/12/10/saved-money-is-spent-money.html</loc>
+<loc>http://brunchbucks.com/budgeting/2016/12/10/saved-money-is-spent-money.html</loc>
 <lastmod>2016-12-10T16:23:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://brunchbucks.com/investment/2016/11/20/diversifying-your-portfolio.html</loc>
+<loc>http://brunchbucks.com/investing/2016/11/20/diversifying-your-portfolio.html</loc>
 <lastmod>2016-11-20T20:02:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://brunchbucks.com/investment/2016/10/31/early-investing.html</loc>
+<loc>http://brunchbucks.com/investing/2016/10/31/early-investing.html</loc>
 <lastmod>2016-10-31T22:40:00-04:00</lastmod>
 </url>
 <url>
@@ -25,7 +21,7 @@
 <lastmod>2016-10-27T22:51:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://brunchbucks.com/budget/2016/10/18/budgeting-tips.html</loc>
+<loc>http://brunchbucks.com/budgeting/2016/10/18/budgeting-tips.html</loc>
 <lastmod>2016-10-18T22:03:00-04:00</lastmod>
 </url>
 <url>
@@ -38,13 +34,13 @@
 <loc>http://brunchbucks.com/typography/</loc>
 </url>
 <url>
-<loc>http://brunchbucks.com/category/budget/</loc>
+<loc>http://brunchbucks.com/category/budgeting/</loc>
 </url>
 <url>
 <loc>http://brunchbucks.com/category/credit/</loc>
 </url>
 <url>
-<loc>http://brunchbucks.com/category/investment/</loc>
+<loc>http://brunchbucks.com/category/investing/</loc>
 </url>
 <url>
 <loc>http://brunchbucks.com/category/retirement/</loc>

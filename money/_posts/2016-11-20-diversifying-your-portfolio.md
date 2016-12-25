@@ -2,7 +2,7 @@
 layout: post
 title:  "Diversifying Your Portfolio"
 date:   2016-11-20 21:02:00 -0400
-categories: investment
+categories: investing
 ---
 The importance of diversifying your portfolio is a piece of advice every financial planner or individual investor will tell you at one point. Simply put, it's the idea that you don't want to put all your eggs in one basket when it comes to your money. By organizing your cash into a mix of investments, there's less at stake if a particular stock crashes.
 

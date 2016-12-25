@@ -2,7 +2,7 @@
 layout: post
 title:  "Investing Your Money Early On"
 date:   2016-10-31 22:40:00 -0400
-categories: investment
+categories: investing
 ---
 ### The One Stock You Need
 One of the earliest barriers to getting started on investing is figuring out where to start. While its true that there's a wealth of knowledge involved in investments, there are simple ways to get your best bang for buck early on. All you need to begin your investment is purchasing [Vanguard 500 Index Funds](http://performance.morningstar.com/fund/performance-return.action?t=VFINX){:rel="nofollow"}. It's a good fund to start with because it index funds are considered passive (versus an active fund).

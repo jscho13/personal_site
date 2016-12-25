@@ -2,7 +2,7 @@
 layout: post
 title: Saved Money Is Spent Money
 date: 2016-12-10 17:23:00 -0400
-categories: budget
+categories: budgeting
 ---
 We all know it's a good idea to save money, but a lot of us have trouble actually keeping money where it's supposed to be!
 
