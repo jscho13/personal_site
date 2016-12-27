@@ -4,32 +4,40 @@ title:  "How to Boost Your Credit Score"
 date:   2016-10-27 22:51:00 -0400
 categories: credit
 ---
-### What's It Good For Anyways?
-Think of your credit score like your GPA except for money. Lenders such as banks, credit card companies, and dealerships determine your qualification for loans and interest rates based on your credit score. A strong credit score could translate to thousands of dollars in savings, or thousands of dollars in losses! Know your credit score is part of the picture especially during major financial decisions, like buying a house or getting a new car.
+### What's A Credit Score Good For?
+A credit score is a number used by lenders to determine how "dependable" you are compared to an average. Banks, credit card companies, and dealerships are all examples of lenders we work with everyday. If you have a good credit score you get can offers to improved loans and interest rates. For example, when shopping for a mortgages, purchasing a car, or applying for a credit card, your score is a key part of the picture. A strong credit score could be the difference between thousands to ten thousands of dollars in savings!
 
 ### Credit Score Factors
-There are a <a href="https://www.credit.com/credit-scores/what-does-fico-stand-for-and-what-is-a-fico-credit-score/" rel="nofollow">number of factors</a> to your credit score. The below is the exact breakdown for FICO. While other credit rating agencies exist, they pretty much follow a similar algorithm to determine what your credit score should be. The factors are as follows:
+There are different factors used to calculate credit score depending on the company, but FICO is the most common model so it's an obvious place to begin. Interestingly, FICO credit scores essentially have a monopoly the credit score market. <a href="https://www.cafecredit.com/credit-score-range/" rel="nofollow"> Other </a>metrics exist but are used less often.
+
+The FICO credit score <a href="http://www.myfico.com/credit-education/whats-in-your-credit-score/" rel="nofollow">factors</a> are as follows:
 * Payment history - (35%)
-* Credit Utilization (Total debt owed) - (30%)
+* Amounts owed (Credit utilization) - (30%)
 * Length of credit history (15%)
 * Amount of New Credit/Inquiries (10%)
 * Credit mix (10%)
 
-Note the single biggest thing you can do to pat yourself on the back is making sure you pay your bills on time! Forgetting to pay a bill is a double whammy of additional fees and credit damage, so automatic payment features go a long way to ensure bills are paid on time.
+Notice that paying your bills on time has the most impact to your credit score! There's no true quick fix to credit scores except for responsibility and time. Forgetting to foot the bill is a double whammy of additional fees and credit damage. If you have enough in an account to use automatic payments, it can go a long way in ensuring timely payment.
 
 ### Credit Utilization
-The second largest influence to credit rating is your total debt owed versus maximum credit, also known as credit utilization. Utilization is calculated by the the total debt owed vs your credit limit. If you have a total debt of $2,000 and a credit limit of $8,000 your credit utilization is 25%.
+The second largest influence to credit rating is your amounts owed, also known as credit utilization. Utilization is calculated by the the total debt owed vs current credit limit. For example, lets say we have a total debt of $2,000 and a credit limit of $8,000. Division tells us our credit utilization is 25%.
 ![credit-utilization](/assets/blog/credit_utilization.png){:style="width: 640px"}
 *Source: [comparecards](http://www.comparecards.com/blog/infographics/credit-utilization/){:rel="nofollow" alt="credit utilization graph"}*
 
+In general creditors like to see a credit utilization less then 35%, since anymore could indicate there's heavy debt.
+
 ### Gaming the System
-In general, creditors like to see a utilization less than 35%. Luckily for us, there are a few tricks you can use to game the credit system.
+Luckily for us there's trick we can use to tip this calculation process in our favor. We can either pay off more of our total debt, or increase our limit to lower credit utilization. While requesting credit limit increases is simple the trick is to understand when:
 
-1. If you've been with a credit card for a year or more aggressively ask for a credit score increase. Companies aren't afraid to give credit as long as you have a strong history with them. Note that credit limits can be retrograded.
+1. If you've had a credit card for a year or more, simply ask for a credit limit increase. Companies are generally willing to increase limits once you've developed history with them, or if you report an increase in salary. Note that credit limits can be drawn back if they go unused for too long. Generally I try to use each credit card at least once a year.
 
-2. Apply for credit cards if you haven't had any recent hard inquiries. Credit increases are good for three reasons. A. It lowers utilization (compare $500/$1000 vs $500/$1500) B. It diversifies the credit mix. Having a mix of cards, loans, and mortgages tells lenders you're a responsible creditor.  C. It's not considered a hard pull. Why say no to a free higher limit?
+2. Apply for new cards if you haven't had any hard pulls within the past year. Having too many hard inquiries can be a red flag to creditors, because there is a proven correlation between hard pulls and credit risk.
 
-### Some Caveats to Keep In Mind
-Staying aggressive early on especially helps because longer credit history directly translates to a higher score. While cards can shut down after a period of time, using a card at least once a year keeps you in the safe zone. Do not ask for more credit cards if you've had more than four hard pulls within a two year period! A high number of inquiries is considered suspicious activity because you may be desperately shopping around for credit.
+Credit increases are good because it can serve as a buffer for credit utilization. Additionally, by owning several credit cards we gain traction for a good credit mix. Having a mix of cards, loans, and mortgages tells lenders we're responsible creditors.
 
-Having a solid grasp on credit important, but it's also important to [budget](http://brunchbucks.com/budget/2016/10/19/budgeting-tips/) existing money as well. The two often go hand in hand as credit leverages future spending, and budgeting determines current spending.
+Too many hard pulls can indicate someone is shopping around for credit. After a year hard inquiries no longer affect your credit score, and after two they drop off your credit report completely. And in case you were wondering, soft inquiries (soft pulls) don't affect your credit score at all!
+
+### The Caveats to Keep In Mind
+Keeping aggressive with credit applications early on especially helps because positive credit history directly translates to a higher score. Income increases indicate a higher spending capacity so don't forget to report them. We also know that applying to too many cards will bring your score down. A general rule of thumb is to limit hard pulls to two within a one year period.
+
+Having a solid grasp on credit important, but it's also important to [budget](http://brunchbucks.com/budget/2016/10/19/budgeting-tips/) existing money as well. I've noticed that in a way the two go hand in hand. Credit is all about leveraging future spending, while budgeting is what controls current spending.

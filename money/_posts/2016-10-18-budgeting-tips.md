@@ -28,11 +28,12 @@ Once you've gathered your income from all sources, whether it be from work, side
 
 - Rent - $1,300
 - Transportation - $200
-- Utilities - $150
+- Utilities - $200
 - Food and Dining - $700
-- Credit card payments - $600
+- Credit card payments - $200
 - Nest egg - $100
 - Retirement fund - $100
+- Family help - $400
 - Entertainment and Shopping - $500
 
 Notice how **every dollar is delegated a job**. Even a minute amount such as $30 left over needs to be assigned to a specific category. Don't stress on getting the numbers right the first time, what's more important is to outline a financial game plan that you can adapt. An initial general estimate is nice because as you gather more spending history, your estimations will become more exact.
