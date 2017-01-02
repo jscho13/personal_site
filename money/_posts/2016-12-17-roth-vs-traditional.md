@@ -1,37 +1,58 @@
 ---
 layout: post
-title: Picking Roth or Traditional
+title: Picking Between Roth and Traditional 401(k)'s/IRAs
 date:   2016-12-16 21:12:00 -0400
 categories: retirement
 ---
-Retirement. For most twenty year olds it's a concept that's still far off their radar, but investing early on can lead to massive gains overtime because of compound interest. To get an idea, check out the image below with an estimated annual rate of return of 5% yearly.
+For most twenty year olds retirement is an idea that's still way off the radar. Surprisingly, nothing could be further from the truth! The earlier millennials begin investing in their future, the better off they become because of the massive gains from compound interest. Check out the image below to get an idea of what compound interest can do for you overtime: 
 
 ![compound-interest](/assets/blog/compound_interest_1.png){:style="width: 640px"}
-*Source: [Business Insider](http://www.businessinsider.com/compound-interest-and-young-people-2015-4){:rel="nofollow" alt="compound interest"}*
+*Source: [Business Insider](http://www.businessinsider.com/compound-interest-and-young-people-2015-4){:rel="nofollow" alt="compound interest"}. Estimated annual rate of return of 5% yearly.*
 
-It's clear to see that the true power of compound interest lies in its exponential gains. To maximize your financial growth early action is a must.
+A startling fact is that if we start planning for retirement at the age of 40, we'll never catch up to a 25 year old even after double our savings rate.
 
-### 401k and IRAs in a nutshell
-401k's are a retirement savings plan that is sponsored by an employer. They are tax-deferred, which means you don't pay taxes on them before putting them into the account. These pension accounts have a yearly cap of $18,000 as of 2016. If you're over the age of 50 that limit goes up to $24,000.
+### 401(k) and IRA's in a nutshell
+A 401k is a retirement savings plan sponsored by an employer. These pension accounts have a yearly cap of $18,000 as of 2016. If you're over the age of 50 you gain an extra catch-up provision worth $6,000. In other words your total maximum limit goes up to $24,000.
 
-IRAs are similar in that they are a retirement savings account, but they are not employer sponsored. Thus the name Independent Retirement Account (IRA). While useful, IRA's unfortunately much lower max limit of $5,500. If you're a senior citizen you can add an extra grand for a $6,500 yearly maximum contribution. An interesting caveat to the traditional is you can't make contributions after age 70 1/2.
+IRAs are similar in that they are a retirement savings account, but they are not employer sponsored (thus the name Independent Retirement Account). IRAs are useful but offer a much lower limit of $5,500. Like 401ks, older individuals get an extra grand limit increase for a $6,500 yearly contribution.
 
-Keep in mind that both 401k and IRAs tax deductions change depending on marriage status. Below is a great summary of the IRA Deduction rules for traditional accounts.
-
-![tax-deductions](/assets/blog/ira_deductions.png){:style="width: 640px"}
+![401k vs ira](/assets/blog/401k_ira.png){:style="width: 400px"}
 *Source: [IRA](https://www.irs.gov/retirement-plans/plan-participant-employee/2016-ira-contribution-and-deduction-limits-effect-of-modified-agi-on-deductible-contributions-if-you-are-covered-by-a-retirement-plan-at-work){:rel="nofollow" alt="deduction rules"}*
 
-### Roth's
-Roth 401k's are similar in that they are a retirement savings plan. However, they are not tax-deferred, meaning you pay taxes before putting money into the account. Since taxes are paid beforehand, Roth 401k's have a lower limit of $5,500 as of 2016. If you're a senior over 50 the limit increases to $6,500. Roth IRA's also have a limit of $5,500. Similar to the other accounts you get another $1,000 once you become a senior citizen.
+Keep in mind that both 401k and IRA tax deductions change depending on marriage status and whether [you are](https://www.irs.gov/retirement-plans/2017-ira-deduction-limits-effect-of-modified-agi-on-deduction-if-you-are-covered-by-a-retirement-plan-at-work) or [aren't](https://www.irs.gov/retirement-plans/2017-ira-deduction-limits-effect-of-modified-agi-on-deduction-if-you-are-not-covered-by-a-retirement-plan-at-work) covered by a workplace retirement plan.
 
-Roth's are sweet because you gain a tax-free stream of income in retirement, as well as more flexibility because you can continue to contribute after 70 1/2. A downside is that they offer no tax deductions, meaning all money in Roth's are considered part of your annual gross income.
+### Roth's
+You may here some confusing terms such as Roth 401k, Traditional IRA, etc. I'd like to distinguish that 401ks and IRAs are really the two main retirement vehicles. Both also happen to have different tax options which are referred to as either Roth or Traditional. Put simply:
+
+<table>
+  <tbody>
+    <tr>
+      <td></td>
+      <td><b>Roth</b></td>
+      <td><b>Traditional</b></td>
+    </tr>
+    <tr>
+      <td><b>401(k)</b></td>
+      <td>Roth 401(k)</td>
+      <td>Traditional 401(k)</td>
+    </tr>
+    <tr>
+      <td><b>IRA</b></td>
+      <td>Roth IRA</td>
+      <td>Traditional IRA</td>
+    </tr>
+  </tbody>
+</table>
+
+Roth accounts are tax-deferred, meaning you don't pay taxes on them before putting them into the account. Some view the fact that Roth's offer no tax deductions as a weakness, because you end up sacrificing more spending power now. Roth's are sweet because you gain a tax-free stream of income in retirement, as well as more flexibility because you can choose continue to contribute after 70 1/2. Contributions can be withdrawn penalty and tax free at any time, even before the age of 59 1/2!
+
+Traditional are tax-deferred, meaning you can avoid paying taxes now and pay them once you withdrawal from the account. There's a clear benefit to Traditional accounts because of the tax exemption. An interesting caveat to Traditional's is that you're required to make minimum distributions (RMDs) and are no longer allowed to add funds to the account after the age of 70 1/2.
 
 ### Which one should I pick?
-There are pros and cons to both accounts, both of which balance each other out.
+You've probably noticed that both Roth and Traditional accounts have pros and cons which balance each other out. But which should you choose?
 
-A common factor in determining which account to purchase is age. If you're younger and believe your salary will go up, it's better to pay taxes ahead of time for a Roth 401k. This typically works best for people around 25 years old since they aren't at their peak earning years. Once you have a higher salary you're placed in a higher tax bracket, meaning there will be proportionally more taxes.
+A common factor in determining how you want to be taxed is your age and salary predictions for the future. Younger investors are more likely to have a salary which will go up. Since higher salaries are placed in higher tax brackets, it makes sense for them to place money in a Roth account. 20 something year olds aren't in their peak earning years so they benefit from paying taxes ahead of time. More senior individuals are in their peak earning years, so they are better off putting funds into a traditional account. This allows them to pay their taxes at a later time when they are in a lower tax bracket either due to retirement, or transition of responsibilities.
 
-Keep in mind you can contribute to both accounts. In an ideal situation you'd like to hit the contribution maximum for both accounts. You've also probably noticed that both accounts offer some sort of tax benefit that supplements the other. Having a mix of accounts is key to properly [diversify your portfolio][diversify-portfolio]. Furthermore, if you hit the limits of both accounts also consider an [IRA and Roth IRA][iras].
+Keep in mind that the ideal situation is to contribute to both accounts. Props to those who are able to hit the contribution maximum for both 401ks and IRAs. Since both accounts offer some sort of tax benefit that supplements the other, having both accounts is another example of way it's key to properly [diversify your portfolio][diversify-portfolio].
 
-[iras]: http://brunchbucks.com/investment/2016/11/16/diversifying-your-portfolio/
 [diversify-portfolio]: http://brunchbucks.com/investment/2016/11/16/diversifying-your-portfolio/
