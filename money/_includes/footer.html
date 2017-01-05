@@ -1,16 +1,12 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
     <h3 class="footer-heading">{{ site.title }}</h3>
-
     <div class="site-navigation">
-
       <p><strong>Site Map</strong></p>
       <ul class="pages">
         <li class="nav-link"><a href="/about/">About</a>
         <li class="nav-link"><a href="/posts/">Archives</a>
-        <li class="nav-link"><a href="/typography/">Typography</a>
+        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
       </ul>
     </div>
 
@@ -38,18 +34,16 @@
 
       </ul>
     </div>
-
-    <div class="site-signature">
+    <!-- <div class="site-signature">
       <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
-    </div>
-
+    </div> -->
   </div>
 
 </footer>
 
 <!-- Scripts -->
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="/jquery-3.1.1.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
 
@@ -58,8 +52,11 @@ $(document).ready(function() {
   // Default syntax highlighting
   hljs.initHighlightingOnLoad();
 
-  // Header
-  var menuToggle = $('#js-mobile-menu').unbind();
+  // Header:
+  // First two lines cleans menu toggle
+  // On click handler slides the menu
+  // If menu is already hidden remove the hidden styling  
+  var menuToggle = $('#js-mobile-menu').off();
   $('#js-navigation-menu').removeClass("show");
   menuToggle.on('click', function(e) {
     e.preventDefault();

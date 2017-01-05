@@ -327,10 +327,10 @@ pre code.hljs {
       display: table; }
   .navigation .logo {
     float: left;
-    height: 4em; }
+    padding: 1.25em 0; }
     @media screen and (min-width: 768px) {
       .navigation .logo {
-        padding-left: 16px; } }
+        float: left; } }
     .navigation .logo img {
       max-height: 2.5em;
       margin-top: 0.75em;
@@ -358,26 +358,26 @@ pre code.hljs {
         padding: 0; } }
     .navigation ul.navigation-menu.show {
       display: block; }
-  .navigation ul li.nav-link {
+  .navigation li.nav-link {
     display: block;
     text-align: right;
     width: 100%;
     padding: 0.25em 0; }
     @media screen and (min-width: 768px) {
-      .navigation ul li.nav-link {
+      .navigation li.nav-link {
         background: transparent;
         display: inline;
         text-decoration: none;
         width: auto; } }
-  .navigation li.nav-link a {
-    color: #fff;
-    display: inline-block; }
+    .navigation li.nav-link a {
+      color: #fff;
+      display: inline-block; }
+      @media screen and (min-width: 768px) {
+        .navigation li.nav-link a {
+          padding-right: 1.5em; } }
     @media screen and (min-width: 768px) {
-      .navigation li.nav-link a {
-        padding-right: 1.5em; } }
-  @media screen and (min-width: 768px) {
-    .navigation li.nav-link:last-child a {
-      padding-right: 1em; } }
+      .navigation li.nav-link:last-child a {
+        padding-right: 1em; } }
 
 /*
 *	Body

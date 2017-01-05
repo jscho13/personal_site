@@ -126,9 +126,10 @@ pre code.hljs {
   }
   .logo {
     float: left;
-    height: 4em;
+		padding: 1.25em 0;
+    // height: 4em;
     @include media ($tablet) {
-    	padding-left: $em-base;
+			float: left;
     }
     img {
       max-height: 2.5em;
@@ -164,19 +165,18 @@ pre code.hljs {
     }
   }
   // Nav items
-  ul li.nav-link {
-    display: block;
-    text-align: right;
-    width: 100%;
-    padding: 0.25em 0;
-    @include media ($tablet) {
-      background: transparent;
-      display: inline;
-      text-decoration: none;
-      width: auto;
-    }
-  }
   li.nav-link {
+		display: block;
+		text-align: right;
+		width: 100%;
+		padding: 0.25em 0;
+		@include media ($tablet) {
+			background: transparent;
+			display: inline;
+			text-decoration: none;
+			width: auto;
+		}
+
   	a {
 			color: $white;
 	    display: inline-block;
