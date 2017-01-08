@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Earn More Money By Diversifying Your Portfolio"
+title:  "Diversifying Your Portfolio - Part 1"
 date:   2016-11-20 21:02:00 -0400
 categories: investing
 ---
@@ -27,14 +27,4 @@ There's a great [video](http://www.investopedia.com/video/play/stocks-versus-bon
 <!-- Write about why they balance it out, rewatch investpedia video and use content -->
 
 ### Optimizing Your Portfolio
-Diversifying your portfolio works wonders because not all the action happens in one place. Here we covered covered two of the most common investment options to understand the subtle differences between each other. Other options can start to vary from different sized companies, domestic/foreign stocks, savings accounts, CD's, and bonds. They're all tools with their own purpose once we hit certain money milestones. Congratulations to those who have covered all these bases and can consider their portfolios well-rounded.
-
-<!-- This needs to be another article -->
-<!-- ### Types of Diversification
-Stocks and bonds are one type of diversification, but after digging into stocks you'll find there are other types of diversification as well.
-
-In [early investing](http://brunchbucks.com/investment/2016/11/01/early-investing/) we covered the benefits of investing in index funds vs actively managed funds, and looked at the Vanguard 500 Index Fund in particular. [VFINX](http://performance.morningstar.com/fund/performance-return.action?t=VFINX){:rel="nofollow"} is an excellent index fund because it instantly diversifies your portfolio across the 500 largest companies in America, how nice is that?
-
-However, even within index funds are other types investments that can spread your net further. If we look at Morningstar's nifty [x-ray tool](http://portfolio.morningstar.com/Rtport/Free/InstantXRayDEntry.aspx?ChangeMode=P&entrynum=10&productcode=){:rel="nofollow"} we can see a whopping 99% of this fund is invested in U.S. Stocks. While the U.S. is generally growing, not all of the action is domestic. Investing in international stocks helps balance out the portfolio if the domestic value drops and international assets grow.
-
-Furthermore, 86% of the fund is invested in large companies, and 14% is invested in medium sized companies. Balanced portfolios covers small, medium, and large companies alike. Even amongst these there growth, value, and core propositions. Simply put, growth propositions are stocks that are anticipated to grow quickly. Value propositions are stocks that are determined to be undervalued. In general, value propositions can be considered more safe compared to growth propositions. Last are core propositions. A core fund simply focuses on a mixture of growth and value stocks enough so that it can't be categorized as either. -->
+Diversifying your portfolio works wonders because not all the action happens in one place. Here we covered covered two of the most common investment options to understand the subtle differences between each other. [Part 2](http://brunchbucks.com/investing/2017/01/01/diversifying-your-portfolio-2.html) covers other ways portfolio start to vary such as different sized companies, domestic/foreign stocks, savings accounts, CD's, and bonds. They're all tools with their own purpose once we hit certain money milestones. Congratulations to those who have covered all these bases and can consider their portfolios well-rounded.
