@@ -1,0 +1,9 @@
+trick_to_hitting_budget.jpg: https://unsplash.com/collections/162698/marketing-budget?photo=t5BvA-Q_m_Y
+target_retirement.jpeg: https://www.pexels.com/photo/dart-dartboard-game-precision-242494/
+credit_card_credit_score.jpeg: https://www.pexels.com/photo/shopping-business-money-pay-50987/
+first_investment_purchase.jpg: https://www.pexels.com/photo/money-coins-finance-cash-8556/
+diversify_portfolio_1.jpg: https://unsplash.com/search/photos/paper?photo=KigTvXqetXA
+saved_money_spent.jpg: https://unsplash.com/search/photos/saved?photo=pElSkGRA2NU
+roth_vs_traditional.jpeg: https://www.pexels.com/photo/close-up-of-nuts-255059/
+money_milestones.jpg: https://www.pexels.com/photo/stack-pebbles-on-the-ground-28349/
+diversify_portfolio_2.jpg: https://stocksnap.io/photo/MSISRLA1IU

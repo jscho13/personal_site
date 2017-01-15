@@ -3,6 +3,7 @@ layout: post
 title:  "How to Boost Your Credit Score"
 date:   2016-10-27 22:51:00 -0400
 categories: credit
+cover: cover/credit_card_credit_score.jpeg
 ---
 ### What's A Credit Score Good For Anyways?
 A credit score is a number used by lenders to determine how "dependable" you are. Banks, credit card companies, and dealerships are all examples of lenders we work with on a daily basis. If you have a good credit score you get can offers to improved loans, interest rates, and an easier time getting approved. When shopping for a mortgages, purchasing a car, or applying for a credit card, your credit score is a key part of the picture. A strong credit score could be the difference between thousands to ten thousands of dollars in savings!

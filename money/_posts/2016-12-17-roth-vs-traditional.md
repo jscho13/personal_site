@@ -3,6 +3,7 @@ layout: post
 title: Picking Between Roth and Traditional 401(k)'s/IRAs
 date:   2016-12-16 21:12:00 -0400
 categories: retirement
+cover: cover/roth_vs_traditional.jpeg
 ---
 For most twenty year olds retirement is an idea that's still way off the radar. Surprisingly, nothing could be further from the truth! The earlier millennials begin investing in their future, the better off they become because of the massive gains from compound interest. Check out the image below to get an idea of what compound interest can do for you overtime: 
 

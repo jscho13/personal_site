@@ -3,6 +3,7 @@ layout: post
 title:  "The Trick To Hitting Your Budget"
 date:   2016-10-18 22:03:00 -0400
 categories: budgeting
+cover: cover/trick_to_hitting_budget.jpg
 ---
 During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. There's no all-encompassing "correct" budget out there, but with time and attention you can begin to craft a budget that fits your needs the best.
 

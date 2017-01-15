@@ -3,6 +3,7 @@ layout: post
 title:  "Diversifying Your Portfolio - Part 2"
 date:   2017-01-08 01:05:00 -0400
 categories: investing
+cover: cover/diversify_portfolio_2.jpg
 ---
 In [Diversifying Your Portfolio - Part 1](http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html) we covered the importance of diversifying portfolios via stocks and bonds. Diversification helps cut back risk, and prevents "putting all your eggs in one basket". Part 2 digs a little bit deeper by checking out other ways we can diversify our portfolios. Some examples are through different company sizes, perceived holdings, and geographic location.
 

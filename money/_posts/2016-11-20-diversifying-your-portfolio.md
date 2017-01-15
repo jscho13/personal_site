@@ -3,6 +3,7 @@ layout: post
 title:  "Diversifying Your Portfolio - Part 1"
 date:   2016-11-20 21:02:00 -0400
 categories: investing
+cover: cover/diversify_portfolio_1.jpg
 ---
 A tip every investor or financial planner will eventually tell you is that you need to diversify your portfolio. Diversification is simply the idea that you don't want to put all your eggs in one basket, with money. By diversifying your cash into a variety of investments, there's less at stake if something goes wrong and crashes.
 

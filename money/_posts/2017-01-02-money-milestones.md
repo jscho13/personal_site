@@ -3,6 +3,7 @@ layout: post
 title: Money Milestones
 date:   2017-01-01 12:00:00 -0400
 categories: [savings, retirement]
+cover: cover/money_milestones.jpg
 ---
 A lot of us know it's a good idea to save money for retirement, but fewer have a solid game plan in place on how to begin saving. Below is a useful flowchart that shows where we should put our money once we've hit certain money milestones.
 

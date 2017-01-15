@@ -3,6 +3,7 @@ layout: post
 title: Saved Money Is Spent Money
 date: 2016-12-10 17:23:00 -0400
 categories: budgeting
+cover: cover/saved_money_spent.jpg
 ---
 We all know it's a good idea to save money, but it's hard enough to put cash aside when we're already footing the bills, spending time with friends and family, and purchasing everyday life necessities. I've lost track of the number of times I portioned away cash that was intended for savings, only to have it evaporate into thin air by the end of the month. People are fickle things, and simply saying we're going to do something doesn't always make it happen.
 

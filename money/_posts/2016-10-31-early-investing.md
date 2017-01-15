@@ -3,6 +3,7 @@ layout: post
 title:  "Your First Investment Purchase"
 date:   2016-10-31 22:40:00 -0400
 categories: investing
+cover: cover/first_investment_purchase.jpg
 ---
 Have you ever looked at the list of investment options and thought to yourself "where on Earth should I start?" Getting started is easily one of the largest barriers to investing. Once you've made your first investment it becomes significantly easier to learn more. The key is to start with a small initial investment that will get the snowball of personal wealth rolling.
 
