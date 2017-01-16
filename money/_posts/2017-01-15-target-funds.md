@@ -10,6 +10,10 @@ cover: cover/target_retirement.jpg
 ### Target Retirement 2055 Breakdown
 The Target Retirement 2055 is a fund that invests in four other funds. Below is a breakdown of the fund name and their corresponding percentages.
 <table>
+  <colgroup>
+    <col style="width: 75%;">
+    <col style="width: 25%;">
+  </colgroup>
   <tr>
     <th>Fund</th>
     <th>Percentage</th>
@@ -39,6 +43,10 @@ Looking from a purely domestic vs international standpoint, domestic holdings ta
 ### Target Retirement 2020 Breakdown
 Let's take a look at a retirement fund with a closer target retirement date. The Vanguard Target Retirement 2020 fund is composed of 60% stocks with the rest allocated to bonds. Using the 120-age rule, we recognize this portfolio anticipates retirement either in the 60's or very soon. [(VTWNX)](https://personal.vanguard.com/us/funds/snapshot?FundId=0682&FundIntExt=INT){:rel="nofollow"}
 <table>
+  <colgroup>
+    <col style="width: 75%;">
+    <col style="width: 25%;">
+  </colgroup>
   <tr>
     <th>Fund</th>
     <th>Percentage</th>

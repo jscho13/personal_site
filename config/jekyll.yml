@@ -2,6 +2,7 @@ gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 
 exclude:
   - "/vendor/"
@@ -13,7 +14,7 @@ name: Joseph Cho
 subtitle: "Your Afternoon Guide to Personal Finance"
 baseurl: "" # the subpath of your site, e.g. /blog
 asseturl: "/assets/blog/"
-description: "Personal finance is one of those essential skills everyone should have learned in college. Brunch Bucks is aimed at helping others learn to manage their own personal wealth and exchange knowledge."
+description: "Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
 url: "http://brunchbucks.com"
 cover: "/assets/blog/coffee_work.jpg"
 logo: "/assets/logo.png"

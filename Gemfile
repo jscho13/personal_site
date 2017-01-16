@@ -15,36 +15,23 @@ gem 'font-awesome-sass'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 gem 'puma'
 gem 'dotenv'
 gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
+gem 'jekyll-feed'
 gem 'sass'
 
-# gem "minima"
-# gem "redcarpet"
-
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
-  gem 'byebug'
 end
 
 group :development do

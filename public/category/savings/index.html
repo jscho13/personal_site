@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>savings</title>
-  <meta name="description" content="Personal finance is one of those essential skills everyone should have learned in college. Brunch Bucks is aimed at helping others learn to manage their own personal wealth and exchange knowledge.">
+  <meta name="description" content="Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.">
   
   <meta name="author" content="Joseph Cho">
   <meta name="copyright" content="&copy; Joseph Cho 2017">
@@ -28,7 +28,7 @@
 
   
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="Personal finance is one of those essential skills everyone should have learned in college. Brunch Bucks is aimed at helping others learn to manage their own personal wealth and exchange knowledge." />
+  <meta property="og:description" content="Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together." />
   <meta property="og:url" content="http://brunchbucks.com" />
   <meta property="og:site_name" content="Brunch Bucks" />
   <meta property="og:title" content="savings" />
@@ -44,7 +44,7 @@
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://brunchbucks.com/category/savings/">
-  <!-- <link rel="alternate" type="application/rss+xml" title="Brunch Bucks" href="http://brunchbucks.com/feed.xml" /> -->
+  <link rel="alternate" type="application/atom+xml" title="Brunch Bucks" href="http://brunchbucks.com/feed.xml" />
   
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -74,6 +74,12 @@
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/posts/">Archives</a></li>
+        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+          <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
+          </form>
+        </li>
       </ul>
     </nav>
   </div>
@@ -111,6 +117,10 @@
 
   
   <li class="nav-link"><a href="/category/savings/">savings</a>
+  
+
+  
+
   
 
   
@@ -161,6 +171,12 @@
       <ul class="pages">
         <li class="nav-link"><a href="/about/">About</a>
         <li class="nav-link"><a href="/posts/">Archives</a>
+        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+          <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
+          </form>
+        </li>
         <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
       </ul>
     </div>
@@ -206,14 +222,8 @@
       </ul>
     </div>
     <div class="site-signature">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
-      <!-- <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
-      <p class="text">Personal finance is one of those essential skills everyone should have learned in college. Brunch Bucks is aimed at helping others learn to manage their own personal wealth and exchange knowledge.</p> -->
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</p>
     </div>
   </div>
 
@@ -245,9 +255,10 @@ $(document).ready(function() {
   });
 });
 
+function donateButton() {
+  $('#donate_form').submit();
+}
 </script>
-
-
 
 
 

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://brunchbucks.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://brunchbucks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://brunchbucks.com/" rel="alternate" type="text/html" /><updated>2017-01-16T18:13:08-05:00</updated><id>http://brunchbucks.com/</id><title type="html">Brunch Bucks</title><subtitle>Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</subtitle><entry><title type="html">Target Funds</title><link href="http://brunchbucks.com/investing/2017/01/15/target-funds.html" rel="alternate" type="text/html" title="Target Funds" /><published>2017-01-15T00:05:00-05:00</published><updated>2017-01-15T00:05:00-05:00</updated><id>http://brunchbucks.com/investing/2017/01/15/target-funds</id><content type="html" xml:base="http://brunchbucks.com/investing/2017/01/15/target-funds.html">&lt;p&gt;&lt;a href=&quot;http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html&quot;&gt;Part one&lt;/a&gt; and &lt;a href=&quot;http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html&quot;&gt;part two&lt;/a&gt; of “Diversifying Your Portfolio” cover the importance having a strong asset mix. In this article we’re going to cover target funds. Target funds have been growing quickly in popularity because they are designed to ease the pain of ongoing rebalancing for proper diversification. Let’s take a took look at Vanguard’s Target Retirement 2055 &lt;a href=&quot;https://personal.vanguard.com/us/funds/snapshot?FundId=1487&amp;amp;FundIntExt=INT#tab=2&quot; rel=&quot;nofollow&quot;&gt;(VFFVX)&lt;/a&gt; fund to see how it’s structured.&lt;/p&gt;
+
+&lt;h3 id=&quot;target-retirement-2055-breakdown&quot;&gt;Target Retirement 2055 Breakdown&lt;/h3&gt;
+&lt;p&gt;The Target Retirement 2055 is a fund that invests in four other funds. Below is a breakdown of the fund name and their corresponding percentages.&lt;/p&gt;
+&lt;table&gt;
+  &lt;colgroup&gt;
+    &lt;col style=&quot;width: 75%;&quot; /&gt;
+    &lt;col style=&quot;width: 25%;&quot; /&gt;
+  &lt;/colgroup&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Fund&lt;/th&gt;
+    &lt;th&gt;Percentage&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total Stock Market Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;54.1%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total International Stock Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;35.8%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total Bond Market II Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;7.1%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total International Bond Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;3.0%&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Notice how stocks take around 90% of the portfolio and bonds take 10% if we tally up the percentages. We can estimate a portfolios target demographic by calculating backwards with the 120-age rule. For example, a portfolio with 90% stocks would be fitting for a 30 year old because relatively younger investors can handle more risk. If a 30 year old did follow through and retire at 2055 they would would be around 65 years old, an age where many people begin to consider retirement. Target funds automatically rebalance the stock to bond percentage as time progresses.&lt;/p&gt;
+
+&lt;p&gt;Looking from a purely domestic vs international standpoint, domestic holdings take up 60% of the portfolio and international holdings take the other 40%. While the ratio of domestic to international stocks is still up for contention, common opinion rarely recommends more international stocks than domestic.&lt;/p&gt;
+
+&lt;h3 id=&quot;target-retirement-2020-breakdown&quot;&gt;Target Retirement 2020 Breakdown&lt;/h3&gt;
+&lt;p&gt;Let’s take a look at a retirement fund with a closer target retirement date. The Vanguard Target Retirement 2020 fund is composed of 60% stocks with the rest allocated to bonds. Using the 120-age rule, we recognize this portfolio anticipates retirement either in the 60’s or very soon. &lt;a href=&quot;https://personal.vanguard.com/us/funds/snapshot?FundId=0682&amp;amp;FundIntExt=INT&quot; rel=&quot;nofollow&quot;&gt;(VTWNX)&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;colgroup&gt;
+    &lt;col style=&quot;width: 75%;&quot; /&gt;
+    &lt;col style=&quot;width: 25%;&quot; /&gt;
+  &lt;/colgroup&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Fund&lt;/th&gt;
+    &lt;th&gt;Percentage&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total Stock Market Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;34.5%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total Bond Market II Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;28.3%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total International Stock Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;22.8%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Total International Bond Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;12.0%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vanguard Short-Term Inflation-Protected Securities Index Fund Investor Shares&lt;/td&gt;
+    &lt;td&gt;2.4%&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can even consider a 50% bond allocation or more if retirement is on the horizon. Senior investors have a lower risk tolerance and face serious financial roadblocks if their assets take a hit. Stocks which are more volatile have a higher chance of losing their value and blowing away any potential savings. Bonds are a safer investment with despite having lower returns.&lt;/p&gt;
+
+&lt;p&gt;Analyzing this portfolio from a geographic standpoint, 65% of is domestic, and 35% is international. It’s interesting that there’s a lower percentage of international holdings relative to domestic. It’s clear Vanguard believes domestic holdings are safer, maybe because of home bias or strength of the U.S. dollar.
+&lt;!-- [U.S. News](http://money.usnews.com/investing/articles/2016-08-09/why-you-should-buy-more-foreign-stocks){rel=:nofollow} this should be a link to domestic vs international stocks --&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a third category introduced in this fund called “Short-Term Inflation-Protected Securities” &lt;a href=&quot;[https://personal.vanguard.com/us/funds/snapshot?FundId=1967&amp;amp;FundIntExt=INT]&quot; rel=&quot;nofollow&quot;&gt;(VTIPX)&lt;/a&gt;. Essentially these shares value changes according to interest rates and inflation. Since it’s designed to generate returns closely correlated with changes in inflation, it doesn’t generate significant returns but is a safe way to hedge against unexpected inflation (inflationary surprises). This is a great way to maintain value in your investments.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">Part one and part two of “Diversifying Your Portfolio” cover the importance having a strong asset mix. In this article we’re going to cover target funds. Target funds have been growing quickly in popularity because they are designed to ease the pain of ongoing rebalancing for proper diversification. Let’s take a took look at Vanguard’s Target Retirement 2055 (VFFVX) fund to see how it’s structured.</summary></entry><entry><title type="html">Diversifying Your Portfolio - Part 2</title><link href="http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html" rel="alternate" type="text/html" title="Diversifying Your Portfolio - Part 2" /><published>2017-01-08T00:05:00-05:00</published><updated>2017-01-08T00:05:00-05:00</updated><id>http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2</id><content type="html" xml:base="http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html">&lt;p&gt;In &lt;a href=&quot;http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html&quot;&gt;Diversifying Your Portfolio - Part 1&lt;/a&gt; we covered the importance of diversifying portfolios via stocks and bonds. Diversification helps cut back risk, and prevents “putting all your eggs in one basket”. Part 2 digs a little bit deeper by checking out other ways we can diversify our portfolios. Some examples are through different company sizes, perceived holdings, and geographic location.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-diversification&quot;&gt;Types of Diversification&lt;/h3&gt;
+&lt;p&gt;In &lt;a href=&quot;http://brunchbucks.com/investment/2016/11/01/early-investing/&quot;&gt;early investing&lt;/a&gt; we looked at Vanguard’s Total Stock Market Index &lt;a href=&quot;http://performance.morningstar.com/fund/performance-return.action?t=VTSMX&quot; rel=&quot;nofollow&quot;&gt;(VTSMX)&lt;/a&gt; which attempts to mimic the entire U.S. stock market. Lets switch gears to the Vanguard 500 Index Fund &lt;a href=&quot;http://performance.morningstar.com/fund/performance-return.action?t=VFINX&amp;amp;region=usa&amp;amp;culture=en_US&quot;&gt;(VFINX)&lt;/a&gt; which attempts to mimic the 500 largest companies in America. It’s pretty neat because you can own a slice a of the top 500 companies in the U.S. with one simple purchase.&lt;/p&gt;
+
+&lt;p&gt;However there are some drawbacks, taking a look at &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VFINX/quote.html&quot;&gt;(VFINX)&lt;/a&gt; reveals that this fund is composed 99% of U.S. stock, all of which are cored, large-cap companies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/vfinx_style_asset_allocation.png&quot; alt=&quot;vfinx-breakdown&quot; style=&quot;width: 640px;&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;http://performance.morningstar.com/fund/performance-return.action?t=VFINX&amp;amp;region=usa&amp;amp;culture=en_US&quot; rel=&quot;nofollow&quot; alt=&quot;vfinx breakdown&quot;&gt;Morningstar&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two main problems with this if it were to represent our entire portfolio:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The “weighted average of holdings” in the style map is too skewed. All the action isn’t in large-cap, and smaller companies also have their share of action. Company sizes can range from micro, small, medium, large, to giant. Looking at the y-axis of the style map reveals that the varying sizes also have core, value and growth holdings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The asset allocations in the pie chart are too imbalanced. While the domestic stocks are a good investment because it generally grows, there is also plenty of action overseas. Investing in international stocks helps balance out portfolios if domestic value drops and international assets grow.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;different-market-caps&quot;&gt;Different Market Caps&lt;/h3&gt;
+&lt;p&gt;On the y-axis of the style map is market capitalization. It’s a useful metric that describes the size of a company, and is calculated by multiplying the number of company shares by its current market price (e.g. 10 million shares x $100/each = market cap of $1 billion). Balanced portfolios contain a mix of caps because they each carry their own pros and cons. For example, less-established companies have a tendency to go out of business when the market is rough. This causes small-cap heavy funds to suffer greater losses during market volatility. Their strengths lie in the explosive growth and yield a high rate of return they experience if successful. Large-caps operate the same way but in reverse. While they have have an overall lower rate of return, large-caps tend to be more stable during rocky times and work as excellent “buy and hold” investments.&lt;/p&gt;
+
+&lt;p&gt;The x-axis of the style map indicates holdings. These can be among value, core, or growth holdings to various degrees. Value holdings are stocks that fund managers believe to be undervalued by the market. The theory is that markets overreact to good and bad news. This causes jumps in stock movements that don’t represent the stocks true value, so purchasing them when they’re undervalued provides an opportunity to profit. Note that the caveat to this is stocks could be undervalued for long periods of time. On the opposite side of the spectrum lie growth holdings. Fund managers believe growth holdings to be poised for growth because they reinvest their earnings into expansions, research, or development. However, these stocks also tend to be more volatile and could quickly lose value as well.&lt;/p&gt;
+
+&lt;p&gt;Generally value propositions are safer with lower returns, and growth propositions have higher potential with more risk. Core propositions are categorized right between the two. A core fund simply focuses on a mixture of growth and value holdings so that it can’t accurately be called either of them. These are my ideal because they balance out their risk and return. The drawback for core funds is that they have do not ensure profit or guarantee against loss.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-international-stocks&quot;&gt;Adding International Stocks&lt;/h3&gt;
+&lt;p&gt;No one disagrees that a piece of portfolios should be designated to international stocks. Interestingly enough, the proper distribution between domestic and international stocks in a portfolio is still under contention. A good Vanguard fund to begin investing with is Vanguards Total International Stock Index Fund.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/vgtsx_regional_allocation.png&quot; alt=&quot;vgtsx-breakdown&quot; style=&quot;width: 640px;&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;https://personal.vanguard.com/us/funds/snapshot?FundId=0113&amp;amp;FundIntExt=INT#tab=2&quot; rel=&quot;nofollow&quot; alt=&quot;vgtsx breakdown&quot;&gt;Vanguard&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A simple ratio to begin with is to purchase 1/3 domestic stocks, 1/3 international stocks, and 1/3 U.S. bonds to make a three-fund portfolio. Three-fund portfolios are perfect for beginner investors because they are able to do a majority of the work with minimal effort, also known as &lt;a href=&quot;https://www.bogleheads.org/wiki/Lazy_portfolios&quot; rel=&quot;nofollow&quot;&gt;lazy portfolios&lt;/a&gt;. These portfolios are designed to do well in most markets and contain few funds so they’re easy to maintain, and contain a margin of safety with 30-40% bonds. Other professionals point to Vanguard Target Retirement Funds as a guideline for international stocks. They portion 40% of the portfolio as international (35% stock, 5% bond), and 60% domestic (55% stock, 5% bond).&lt;/p&gt;
+
+&lt;p&gt;The cool thing is you can apply this knowledge to a fund and now understand the thought process behind it. Checkout  Target Retirement Funds to understand what they’re about and why they do most of the leg work for us.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">In Diversifying Your Portfolio - Part 1 we covered the importance of diversifying portfolios via stocks and bonds. Diversification helps cut back risk, and prevents “putting all your eggs in one basket”. Part 2 digs a little bit deeper by checking out other ways we can diversify our portfolios. Some examples are through different company sizes, perceived holdings, and geographic location.</summary></entry><entry><title type="html">Money Milestones</title><link href="http://brunchbucks.com/savings/retirement/2017/01/01/money-milestones.html" rel="alternate" type="text/html" title="Money Milestones" /><published>2017-01-01T11:00:00-05:00</published><updated>2017-01-01T11:00:00-05:00</updated><id>http://brunchbucks.com/savings/retirement/2017/01/01/money-milestones</id><content type="html" xml:base="http://brunchbucks.com/savings/retirement/2017/01/01/money-milestones.html">&lt;p&gt;A lot of us know it’s a good idea to save money for retirement, but fewer have a solid game plan in place to set themselves up in the future. Below is a useful flowchart that shows us where we should put cash after we’ve hit certain money milestones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/money_milestones.png&quot; alt=&quot;money milestones&quot; style=&quot;width: 640px&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;https://i.imgur.com/fb7Dtmh.png&quot; rel=&quot;nofollow&quot; alt=&quot;compound interest&quot;&gt;Reddit&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;emergency-funds&quot;&gt;Emergency Funds&lt;/h3&gt;
+&lt;p&gt;Our first money milestone is to establish an nest egg of 3-6 months &lt;em&gt;minimum&lt;/em&gt; expenses. As you can guess, emergency funds should only be used to cover major financial gaps. It’s the lifeboat if you get laid off, a relative calls for bail out money, or a sudden medical emergency strikes. It quickly becomes the difference between peace of mind and high financial stress! Certain circumstances such as high interest debt (over 4%) can justify having less than three months expenses. But remember, it can take longer than three months to find a full time job. Medical emergencies could be even more costly.&lt;/p&gt;
+
+&lt;h3 id=&quot;company-401ks&quot;&gt;Company 401k’s&lt;/h3&gt;
+&lt;p&gt;Larger companies offer benefits such as a 401k match. For whatever amount you invest, companies will also invest on your behalf up to a percentage of your annual salary (e.g. 5%). Maxing out company matches is the second most important because it’s essentially free money! Some companies offer a full match off the bat, and others offer a vesting schedule. Vesting schedules give you more of the company match over time. An example four year vesting schedule:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 year after employment the employee is 25% vested; the employee owns 25% of company contributions&lt;/li&gt;
+  &lt;li&gt;2 years after employment the employee is 50% vested; the employee owns 50% of contributions.&lt;/li&gt;
+  &lt;li&gt;3 years after employment the employee is 75% vested; the employee owns 75% of company contributions.&lt;/li&gt;
+  &lt;li&gt;4 years after employment the employee owns 100% of the companies contributions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vesting schedules are an incentive to keep employees within a company. They also act as an important safeguard for larger businesses who have more employees joining and leaving the company.&lt;/p&gt;
+
+&lt;h3 id=&quot;debt&quot;&gt;Debt&lt;/h3&gt;
+&lt;p&gt;Tackling high interest debt comes after maxing employee matches. If you’ve completed the first two milestones you can start chipping away at debt in addition to your minimum payments. I use automated payment systems so I never miss minimum payments on cards. Missing a payment is a double whammy of a hit on your credit score and late payment fees. There are two main methods of paying down credit cards: the avalanche method which pays down highest interest debt first, or the snowball method popularized by &lt;a href=&quot;http://www.daveramsey.com/blog/get-out-of-debt-with-the-debt-snowball-plan/?snid=footer.truth.debtsnowball&quot; rel=&quot;nofollow&quot;&gt;Dave Ramsey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the &lt;strong&gt;avalanche&lt;/strong&gt; method, high interest debt is paid off first and balances with lower interest rates are paid off next. This makes the most sense from a purely financial standpoint. Paying off high interest cards first means we pay less total interest over time. The downside is that it can be daunting to tackle credit card debt spread across multiple cards.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;snowball&lt;/strong&gt; method addresses debts by their balance size. Smaller balances are paid off first with the largest balance paid off last. While it’s not the most financially optimal, there’s an empowering feeling after finishing off a credit card. It provides a strong sense of psychological control and “tackling debt in baby steps” sort of feel.&lt;/p&gt;
+
+&lt;h3 id=&quot;retirement-vehicles-ira--401k&quot;&gt;Retirement Vehicles: IRA + 401k&lt;/h3&gt;
+&lt;p&gt;I’ve already written an overview of IRA’s, 401k’s and their nuances in &lt;a href=&quot;http://brunchbucks.com/retirement/2016/12/17/roth-vs-traditional.html&quot;&gt;this&lt;/a&gt; post. These two are the most common retirement options because of the various tax benefits they provide. In general, IRA’s can be considered a higher priority than 401k’s because of the flexibility. Low cost mutual funds such as Fidelity, T.Rowe Price, and Vanguard are all options to consider, where-as an employer sponsored 401(k) has limited options. Sometimes an employer will offer an especially strong retirement plan because of their size (e.g. Admiral Shares of Vanguard funds have significantly lower management fees). In these cases, choose 401k’s before IRA’s.&lt;/p&gt;
+
+&lt;h3 id=&quot;savingsinvestments&quot;&gt;Savings/Investments&lt;/h3&gt;
+&lt;p&gt;If you’re fortunate enough to still have cash flow for further investments, you can begin planning for other goals. Some common options to consider are automated investors like &lt;a href=&quot;http://wlth.fr/1Hgmvnr&quot; rel=&quot;nofollow&quot; alt=&quot;Wealthfront link&quot;&gt;Wealthfront&lt;/a&gt;, a backdoor Roth IRA if you’re over the income limit to contribute, Health Savings Account (HSA), or a college savings account (529 Plan).&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">A lot of us know it’s a good idea to save money for retirement, but fewer have a solid game plan in place to set themselves up in the future. Below is a useful flowchart that shows us where we should put cash after we’ve hit certain money milestones.</summary></entry><entry><title type="html">Picking Between Roth and Traditional 401(k)’s/IRAs</title><link href="http://brunchbucks.com/retirement/2016/12/16/roth-vs-traditional.html" rel="alternate" type="text/html" title="Picking Between Roth and Traditional 401(k)'s/IRAs" /><published>2016-12-16T20:12:00-05:00</published><updated>2016-12-16T20:12:00-05:00</updated><id>http://brunchbucks.com/retirement/2016/12/16/roth-vs-traditional</id><content type="html" xml:base="http://brunchbucks.com/retirement/2016/12/16/roth-vs-traditional.html">&lt;p&gt;For most twenty year olds retirement is an idea that’s still way off the radar. Surprisingly, nothing could be further from the truth! The earlier millennials begin investing in their future, the better off they become because of the massive gains from compound interest. Check out the image below to get an idea of what compound interest can do for you overtime:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/compound_interest_1.png&quot; alt=&quot;compound-interest&quot; style=&quot;width: 640px&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;http://www.businessinsider.com/compound-interest-and-young-people-2015-4&quot; rel=&quot;nofollow&quot; alt=&quot;compound interest&quot;&gt;Business Insider&lt;/a&gt;. Estimated annual rate of return of 5% yearly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A startling fact is that if we start planning for retirement at the age of 40, we’ll never catch up to a 25 year old even after double our savings rate.&lt;/p&gt;
+
+&lt;h3 id=&quot;k-and-iras-in-a-nutshell&quot;&gt;401(k) and IRA’s in a nutshell&lt;/h3&gt;
+&lt;p&gt;A 401k is a retirement savings plan sponsored by an employer. These pension accounts have a yearly cap of $18,000 as of 2016. If you’re over the age of 50 you gain an extra catch-up provision worth $6,000. In other words your total maximum limit goes up to $24,000.&lt;/p&gt;
+
+&lt;p&gt;IRAs are similar in that they are a retirement savings account, but they are not employer sponsored (thus the name Independent Retirement Account). IRAs are useful but offer a much lower limit of $5,500. Like 401ks, older individuals get an extra grand limit increase for a $6,500 yearly contribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/401k_ira.png&quot; alt=&quot;401k vs ira&quot; style=&quot;width: 400px&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;https://www.irs.gov/retirement-plans/plan-participant-employee/2016-ira-contribution-and-deduction-limits-effect-of-modified-agi-on-deductible-contributions-if-you-are-covered-by-a-retirement-plan-at-work&quot; rel=&quot;nofollow&quot; alt=&quot;deduction rules&quot;&gt;IRA&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that both 401k and IRA tax deductions change depending on marriage status and whether &lt;a href=&quot;https://www.irs.gov/retirement-plans/2017-ira-deduction-limits-effect-of-modified-agi-on-deduction-if-you-are-covered-by-a-retirement-plan-at-work&quot;&gt;you are&lt;/a&gt; or &lt;a href=&quot;https://www.irs.gov/retirement-plans/2017-ira-deduction-limits-effect-of-modified-agi-on-deduction-if-you-are-not-covered-by-a-retirement-plan-at-work&quot;&gt;aren’t&lt;/a&gt; covered by a workplace retirement plan.&lt;/p&gt;
+
+&lt;h3 id=&quot;roths&quot;&gt;Roth’s&lt;/h3&gt;
+&lt;p&gt;You may here some confusing terms such as Roth 401k, Traditional IRA, etc. I’d like to distinguish that 401ks and IRAs are really the two main retirement vehicles. Both also happen to have different tax options which are referred to as either Roth or Traditional. Put simply:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;b&gt;Roth&lt;/b&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;b&gt;Traditional&lt;/b&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;b&gt;401(k)&lt;/b&gt;&lt;/td&gt;
+      &lt;td&gt;Roth 401(k)&lt;/td&gt;
+      &lt;td&gt;Traditional 401(k)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;b&gt;IRA&lt;/b&gt;&lt;/td&gt;
+      &lt;td&gt;Roth IRA&lt;/td&gt;
+      &lt;td&gt;Traditional IRA&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Roth accounts are tax-deferred, meaning you don’t pay taxes on them before putting them into the account. Some view the fact that Roth’s offer no tax deductions as a weakness, because you end up sacrificing more spending power now. Roth’s are sweet because you gain a tax-free stream of income in retirement, as well as more flexibility because you can choose continue to contribute after 70 1/2. Contributions can be withdrawn penalty and tax free at any time, even before the age of 59 1/2!&lt;/p&gt;
+
+&lt;p&gt;Traditional are tax-deferred, meaning you can avoid paying taxes now and pay them once you withdrawal from the account. There’s a clear benefit to Traditional accounts because of the tax exemption. An interesting caveat to Traditional’s is that you’re required to make minimum distributions (RMDs) and are no longer allowed to add funds to the account after the age of 70 1/2.&lt;/p&gt;
+
+&lt;h3 id=&quot;which-one-should-i-pick&quot;&gt;Which one should I pick?&lt;/h3&gt;
+&lt;p&gt;You’ve probably noticed that both Roth and Traditional accounts have pros and cons which balance each other out. But which should you choose?&lt;/p&gt;
+
+&lt;p&gt;A common factor in determining how you want to be taxed is your age and salary predictions for the future. Younger investors are more likely to have a salary which will go up. Since higher salaries are placed in higher tax brackets, it makes sense for them to place money in a Roth account. 20 something year olds aren’t in their peak earning years so they benefit from paying taxes ahead of time. More senior individuals are in their peak earning years, so they are better off putting funds into a traditional account. This allows them to pay their taxes at a later time when they are in a lower tax bracket either due to retirement, or transition of responsibilities.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that the ideal situation is to contribute to both accounts. Props to those who are able to hit the contribution maximum for both 401ks and IRAs. Since both accounts offer some sort of tax benefit that supplements the other, having both accounts is another example of way it’s key to properly &lt;a href=&quot;http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html&quot;&gt;diversify your portfolio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">For most twenty year olds retirement is an idea that’s still way off the radar. Surprisingly, nothing could be further from the truth! The earlier millennials begin investing in their future, the better off they become because of the massive gains from compound interest. Check out the image below to get an idea of what compound interest can do for you overtime:</summary></entry><entry><title type="html">Saved Money Is Spent Money</title><link href="http://brunchbucks.com/budgeting/2016/12/10/saved-money-is-spent-money.html" rel="alternate" type="text/html" title="Saved Money Is Spent Money" /><published>2016-12-10T16:23:00-05:00</published><updated>2016-12-10T16:23:00-05:00</updated><id>http://brunchbucks.com/budgeting/2016/12/10/saved-money-is-spent-money</id><content type="html" xml:base="http://brunchbucks.com/budgeting/2016/12/10/saved-money-is-spent-money.html">&lt;p&gt;We all know it’s a good idea to save money, but it’s hard enough to put cash aside when we’re already footing the bills, spending time with friends and family, and purchasing everyday life necessities. I’ve lost track of the number of times I portioned away cash that was intended for savings, only to have it evaporate into thin air by the end of the month. People are fickle things, and simply saying we’re going to do something doesn’t always make it happen.&lt;/p&gt;
+
+&lt;p&gt;I’m a firm believer that if we want to &lt;strong&gt;deeply&lt;/strong&gt; change our behavior, we first need to change how we think. A savings orientated mindset understands that “saved money is the same as spent money.”&lt;/p&gt;
+
+&lt;h3 id=&quot;but-wait-that-makes-no-sense&quot;&gt;But wait, that makes no sense!&lt;/h3&gt;
+&lt;p&gt;It’s easiest for me to view money that’s been saved as paying for something right now. The only caveat is that we can pull this money out in the future, and there could be more/less cash available. A common misconception that I see is that saved money is the same as unspent money. While the two are similar because they’re both unused funds in the bank account, the mental approach is drastically different. Let’s take a look at some examples where the mindset that saved money is the same as unspent money takes place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Shoppers fall for a common sales trap when they see big discounts on expensive items.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s say there’s a new pair of designer shoes you’ve been itching to buy for months. At first release the price tag is a whopping 200 bucks. Being the smart saver you are, you stave off purchasing the item until they drop to an affordable $150. From there it’s easy to think “wow I saved myself $150!” The reality is that we still spent $150 more then spending no money at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Another tactic used by shopping malls are “buy one get one free” inventory sales.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This example also highlights that there’s a difference between saved money and unspent money. Studies have shown that sales tactics like “buy one hat get another free” push people to buy an extra article of clothing they ordinarily wouldn’t buy. It’s no surprise that holiday season is one of the most profitable sales period despite having yearly Black Friday, Cyber Monday and Christmas holiday discounts. Vendors prey on the belief that unspent money directly translates savings.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-immediate-actions&quot;&gt;Some immediate actions&lt;/h3&gt;
+&lt;p&gt;To convert discounts into savings, try taking unspent money and putting it into a savings account instead. The $50 shoes you paid for? Deliberately move the discounted $150 into an account where you’re less likely to touch it. The extra “free” hat? Take the money from the unspent hat and put it in a savings account. By moving unspent funds we’re converting it to saved money.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot of wisdom in the words “time is money”. I like to think of savings as &lt;strong&gt;spending money now, for the future.&lt;/strong&gt; I find this concept closely related to investing. Investing is similar to saving money because we are spending money now so we can access it in the future. The possibility that we may have more or less money is the caveat that makes investing so unique.&lt;/p&gt;
+
+&lt;p&gt;Conversely, &lt;strong&gt;spending money from the future, for now&lt;/strong&gt; is the concept behind credit. Whenever we tap into our credit cards we’re borrowing money from our future for today’s purchases. Credit also has a caveat in that using it usually involves using more money via interest. I find it interesting that it’s a direct inverse of investments which can translate to earning more money in the future.&lt;/p&gt;
+
+&lt;p&gt;By adopting the mentality that saved money is spent money, creating things like a &lt;a href=&quot;http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html&quot;&gt;zero-based budget&lt;/a&gt;, realizing the value of investments, and planning to have good credit become significantly easier. I believe this happens because it forces us to creatively think about the amount of spending money we actually have. Imagine picking up a box of chocolates with the intent of only eating a few chocolates, but pleasantly realizing you have more? It’s easy to consume more chocolates than you originally intended since you have more than expected!&lt;/p&gt;
+
+&lt;p&gt;Money often operates in the same way. With today’s online checking accounts it’s easy to check up on balances with just a few key strokes. If my checkings account is fatter than usual (e.g. right after payday) I notice I have a tendency to loosen up the wallet, even though in reality I’m earning the same amount everyday anyways. Shifting money into a savings account and waiting for a true crisis (loss of income, accident, medical emergency) works wonders for financial self-confidence and mental security. When we treat saved money as spent money, it becomes much easier to limit ourselves from using it frivolously in the future.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">We all know it’s a good idea to save money, but it’s hard enough to put cash aside when we’re already footing the bills, spending time with friends and family, and purchasing everyday life necessities. I’ve lost track of the number of times I portioned away cash that was intended for savings, only to have it evaporate into thin air by the end of the month. People are fickle things, and simply saying we’re going to do something doesn’t always make it happen.</summary></entry><entry><title type="html">Diversifying Your Portfolio - Part 1</title><link href="http://brunchbucks.com/investing/2016/11/20/diversifying-your-portfolio.html" rel="alternate" type="text/html" title="Diversifying Your Portfolio - Part 1" /><published>2016-11-20T20:02:00-05:00</published><updated>2016-11-20T20:02:00-05:00</updated><id>http://brunchbucks.com/investing/2016/11/20/diversifying-your-portfolio</id><content type="html" xml:base="http://brunchbucks.com/investing/2016/11/20/diversifying-your-portfolio.html">&lt;p&gt;A tip every investor or financial planner will eventually tell you is that you need to diversify your portfolio. Diversification is simply the idea that you don’t want to put all your eggs in one basket, with money. By diversifying your cash into a variety of investments, there’s less at stake if something goes wrong and crashes.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-a-diversified-portfolio-look-like&quot;&gt;What Does a Diversified Portfolio Look Like?&lt;/h3&gt;
+&lt;p&gt;A portfolio with a good mix always contains a number of financial “ingredients”. Having a combination of bonds, high-yield savings, CDs, U.S. stocks, and international stocks is an example of a portfolio with a large mix of investment vehicles.
+&lt;img src=&quot;/assets/blog/portfolio_balances.png&quot; alt=&quot;diversified portfolio&quot; style=&quot;width: 640px;&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;https://www.fidelity.com/viewpoints/guide-to-diversification&quot; rel=&quot;nofollow&quot; alt=&quot;retirement fund comparison&quot;&gt;fidelity&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a lot to analyze in the graphs above, so let’s focus on only the U.S. stock and bond percentages for now. If we start with the conservative a portfolio on the left, we notice we have a disproportionately larger percentage of bonds. As we progress towards more aggressive portfolios on the right we notice that the proportion of U.S. stocks drop.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-120-age-rule&quot;&gt;The 120-Age Rule&lt;/h3&gt;
+&lt;p&gt;When you’re first starting to diversify your portfolio a good rule of thumb to follow is the 120-age rule (This was formerly known as the 100-age rule. The 120 rule is starting to gain traction since Americans are living longer and retiring later).&lt;/p&gt;
+
+&lt;p&gt;Let’s say we are 30 years old and beginning to put funds into our first portfolio. With the 120-rule our proportion would be somewhere around 90% stocks with 10% bonds, a very aggressive portfolio! On the flip side, a 60 years old investors portfolio would sit around 60% stocks and 40% bonds. A portfolio with this sort of ratio would be considered conservative.&lt;/p&gt;
+
+&lt;h3 id=&quot;risk-tolerance&quot;&gt;Risk Tolerance&lt;/h3&gt;
+&lt;p&gt;You may have noticed that there’s a certain reasoning behind the 120-age rule. Younger investors will have more stocks that are gradually swapped with bonds as they grow older. Stocks are considered higher risk relative to bonds because they are more volatile. Their value is dependent on a number of factors, difficult to consistently predict, but have higher returns. Bonds are more stable form of investment since they are usually government issued or backed by a major corporation, but have lower returns that have trouble beating typical market inflation.&lt;/p&gt;
+
+&lt;p&gt;Younger investors are able to take on more risk because they have a higher risk tolerance. Market swings and sudden loss of financial wealth of 50% or more hurts less when you still have a steady stream of income (but it still hurts!) Losing half of your wealth in retirement, where you no longer have a stream of income is devastating. Older investors thus have a lower risk tolerance, since there is more at stake if things go awry.&lt;/p&gt;
+
+&lt;p&gt;There’s a great &lt;a href=&quot;http://www.investopedia.com/video/play/stocks-versus-bonds/&quot; rel=&quot;nofollow&quot;&gt;video&lt;/a&gt; by Investopedia that covers the differences between stocks and bonds. It’s important to have a mix of both investment vehicles in any portfolio. As with many financial investments, there pros and cons to both that often complement and balance each other out.
+&lt;!-- Write about why they balance it out, rewatch investpedia video and use content --&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;optimizing-your-portfolio&quot;&gt;Optimizing Your Portfolio&lt;/h3&gt;
+&lt;p&gt;Diversifying your portfolio works wonders because not all the action happens in one place. Here we covered covered two of the most common investment options to understand the subtle differences between each other. &lt;a href=&quot;http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html&quot;&gt;Part 2&lt;/a&gt; covers other ways portfolio start to vary such as different sized companies, domestic/foreign stocks, savings accounts, CD’s, and bonds. They’re all tools with their own purpose once we hit certain money milestones. Congratulations to those who have covered all these bases and can consider their portfolios well-rounded.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">A tip every investor or financial planner will eventually tell you is that you need to diversify your portfolio. Diversification is simply the idea that you don’t want to put all your eggs in one basket, with money. By diversifying your cash into a variety of investments, there’s less at stake if something goes wrong and crashes.</summary></entry><entry><title type="html">Your First Investment Purchase</title><link href="http://brunchbucks.com/investing/2016/10/31/early-investing.html" rel="alternate" type="text/html" title="Your First Investment Purchase" /><published>2016-10-31T22:40:00-04:00</published><updated>2016-10-31T22:40:00-04:00</updated><id>http://brunchbucks.com/investing/2016/10/31/early-investing</id><content type="html" xml:base="http://brunchbucks.com/investing/2016/10/31/early-investing.html">&lt;p&gt;Have you ever looked at the list of investment options and thought to yourself “where on Earth should I start?” Getting started is easily one of the largest barriers to investing. Once you’ve made your first investment it becomes significantly easier to learn more. The key is to start with a small initial investment that will get the snowball of personal wealth rolling.&lt;/p&gt;
+
+&lt;h3 id=&quot;which-stock-should-i-pick&quot;&gt;Which Stock Should I Pick?&lt;/h3&gt;
+&lt;p&gt;While its true there’s a wealth of knowledge required to become a successful investor, there are simple ways to get your best bang for buck. A majority of us (myself included) don’t have the time or desire to do laborious, detailed, industry specific research. Our goal is to get from 0 to 80%  with a sound investment plan. We want the other 20% to consist of fine grained details we can sweat later. For our purposes, it’s good to begin by purchasing shares of Vanguard’s Total Stock Market Index &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VTSMX/quote.html&quot; rel=&quot;nofollow&quot;&gt;(VTSMX)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Below is a list of the top 15 holdings that make up our chosen fund. Notice any familiar names?
+&lt;img src=&quot;/assets/blog/vtsmx_top_holdings.png&quot; alt=&quot;vtsmx-breakdown&quot; style=&quot;width: 800px&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VTSMX/quote.html&quot; rel=&quot;nofollow&quot; alt=&quot;vtsmx portfolio image&quot;&gt;Morningstar&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;By purchasing a single share of VTSMX we are essentially buying a tiny slice of largest companies in America, as well as slices of mid to small companies. An example of a similar fund is the Vanguard 500 Index Mutual Fund &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VFINX/quote.html&quot; rel=&quot;nofollow&quot;&gt;VFINX&lt;/a&gt;. As you can guess, this index fund tracks the top 500 companies in America. By purchasing a share of VFINX we essentially own a piece of America’s largest 500 companies.&lt;/p&gt;
+
+&lt;h3 id=&quot;index-funds-vs-managed-funds&quot;&gt;Index Funds vs Managed Funds&lt;/h3&gt;
+&lt;p&gt;Let’s take a step back and take a look at the name of our fund: Vanguard Total Stock Market Index Fund (VTSMX). We can figure out that “Total Stock Market” means the fund tracks the entire U.S. stock market, but what does the index mean? An index fund is passively managed, meaning their portfolios have rules to track a certain group of investments and can run fairly autonomously. On the opposite spectrum are managed funds. Managed funds are actively managed by individuals which aim to outperform a certain investment benchmark.&lt;/p&gt;
+
+&lt;p&gt;Index funds consistently outperform any active fund for three main reasons:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;They have lower management fees&lt;/li&gt;
+  &lt;li&gt;They have a lower turnover ratio (less buying and selling of securities means less taxes)&lt;/li&gt;
+  &lt;li&gt;They aren’t prone to human error&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the topic of human error, there are plenty of poor portfolio managers out there. Experts can check portfolio manager histories before purchasing any their shares, but even then it’s possible a funding manager can switch over to another portfolio to leave them in the dust. Well managed active funds do exist. Funds with performance above their benchmarks and peers can make excellent investment vehicles, but index funds are able to consistently deliver long-term returns.&lt;/p&gt;
+
+&lt;h3 id=&quot;paying-less-is-earning-more&quot;&gt;Paying Less Is Earning More&lt;/h3&gt;
+&lt;p&gt;John C. Bogle is a famous investor best known for his low cost portfolios that paid off in longer time horizons. He’s been labeled as one of the “Four Giants of the 20th Century” among the investment community, and ranks among Warren Buffet, Peter Lynch, and George Soros. His investment strategy can be summarized as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;You get exactly what you don’t pay for.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He drives home how important it is to have low management fees with consistent performance over time. Manged funds have trouble consistently beating index funds over longer time horizons, because of the compounding cost of their higher management fees. Below is a graph that draws out a Vanguard Fund with a yearly fee of 0.07% compared to a fund that runs for 1.32%. The difference between their management fees is a 1.25%, which doesn’t seem like such a big deal right?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/retirement_chart.jpg&quot; alt=&quot;retirement fund comparison&quot; style=&quot;width: 640px;&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;http://www.theatlantic.com/business/archive/2014/02/the-crushingly-expensive-mistake-killing-your-retirement/283866/&quot; rel=&quot;nofollow&quot; alt=&quot;retirement fund comparison&quot;&gt;theatlantic&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Woah there. It turns out a whopping 27% of your potential retirement savings is lost when estimated over a 40 year period. Higher management fees bring a double whammy of shelling out cash to managers, and with it the potential earnings of your hard earned cash. To add the cherry on top, we already know that actively managed accounts have trouble beating index funds in the first place. That’s even before accounting for all the management fees!&lt;/p&gt;
+
+&lt;h3 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;While it’s possible to get excellent returns from investing in particular stocks or portfolios, a majority of people simply don’t have the time to do that level of homework. Most of us don’t need to look deep into portfolios to actively maintain it. By skipping exorbitantly high fees we can ensure simplicity while also achieving the best bang for buck. Keep an eye out for lower portfolios when investing in your &lt;a href=&quot;http://brunchbucks.com/retirement/2016/12/17/roth-vs-traditional/&quot;&gt;401(k) or Roth 401(k)&lt;/a&gt;. If your employer doesn’t offer any matches, consider opening an IRA instead.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve gotten the ball rolling towards a stable financial future, take another step. We’ve already started diversifying our portfolios with a good index fund choice, but we can also learn more about the importance of diversifying your portfolio &lt;a href=&quot;http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">Have you ever looked at the list of investment options and thought to yourself “where on Earth should I start?” Getting started is easily one of the largest barriers to investing. Once you’ve made your first investment it becomes significantly easier to learn more. The key is to start with a small initial investment that will get the snowball of personal wealth rolling.</summary></entry><entry><title type="html">How to Boost Your Credit Score</title><link href="http://brunchbucks.com/credit/2016/10/27/managing-credit-score.html" rel="alternate" type="text/html" title="How to Boost Your Credit Score" /><published>2016-10-27T22:51:00-04:00</published><updated>2016-10-27T22:51:00-04:00</updated><id>http://brunchbucks.com/credit/2016/10/27/managing-credit-score</id><content type="html" xml:base="http://brunchbucks.com/credit/2016/10/27/managing-credit-score.html">&lt;h3 id=&quot;whats-a-credit-score-good-for-anyways&quot;&gt;What’s A Credit Score Good For Anyways?&lt;/h3&gt;
+&lt;p&gt;A credit score is a number used by lenders to determine how “dependable” you are. Banks, credit card companies, and dealerships are all examples of lenders we work with on a daily basis. If you have a good credit score you get can offers to improved loans, interest rates, and an easier time getting approved. When shopping for a mortgages, purchasing a car, or applying for a credit card, your credit score is a key part of the picture. A strong credit score could be the difference between thousands to ten thousands of dollars in savings!&lt;/p&gt;
+
+&lt;h3 id=&quot;credit-score-factors&quot;&gt;Credit Score Factors&lt;/h3&gt;
+&lt;p&gt;There are different factors used to calculate credit score depending on the company, the most common model is FICO (Fair, Issac and Company) so it’s a logical place to start. Interestingly enough, FICO essentially has a monopoly on the credit score market. While &lt;a href=&quot;https://www.cafecredit.com/credit-score-range/&quot; rel=&quot;nofollow&quot;&gt; other &lt;/a&gt;metrics do exist a small margin of credit reporting agencies use them.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.myfico.com/credit-education/whats-in-your-credit-score/&quot; rel=&quot;nofollow&quot;&gt;factors&lt;/a&gt; behind a FICO credit score are as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Payment history - (35%)&lt;/li&gt;
+  &lt;li&gt;Amounts owed (Credit utilization) - (30%)&lt;/li&gt;
+  &lt;li&gt;Length of credit history (15%)&lt;/li&gt;
+  &lt;li&gt;Amount of New Credit/Inquiries (10%)&lt;/li&gt;
+  &lt;li&gt;Credit mix (10%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notice that paying your bills on time has the largest impact to your credit score! There’s no true quick fix to credit scores except for responsibility and time. Forgetting to foot the bill is a double whammy of additional fees and credit damage. If you have enough in an account to use automatic payments, it can go a long way in ensuring timely payment.&lt;/p&gt;
+
+&lt;h3 id=&quot;credit-utilization&quot;&gt;Credit Utilization&lt;/h3&gt;
+&lt;p&gt;The second largest influence to credit rating is the total amounts owed, also known as credit utilization. Utilization is calculated by the the total debt owed divided by the current credit limit. For example, lets say we have a total debt of $2,000 and a credit limit of $8,000. Division tells us our credit utilization is 25%.
+&lt;img src=&quot;/assets/blog/credit_utilization.png&quot; alt=&quot;credit-utilization&quot; style=&quot;width: 640px&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;http://www.comparecards.com/blog/infographics/credit-utilization/&quot; rel=&quot;nofollow&quot; alt=&quot;credit utilization graph&quot;&gt;comparecards&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In general creditors like to see a credit utilization less then 35%, since anymore could indicate there’s heavy debt.&lt;/p&gt;
+
+&lt;h3 id=&quot;gaming-the-system&quot;&gt;Gaming the System&lt;/h3&gt;
+&lt;p&gt;Luckily for us there’s a trick we can use to tip this calculation process in our favor. We can either pay off more of our total debt, or increase our credit ceiling to lower utilization. When requesting credit increases the trick is to understand the proper timing:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Apply for new cards if you haven’t had any hard pulls within the past year. Having too many hard inquiries can be a red flag to creditors, because there is a proven correlation between hard pulls and credit risk.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Report annual increases to your salary. Income increases are a key indicator of a higher spending capacity and can go a long way to ensuring a successful request.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’ve had a credit card for a year or more, simply apply for a credit limit increase. Companies are generally willing to increase limits once you’ve developed a solid history with them.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By owning several credit cards we gain traction for a good credit mix (which coincidentally, is one of the factors we came across earlier). Having a mix of cards, loans, and mortgages tells lenders we’re responsible creditors. We want to avoid too many hard pulls because it can indicate shopping around for credit. Hard inquiries drop off your record and no longer affect your credit score after a year. And in case you were wondering, soft inquiries (soft pulls) don’t affect your credit score at all! Finally, credit increases are good because it can serve as a buffer for credit utilization.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-caveats-to-keep-in-mind&quot;&gt;The Caveats to Keep In Mind&lt;/h3&gt;
+&lt;p&gt;Keeping aggressive with credit applications early on especially helps because positive credit history directly translates to a higher score. We also know that applying to too many cards will bring your score down. The general rule of thumb is to limit hard pulls to two within a one year period.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note that credit limits can be drawn back if they go unused for too long. Generally I try to use each credit card at least once a year.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Having a solid grasp on credit important, but it’s also important to &lt;a href=&quot;http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html&quot;&gt;budget&lt;/a&gt; existing money as well. I’ve noticed that in a way the two go hand in hand. Credit is all about leveraging future spending, while budgeting is what controls current spending.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">What’s A Credit Score Good For Anyways?
+A credit score is a number used by lenders to determine how “dependable” you are. Banks, credit card companies, and dealerships are all examples of lenders we work with on a daily basis. If you have a good credit score you get can offers to improved loans, interest rates, and an easier time getting approved. When shopping for a mortgages, purchasing a car, or applying for a credit card, your credit score is a key part of the picture. A strong credit score could be the difference between thousands to ten thousands of dollars in savings!</summary></entry><entry><title type="html">The Trick To Hitting Your Budget</title><link href="http://brunchbucks.com/budgeting/2016/10/18/budgeting-tips.html" rel="alternate" type="text/html" title="The Trick To Hitting Your Budget" /><published>2016-10-18T22:03:00-04:00</published><updated>2016-10-18T22:03:00-04:00</updated><id>http://brunchbucks.com/budgeting/2016/10/18/budgeting-tips</id><content type="html" xml:base="http://brunchbucks.com/budgeting/2016/10/18/budgeting-tips.html">&lt;p&gt;During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. There’s no all-encompassing “correct” budget out there, but with time and attention you can begin to craft a budget that fits your needs the best.&lt;/p&gt;
+
+&lt;p&gt;There are many ways to begin building a budget, but all effective budgets share one trait: zero-based budgeting.&lt;/p&gt;
+
+&lt;h3 id=&quot;zero-based-budgeting-in-a-nutshell&quot;&gt;Zero-Based Budgeting in a Nutshell&lt;/h3&gt;
+&lt;p&gt;Zero-based budgeting is a method that gives every dollar you earn a purpose. To start you need two numbers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your total income (the total amount of money you earn)&lt;/li&gt;
+  &lt;li&gt;Your total expenses (the sum of your spendings, including &lt;a href=&quot;http://brunchbucks.com/budget/2016/12/10/saved-money-is-spent-money.html&quot;&gt;saved money&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lets say you make $2,000 a month. To make your money work for you all of that cash needs to be assigned a task. Note that for a proper zero-based budget its imperative to keep proper track of expenses. Rent, groceries, cash purchases, and other investments can be tough to keep track of, so I highly recommend a tools like Mint help keep track.&lt;/p&gt;
+
+&lt;h3 id=&quot;whys-it-useful&quot;&gt;Why’s it useful?&lt;/h3&gt;
+&lt;p&gt;While it’s possible to respect your budgets limit it’s significantly easier to squander unfocused money. When 100% of the cash is delegated a task, we become less likely to go over a particular budgeted category. When I used to set arbitrary limits on categories, I noticed I would frequently over spend anyways. Money would continue to pour into concert tickets, alcohol, and entertainment activities even after I hit my limit. Looking back, this happened because I knew I could safely get away with spending just a bit extra.&lt;/p&gt;
+
+&lt;p&gt;Without a zero-based budget you end up with an extra padding that tempts everyone to go over the limit, and any potential savings from unassigned income can quickly evaporate. Once I delegated my unbudgeted income towards productive outlets such as &lt;a href=&quot;http://brunchbucks.com/retirement/2016/12/17/roth-vs-traditional/&quot;&gt;IRA’s&lt;/a&gt; or &lt;a href=&quot;http://brunchbucks.com/investment/2016/11/01/early-investing/&quot;&gt;mutual fund investments&lt;/a&gt;, I noticed I started to consistently hit my budget.&lt;/p&gt;
+
+&lt;p&gt;There are studies that show zero-based budgeting can lead to a double whammy of paying off debt faster, and saving more money! It’s clear creating a zero-based budget goes a long way towards paving a stable financial future.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-now-what&quot;&gt;So now what?&lt;/h3&gt;
+&lt;p&gt;Once you’ve gathered your income from all sources, whether it be from work, side gigs, or another business, decide how much you want to spend in different categories. Here’s a sample budget that I used to get started:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rent - $1,300&lt;/li&gt;
+  &lt;li&gt;Transportation - $200&lt;/li&gt;
+  &lt;li&gt;Utilities - $200&lt;/li&gt;
+  &lt;li&gt;Food and Dining - $700&lt;/li&gt;
+  &lt;li&gt;Credit card payments - $200&lt;/li&gt;
+  &lt;li&gt;Nest egg - $100&lt;/li&gt;
+  &lt;li&gt;Retirement fund - $100&lt;/li&gt;
+  &lt;li&gt;Family help - $400&lt;/li&gt;
+  &lt;li&gt;Entertainment and Shopping - $500&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notice how &lt;strong&gt;every dollar is delegated a job&lt;/strong&gt;. Even a minute amount such as $30 left over needs to be assigned to a specific category. Don’t stress on getting the numbers right the first time, what’s more important is to outline a financial game plan that you can adapt. An initial general estimate is nice because as you gather more spending history, your estimations will become more exact.&lt;/p&gt;
+
+&lt;p&gt;If you already have a budget in place take some time to give it another look. Are there any gaps? Are there places that need tweaking? If you’re not sure where to place leftover money the job isn’t finished. Some common options are savings accounts, 401k’s, and IRA’s, or building a nest egg.
+&lt;!-- Financial flow chart reference here --&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There’s a big difference between unfocused money and money that goes straight towards savings.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Creating an initial plan for &lt;a href=&quot;http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html&quot;&gt;your first budget&lt;/a&gt; can seem intimidating, but don’t worry. Improving your budget whenever you go over/under is part of an ongoing process. One last note to keep in mind is that while budgeting initially feels constricting, it gradually becomes liberating. When you’re progressing with your budget you become aware of when you can afford to splurge money or tighten up your purse. It allows for the freedom of guilt free spending.&lt;/p&gt;
+
+&lt;p&gt;Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.&lt;/p&gt;</content><summary type="html">During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. There’s no all-encompassing “correct” budget out there, but with time and attention you can begin to craft a budget that fits your needs the best.</summary></entry></feed>

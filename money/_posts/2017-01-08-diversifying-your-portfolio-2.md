@@ -32,7 +32,7 @@ Generally value propositions are safer with lower returns, and growth propositio
 No one disagrees that a piece of portfolios should be designated to international stocks. Interestingly enough, the proper distribution between domestic and international stocks in a portfolio is still under contention. A good Vanguard fund to begin investing with is Vanguards Total International Stock Index Fund.
 
 ![vgtsx-breakdown](/assets/blog/vgtsx_regional_allocation.png){:style="width: 640px;"}
-*Source: a[Vanguard](https://personal.vanguard.com/us/funds/snapshot?FundId=0113&FundIntExt=INT#tab=2){:rel="nofollow" alt="vgtsx breakdown"}*
+*Source: [Vanguard](https://personal.vanguard.com/us/funds/snapshot?FundId=0113&FundIntExt=INT#tab=2){:rel="nofollow" alt="vgtsx breakdown"}*
 
 A simple ratio to begin with is to purchase 1/3 domestic stocks, 1/3 international stocks, and 1/3 U.S. bonds to make a three-fund portfolio. Three-fund portfolios are perfect for beginner investors because they are able to do a majority of the work with minimal effort, also known as [lazy portfolios](https://www.bogleheads.org/wiki/Lazy_portfolios){:rel="nofollow"}. These portfolios are designed to do well in most markets and contain few funds so they're easy to maintain, and contain a margin of safety with 30-40% bonds. Other professionals point to Vanguard Target Retirement Funds as a guideline for international stocks. They portion 40% of the portfolio as international (35% stock, 5% bond), and 60% domestic (55% stock, 5% bond).
 
