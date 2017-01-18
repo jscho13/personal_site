@@ -45,4 +45,4 @@ Keeping aggressive with credit applications early on especially helps because po
 
 Having a solid grasp on credit important, but it's also important to [budget](http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html) existing money as well. I've noticed that in a way the two go hand in hand. Credit is all about leveraging future spending, while budgeting is what controls current spending.
 
-Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.

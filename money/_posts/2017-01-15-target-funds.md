@@ -80,4 +80,4 @@ Analyzing this portfolio from a geographic standpoint, 65% of is domestic, and 3
 
 There's a third category introduced in this fund called "Short-Term Inflation-Protected Securities" [(VTIPX)]([https://personal.vanguard.com/us/funds/snapshot?FundId=1967&FundIntExt=INT]){:rel="nofollow"}. Essentially these shares value changes according to interest rates and inflation. Since it's designed to generate returns closely correlated with changes in inflation, it doesn't generate significant returns but is a safe way to hedge against unexpected inflation (inflationary surprises). This is a great way to maintain value in your investments.
 
-Per usual, thanks for taking the time to read this Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.

@@ -7,3 +7,4 @@ saved_money_spent.jpg: https://unsplash.com/search/photos/saved?photo=pElSkGRA2N
 roth_vs_traditional.jpeg: https://www.pexels.com/photo/close-up-of-nuts-255059/
 money_milestones.jpg: https://www.pexels.com/photo/stack-pebbles-on-the-ground-28349/
 diversify_portfolio_2.jpg: https://stocksnap.io/photo/MSISRLA1IU
+picking_first_ira.jpg: https://unsplash.com/collections/326296/ira?photo=jR4Zf-riEjI
