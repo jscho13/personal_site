@@ -7,17 +7,45 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="logo">
+      <li class="nav-link"><a href="/">Home</a></li>
+    </div>
+    
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="/about/">About</a></li>
+        <li class="nav-link"><a href="/posts/">Archives</a></li>
+        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+          <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
 <body>
-  <nav>
+  <!-- <nav>
     <div class="container">
       <div class="navbar__item--left">
-        <a href="/" alt="millennial personal finance"><h3>Blog</h3></a>
+        <a href="/" alt="millennial personal finance"><h4>Blog</h4></a>
       </div>
       <div class="navbar__item--right">
-        <a href="/about"><h3>About</h3></a>
+        <a href="/about"><h4>About</h4></a>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
     
   <div class="container">
     <%= yield %>  
