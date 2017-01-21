@@ -1,3 +1,3 @@
-## Brunch Bucks
+## BrunchBucks
 
-Brunch Bucks is your afternoon guide to personal finance, for enthusiasts and professionals alike.
+BrunchBucks is your afternoon guide to personal finance, for enthusiasts and professionals alike.

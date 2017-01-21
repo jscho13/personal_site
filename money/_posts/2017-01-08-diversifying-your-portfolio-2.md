@@ -38,4 +38,4 @@ A simple ratio to begin with is to purchase 1/3 domestic stocks, 1/3 internation
 
 The cool thing is you can apply this knowledge to a fund and now understand the thought process behind it. Checkout  Target Retirement Funds to understand what they're about and why they do most of the leg work for us.
 
-Per usual, thanks for taking the time to read Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.

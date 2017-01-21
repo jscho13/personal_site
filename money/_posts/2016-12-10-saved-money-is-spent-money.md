@@ -31,4 +31,4 @@ By adopting the mentality that saved money is spent money, creating things like 
 
 Money often operates in the same way. With today's online checking accounts it's easy to check up on balances with just a few key strokes. If my checkings account is fatter than usual (e.g. right after payday) I notice I have a tendency to loosen up the wallet, even though in reality I'm earning the same amount everyday anyways. Shifting money into a savings account and waiting for a true crisis (loss of income, accident, medical emergency) works wonders for financial self-confidence and mental security. When we treat saved money as spent money, it becomes much easier to limit ourselves from using it frivolously in the future.
 
-Per usual, thanks for taking the time to read Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.

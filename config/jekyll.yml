@@ -8,13 +8,13 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Brunch Bucks
+title: BrunchBucks
 email: jscho13@gmail.com
 name: Joseph Cho
 subtitle: "Your Afternoon Guide to Personal Finance"
 baseurl: "" # the subpath of your site, e.g. /blog
 asseturl: "/assets/blog/"
-description: "Brunch Bucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
+description: "BrunchBucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
 url: "http://brunchbucks.com"
 cover: "/assets/blog/coffee_work.jpg"
 logo: "/assets/logo.png"

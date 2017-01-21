@@ -45,6 +45,6 @@ If you already have a budget in place take some time to give it another look. Ar
 
 Creating an initial plan for [your first budget][building-a-budget] can seem intimidating, but don't worry. Improving your budget whenever you go over/under is part of an ongoing process. One last note to keep in mind is that while budgeting initially feels constricting, it gradually becomes liberating. When you're progressing with your budget you become aware of when you can afford to splurge money or tighten up your purse. It allows for the freedom of guilt free spending.
 
-Per usual, thanks for taking the time to read Brunch Bucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
 
 [building-a-budget]: http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html
