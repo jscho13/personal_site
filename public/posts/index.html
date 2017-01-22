@@ -42,7 +42,7 @@
   
 
   <!-- Site styles -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/assets/application.css">
   <link rel="canonical" href="http://brunchbucks.com/posts/">
   <link rel="alternate" type="application/atom+xml" title="BrunchBucks" href="http://brunchbucks.com/feed.xml" />
   
@@ -73,13 +73,25 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/posts/">Archives</a></li>
+
+        <li class="nav-link">
+          <a href="/posts/">Archives</a>
+          <div class="dropdown-content">
+            <p>Budgeting</p>
+            <p>Credit</p>
+            <p>Investing</p>
+            <p>Retirement</p>
+            <p>Savings</p>
+          </div>
+        </li>
+
         <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
         </li>
+        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li>         -->
       </ul>
     </nav>
   </div>
@@ -87,8 +99,6 @@
 
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
-  
-
   
 
   

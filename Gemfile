@@ -11,8 +11,6 @@ gem 'mysql'
 
 # Frontend Gems
 gem 'sass-rails', '~> 5.0'
-gem 'therubyracer'  # If using Ruby
-gem 'less-rails-bootstrap'
 gem 'font-awesome-sass'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -30,7 +28,6 @@ gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
-gem 'sass'
 
 group :development, :test do
   gem 'pry'

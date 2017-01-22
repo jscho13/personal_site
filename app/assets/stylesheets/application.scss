@@ -10,170 +10,133 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *    
- *= require custom_bootstrap/custom_bootstrap
  *= require_self
  */
-// do you want bootstrap to be overwritten by self? yeah probably... that way we can call properly in the blog
 
 @import "animate";
 @import "css-device-mockup";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
 @import "layout";
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import "font-awesome-sprockets";
-@import "font-awesome";
 
-$blue: #2980b9;				// Belize Hole
-
-/* =============================================================================
-  BASE LAYOUT STUFF
-============================================================================= */
-
-html {
-  background: white;
-}
-
-hr {
-  margin: 0.5em;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* =============================================================================
-  CONTAINERS
-============================================================================= */
-.project__list--label {
-  padding: 0 1em;
-}
-
-.project__list {
-  padding-bottom: 3em;
-  
-  .row {
-    padding: 1.5em;
-  }
-}
-
-/* =============================================================================
-  NAVBAR STUFF
-============================================================================= */
-nav {
-  background-color: #2f2f2f;
-  box-shadow: 0 2px $highlight-color;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  padding: 1.25em 1em;
-}
-
-.navbar__item {
-  a {
-    color: #fff;
-  }
-  
-  a:hover {
-    color: $blue;
-  }  
-}
-
-.navbar__item--left {
-  @extend .navbar__item;
-  text-align: left;
-  float: left;
-}
-
-.navbar__item--right {
-  @extend .navbar__item;
-  text-align: right;
-}
-
-/* =============================================================================
-  FOOTER STUFF1
-============================================================================= */
-footer {
-  text-align: right;
-  padding: 1em 0;
-  background-color: #fff;
-  
-  a:hover {
-    color: $blue;
-  }
-}
-
-/* =============================================================================
-  LANDING PAGE STUFF
-============================================================================= */
-.splash {
-  padding-top: 2em;
-}
-
-.splash__text {
-  float: left;
-}
-
-.splash__picture {
-  border-radius: 25px;
-  height: 400px;
-}
-
-/* =============================================================================
-  LINKS
-============================================================================= */
-a {
-  /* First we need to help some browsers along for this to projects.
-     Just because a vendor prefix is there, doesn't mean it will
-     projects in a browser made by that vendor either, it's just for
-     future-proofing purposes I guess. */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-/* =============================================================================
-  ANIMATIONS
-============================================================================= */
-@keyframes float {
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes bob {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(8px);
-  }
-}
-
-.float {
-  animation-name: float, bob;
-  animation-duration: 0.3s, 0.7s;
-  animation-timing-function: ease-out, ease-in-out;
-  animation-delay: 0s, 0.3s;
-  animation-direction: normal, alternate;
-  animation-iteration-count: 1, infinite;
-  animation-fill-mode: forwards;
-}
-
-// * {
-//   background: #000 !important;
-//   color: #0f0 !important;
-//   outline: solid #f00 1px !important;
+// $blue: #2980b9;				// Belize Hole
+// 
+// /* =============================================================================
+//   BASE LAYOUT STUFF
+// ============================================================================= */
+// 
+// html {
+//   background: white;
 // }
+// 
+// hr {
+//   margin: 0.5em;
+// }
+// 
+// h1 {
+//   font-family: 'Roboto', sans-serif;
+// }
+// 
+// h3 {
+//   font-family: 'Open Sans', sans-serif;
+// }
+// 
+// /* =============================================================================
+//   CONTAINERS
+// ============================================================================= */
+// .project__list--label {
+//   padding: 0 1em;
+// }
+// 
+// .project__list {
+//   padding-bottom: 3em;
+//   
+//   .row {
+//     padding: 1.5em;
+//   }
+// }
+// 
+// /* =============================================================================
+//   FOOTER STUFF1
+// ============================================================================= */
+// footer {
+//   text-align: right;
+//   padding: 1em 0;
+//   background-color: #fff;
+//   
+//   a:hover {
+//     color: $blue;
+//   }
+// }
+// 
+// /* =============================================================================
+//   LANDING PAGE STUFF
+// ============================================================================= */
+// .splash {
+//   padding-top: 2em;
+// }
+// 
+// .splash__text {
+//   float: left;
+// }
+// 
+// .splash__picture {
+//   border-radius: 25px;
+//   height: 400px;
+// }
+// 
+// /* =============================================================================
+//   LINKS
+// ============================================================================= */
+// a {
+//   /* First we need to help some browsers along for this to projects.
+//      Just because a vendor prefix is there, doesn't mean it will
+//      projects in a browser made by that vendor either, it's just for
+//      future-proofing purposes I guess. */
+//   -o-transition:.5s;
+//   -ms-transition:.5s;
+//   -moz-transition:.5s;
+//   -webkit-transition:.5s;
+//   /* ...and now for the proper property */
+//   transition:.5s;
+// }
+// 
+// a:hover {
+//   text-decoration: none;
+// }
+// 
+// /* =============================================================================
+//   ANIMATIONS
+// ============================================================================= */
+// @keyframes float {
+//   100% {
+//     transform: translateY(0);
+//   }
+// }
+// @keyframes bob {
+//   0% {
+//     transform: translateY(0);
+//   }
+//   100% {
+//     transform: translateY(8px);
+//   }
+// }
+// 
+// .float {
+//   animation-name: float, bob;
+//   animation-duration: 0.3s, 0.7s;
+//   animation-timing-function: ease-out, ease-in-out;
+//   animation-delay: 0s, 0.3s;
+//   animation-direction: normal, alternate;
+//   animation-iteration-count: 1, infinite;
+//   animation-fill-mode: forwards;
+// }
+// 
+// // * {
+// //   background: #000 !important;
+// //   color: #0f0 !important;
+// //   outline: solid #f00 1px !important;
+// // }
