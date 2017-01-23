@@ -1,5 +1,9 @@
-<div class="row splash">
-  <div class="col-md-6 splash__text">
+<div class="intro">
+  <div class="intro__picture">
+    <%= image_tag "peru.jpg", class: "animated fadeIn shadow" %>
+  </div>
+
+  <div class="intro__description">
     <h1 class="float"><b>Hi there,</b></h1>
     <h3>My name's Joseph.</h3>
     <h5><i>I like to code, play chess, and laugh.</i></h5>
@@ -11,21 +15,16 @@
       There was something about the creak of the pages, the texture of pressed sheets, and the scent of freshly printed paper that kept me hooked.
       I could read for hours completely immersed in my imagination.</p>
   </div>
-  <div class="col-md-6">
-    <%= image_tag "peru.jpg", class: "splash__picture animated fadeIn pull-right" %>
-  </div>
 </div>
 
 <hr>
 
 <div class="project__list">
-  <div class="row">
-    <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--browser" data-url="http://jumper-app.herokuapp.com">
-        <%= image_tag "jumper.png", class: "css-device__image" %>
-      </div>
+  <div class="project__list--item">
+    <div class="project__list--image">
+      <%= image_tag "jumper.png", class: "shadow" %>
     </div>
-    <div class="col-md-6 col-sm-12 project__list--label">
+    <div class="project__list--label">
       <h3>Jumper</h3>
       <h5>
         <p>Jumper is a collaborative project aimed towards rating team-orientated entertainment venues. Rock climbing, Escape the Room, and sky diving are some of the venues rated. Technologies used were Rails, Foundation, MiniTest and PostgreSQL.</p>
@@ -34,8 +33,8 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 col-sm-12 project__list--label">
+  <div class="project__list--item">
+    <div class="project__list--label">
       <h3>WingMe</h3>
       <h5>
         <p>WingMe is a dating app where instead of you matching yourself, your friends to match you.</p>
@@ -45,20 +44,16 @@
         Some other lessons learned were overriding Foundations fixed grid system with Masonry.js flexible grid system, and integrating Devise authentication with Facebook Authentication. The latter was my first experience getting two different API's to work together.</p>
       </h5>
     </div>
-    <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--browser" data-url="http://wingme.co">
-        <%= image_tag "wingme.png", class: "css-device__image" %>
-      </div>
+    <div class="project__list--image">
+      <%= image_tag "wingme.png", class: "shadow" %>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--tablet" data-url="">
-        <%= image_tag "csgo-mobile.png", class: "css-device__image" %>
-      </div>
+  <div class="project__list--item">
+    <div class="project__list--image">
+      <%= image_tag "csgo.png", class: "shadow" %>
     </div>
-    <div class="col-md-6 col-sm-12 project__list--label">
+    <div class="project__list--label">
       <h3>CS:GO Webcrawler</h3>
       <h5>
         <p>This webcrawler was a project for a good friend. The focus was to parse and export into a CSV win rates, items gambled, and who gambled the items</p>
@@ -68,8 +63,8 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 col-sm-12 project__list--label">
+  <div class="project__list--item">
+    <div class="project__list--label">
       <h3>Arcadia</h3>
       <h5>
         <p>Arcadia is a health care consulting company specializing in EHR data aggregation and advanced analytics.</p>
@@ -77,20 +72,16 @@
         <p>Some sample queries I created used joins to link tables together. Queries would filter for certain results sucuh as NULL patient ID's, or “Test Accounts” by using wildcard characters. Informatica Cloud Agents were used to transfer data over. These lightweight clients would create secure SSH tunnels and transfer encrypted data locked with public and private keys.</p>
       </h5>
     </div>
-    <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--browser" data-url="">
-        <%= image_tag "arcadia.png", class: "css-device__image" %>
-      </div>
+    <div class="project__list--image">
+      <%= image_tag "arcadia.png", class: "shadow" %>
     </div>
   </div>
   
-  <div class="row">
-    <div class="col-md-6 col-sm-12 project__list--image">
-      <div class="css-device css-device--browser" data-url="http://mackeyllc.com">
-        <%= image_tag "mackey.png", class: "css-device__image" %>
-      </div>
+  <div class="project__list--item">
+    <div class="project__list--image">
+      <%= image_tag "mackey.png", class: "shadow" %>
     </div>
-    <div class="col-md-6 col-sm-12 project__list--label">
+    <div class="project__list--label">
       <h3>Mackey LLC</h3>
       <h5>Currently I'm hacking away here as a Software Engineer.</h5>
       <h5>I do anything ranging from adding features, addressing custom client requests, or adding flashy SASS + jQuery effects.</h5>

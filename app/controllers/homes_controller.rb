@@ -1,14 +1,15 @@
 class HomesController < ApplicationController
   
+  def blog
+    redirect_to "/index.html"
+  end
+  
   def homepage
   end
 
   def projects
   end
 
-  def blog
-  end
-  
   def about
   end  
 
@@ -26,6 +27,5 @@ class HomesController < ApplicationController
 
   def mackey
   end
-
 
 end

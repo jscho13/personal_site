@@ -1,10 +1,10 @@
 <footer class="site-footer">
   <div class="wrapper">
-    <h3 class="footer-heading">{{ site.title }}</h3>
+    <h3>{{ site.title }}</h3>
     <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
-      <ul class="pages">
+      <ul>
         <li class="nav-link"><a href="/about/">About</a>
         <li class="nav-link"><a href="/posts/">Archives</a>
         <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
@@ -18,11 +18,11 @@
     </div>
     <div class="site-contact">
       <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
+      <ul>
         <li>
           <a href="mailto:{{ site.email }}">
             <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
+            <span>{{ site.email }}</span>
           </a>
         </li>
         {% for social in site.social %}
@@ -30,7 +30,7 @@
           <li>
             <a href="{{ social.url }}" title="{{ social.desc }}">
               <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
+              <span>{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
             </a>
           </li>
           {% endif %}
@@ -38,8 +38,8 @@
       </ul>
     </div>
     <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" }}">via RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
+      <p><strong>Subscribe <a href="{{ "/feed.xml" }}">via RSS</a></strong></p>
+      <p>{{ site.description }}</p>
     </div>
   </div>
 

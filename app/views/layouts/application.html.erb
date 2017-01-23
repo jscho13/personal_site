@@ -7,46 +7,69 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <div class="navbar__item--left">
-        <a href="/" alt="millennial personal finance"><h3>Blog</h3></a>
-      </div>
-      <div class="navbar__item--right">
-        <a href="/about"><h3>About</h3></a>
-      </div>
+
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="logo">
+      <li class="nav-link"><a href="/">Home</a></li>
     </div>
-  </nav>
+    
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="/about/">About</a></li>
+        <li class="nav-link">
+          <a href="/posts/">Categories</a>
+          <div class="dropdown-content">
+            <p><a href="/category/budgeting/">Budgeting</a></p>
+            <p><a href="/category/credit/">Credit</a></p>
+            <p><a href="/category/investing/">Investing</a></p>
+            <p><a href="/category/retirement/">Retirement</a></p>
+            <p><a href="/category/savings/">Savings</a></p>
+          </div>
+        </li>
+        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+          <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
+          </form>
+        </li>
+        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li>         -->
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <span class="notice"><%= notice %></span>
+  <span class="alert"><%= alert %></span>
     
   <div class="container">
     <%= yield %>  
   </div>
     
-  <footer>
-    <div class="container">
-      <div class="row">
-        <a href="https://www.linkedin.com/in/jscho13" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-linkedin fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="https://github.com/jscho13" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="https://twitter.com/jscho13" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x"></i>
-          </span>
-        </a>
-        <span>© 2016 by Joseph Cho. All Rights Reserved.</span>
-      </div>
-    </div>
+  <footer class="aboutme__footer">
+    <a href="https://www.linkedin.com/in/jscho13" target="_blank">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x"></i>
+      </span>
+    </a>
+    <a href="https://github.com/jscho13" target="_blank">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x"></i>
+      </span>
+    </a>
+    <a href="https://twitter.com/jscho13" target="_blank">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+      </span>
+    </a>
+    <span>© 2016 by Joseph Cho. All Rights Reserved.</span>
   </footer>
 </body>
 </html>

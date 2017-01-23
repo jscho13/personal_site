@@ -42,7 +42,7 @@
   
 
   <!-- Site styles -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/assets/application.css">
   <link rel="canonical" href="http://brunchbucks.com/budgeting/2016/10/18/budgeting-tips.html">
   <link rel="alternate" type="application/atom+xml" title="BrunchBucks" href="http://brunchbucks.com/feed.xml" />
   
@@ -73,13 +73,23 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/posts/">Archives</a></li>
+        <li class="nav-link">
+          <a href="/posts/">Categories</a>
+          <div class="dropdown-content">
+            <p><a href="/category/budgeting/">Budgeting</a></p>
+            <p><a href="/category/credit/">Credit</a></p>
+            <p><a href="/category/investing/">Investing</a></p>
+            <p><a href="/category/retirement/">Retirement</a></p>
+            <p><a href="/category/savings/">Savings</a></p>
+          </div>
+        </li>
         <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
         </li>
+        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li>         -->
       </ul>
     </nav>
   </div>
@@ -87,8 +97,6 @@
 
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
-  
-
   
 
   
@@ -280,11 +288,11 @@
 
     <footer class="site-footer">
   <div class="wrapper">
-    <h3 class="footer-heading">BrunchBucks</h3>
+    <h3>BrunchBucks</h3>
     <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
-      <ul class="pages">
+      <ul>
         <li class="nav-link"><a href="/about/">About</a>
         <li class="nav-link"><a href="/posts/">Archives</a>
         <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
@@ -298,11 +306,11 @@
     </div>
     <div class="site-contact">
       <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
+      <ul>
         <li>
           <a href="mailto:jscho13@gmail.com">
             <i class="fa fa-envelope-o"></i>
-            <span class="username">jscho13@gmail.com</span>
+            <span>jscho13@gmail.com</span>
           </a>
         </li>
         
@@ -310,7 +318,7 @@
           <li>
             <a href="https://github.com/jscho13" title="Check out my other projects">
               <i class="fa fa-github"></i>
-              <span class="username">jscho13</span>
+              <span>jscho13</span>
             </a>
           </li>
           
@@ -319,7 +327,7 @@
           <li>
             <a href="https://www.linkedin.com/in/jscho13" title="Connect with me on LinkedIn">
               <i class="fa fa-linkedin"></i>
-              <span class="username">Joseph Cho</span>
+              <span>Joseph Cho</span>
             </a>
           </li>
           
@@ -330,7 +338,7 @@
           <li>
             <a href="https://soundcloud.com/xjoecho/likes" title="Listen to my favorite tunes">
               <i class="fa fa-soundcloud"></i>
-              <span class="username">xjoecho</span>
+              <span>xjoecho</span>
             </a>
           </li>
           
@@ -338,8 +346,8 @@
       </ul>
     </div>
     <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
-      <p class="text">BrunchBucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</p>
+      <p><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p>BrunchBucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</p>
     </div>
   </div>
 
