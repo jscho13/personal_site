@@ -14,17 +14,15 @@
  */
 
 @import "animate";
-@import "css-device-mockup";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
 @import "layout";
+@import "aboutme";
 
-/* =============================================================================
-  ANIMATIONS
-============================================================================= */
 @keyframes float {
   100% {
     transform: translateY(0);
@@ -49,82 +47,27 @@
   animation-fill-mode: forwards;
 }
 
-// $blue: #2980b9;				// Belize Hole
-/* =============================================================================
-  LANDING PAGE STUFF
-============================================================================= */
-.intro {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  max-width: 55em;
-  
-  .intro__picture {
-    width: 50%;
-    img {
-      border-radius: 25px;
-      height: 350px;      
-    }
-  }
-
-  .intro__description {
-    width: 50%;
-  }
+.shadow {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-// /* =============================================================================
-//   BASE LAYOUT STUFF
-// ============================================================================= */
-// 
-// /* =============================================================================
-//   CONTAINERS
-// ============================================================================= */
-// .project__list--label {
-//   padding: 0 1em;
-// }
-// 
-// .project__list {
-//   padding-bottom: 3em;
-//   
-//   .row {
-//     padding: 1.5em;
-//   }
-// }
-// 
-// /* =============================================================================
-//   FOOTER STUFF
-// ============================================================================= */
-// footer {
-//   text-align: right;
-//   padding: 1em 0;
-//   background-color: #fff;
-//   
-//   a:hover {
-//     color: $blue;
-//   }
-// }
-// 
-// /* =============================================================================
-//   LINKS
-// ============================================================================= */
-// a {
-//   /* First we need to help some browsers along for this to projects.
-//      Just because a vendor prefix is there, doesn't mean it will
-//      projects in a browser made by that vendor either, it's just for
-//      future-proofing purposes I guess. */
-//   -o-transition:.5s;
-//   -ms-transition:.5s;
-//   -moz-transition:.5s;
-//   -webkit-transition:.5s;
-//   /* ...and now for the proper property */
-//   transition:.5s;
-// }
-// 
-// a:hover {
-//   text-decoration: none;
-// }
-// 
+a {
+  /* First we need to help some browsers along for this to projects.
+     Just because a vendor prefix is there, doesn't mean it will
+     projects in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 // * {
 //   background: #000 !important;
 //   color: #0f0 !important;
