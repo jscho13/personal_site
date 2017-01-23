@@ -23,6 +23,11 @@
 @import "layout";
 @import "aboutme";
 
+.container {
+  margin: auto;
+  max-width: 55em;
+}
+
 @keyframes float {
   100% {
     transform: translateY(0);
