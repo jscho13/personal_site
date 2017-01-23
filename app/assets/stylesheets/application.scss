@@ -22,27 +22,53 @@
 @import "neat/neat";
 @import "layout";
 
+/* =============================================================================
+  ANIMATIONS
+============================================================================= */
+@keyframes float {
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+.float {
+  animation-name: float, bob;
+  animation-duration: 0.3s, 0.7s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-delay: 0s, 0.3s;
+  animation-direction: normal, alternate;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+}
+
 // $blue: #2980b9;				// Belize Hole
+// /* =============================================================================
+//   LANDING PAGE STUFF
+// ============================================================================= */
+// .splash {
+//   padding-top: 2em;
+// }
+// 
+// .splash__text {
+//   float: left;
+// }
+// 
+// .splash__picture {
+//   border-radius: 25px;
+//   height: 400px;
+// }
 // 
 // /* =============================================================================
 //   BASE LAYOUT STUFF
 // ============================================================================= */
-// 
-// html {
-//   background: white;
-// }
-// 
-// hr {
-//   margin: 0.5em;
-// }
-// 
-// h1 {
-//   font-family: 'Roboto', sans-serif;
-// }
-// 
-// h3 {
-//   font-family: 'Open Sans', sans-serif;
-// }
 // 
 // /* =============================================================================
 //   CONTAINERS
@@ -60,7 +86,7 @@
 // }
 // 
 // /* =============================================================================
-//   FOOTER STUFF1
+//   FOOTER STUFF
 // ============================================================================= */
 // footer {
 //   text-align: right;
@@ -70,22 +96,6 @@
 //   a:hover {
 //     color: $blue;
 //   }
-// }
-// 
-// /* =============================================================================
-//   LANDING PAGE STUFF
-// ============================================================================= */
-// .splash {
-//   padding-top: 2em;
-// }
-// 
-// .splash__text {
-//   float: left;
-// }
-// 
-// .splash__picture {
-//   border-radius: 25px;
-//   height: 400px;
 // }
 // 
 // /* =============================================================================
@@ -108,35 +118,8 @@
 //   text-decoration: none;
 // }
 // 
-// /* =============================================================================
-//   ANIMATIONS
-// ============================================================================= */
-// @keyframes float {
-//   100% {
-//     transform: translateY(0);
-//   }
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
 // }
-// @keyframes bob {
-//   0% {
-//     transform: translateY(0);
-//   }
-//   100% {
-//     transform: translateY(8px);
-//   }
-// }
-// 
-// .float {
-//   animation-name: float, bob;
-//   animation-duration: 0.3s, 0.7s;
-//   animation-timing-function: ease-out, ease-in-out;
-//   animation-delay: 0s, 0.3s;
-//   animation-direction: normal, alternate;
-//   animation-iteration-count: 1, infinite;
-//   animation-fill-mode: forwards;
-// }
-// 
-// // * {
-// //   background: #000 !important;
-// //   color: #0f0 !important;
-// //   outline: solid #f00 1px !important;
-// // }
