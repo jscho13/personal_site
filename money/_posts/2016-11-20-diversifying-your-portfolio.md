@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Diversifying Your Portfolio - Part 1"
-date:   2016-11-20 21:02:00 -0400
+date:   2016-11-20 21:02:00
 categories: investing
 cover: cover/diversify_portfolio_1.jpg
 ---
@@ -30,4 +30,4 @@ There's a great [video](http://www.investopedia.com/video/play/stocks-versus-bon
 ### Optimizing Your Portfolio
 Diversifying your portfolio works wonders because not all the action happens in one place. Here we covered covered two of the most common investment options to understand the subtle differences between each other. [Part 2](http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html) covers other ways portfolio start to vary such as different sized companies, domestic/foreign stocks, savings accounts, CD's, and bonds. They're all tools with their own purpose once we hit certain money milestones. Congratulations to those who have covered all these bases and can consider their portfolios well-rounded.
 
-Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.

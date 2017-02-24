@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Money Milestones
-date:   2017-01-01 12:00:00 -0400
+date:   2017-01-01 12:00:00
 categories: [savings, retirement]
 cover: cover/money_milestones.jpg
 ---
@@ -36,4 +36,4 @@ I've already written an overview of IRA's, 401k's and their nuances in [this](ht
 ### Savings/Investments
 If you're fortunate enough to still have cash flow for further investments, you can begin planning for other goals. Some common options to consider are automated investors like [Wealthfront](http://wlth.fr/1Hgmvnr){:rel="nofollow" alt="Wealthfront link"}, a backdoor Roth IRA if you're over the income limit to contribute, Health Savings Account (HSA), or a college savings account (529 Plan).
 
-Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.

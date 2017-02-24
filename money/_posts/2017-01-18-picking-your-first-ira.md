@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Picking an IRA Account for 2017
-date:   2017-01-18 01:18:00 -0400
+date:   2017-01-18 01:18:00
 categories: retirement
 cover: cover/picking_first_ira.jpg
 ---
@@ -48,4 +48,4 @@ The table below provides a boiled down comparison of our three mutual funds base
 
 In terms of pure numbers the clear financial winner is Vanguard. The combination of a low account minimums and low expense ratios makes it easy to begin investing with the best bang for buck. Low expense ratios are a double whammy of less money being shelled out to funds, and having more cash offhand to invest! Some weak points lie in the lack of diversification in the portfolio and heavy emphasis on international stock.
 
-Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Your First Investment Purchase"
-date:   2016-10-31 22:40:00 -0400
+date:   2016-10-31 22:40:00
 categories: investing
 cover: cover/first_investment_purchase.jpg
 ---
@@ -43,4 +43,4 @@ While it's possible to get excellent returns from investing in particular stocks
 
 Once you've gotten the ball rolling towards a stable financial future, take another step. We've already started diversifying our portfolios with a good index fund choice, but we can also learn more about the importance of diversifying your portfolio [here](http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html).
 
-Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.

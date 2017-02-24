@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Picking Between Roth and Traditional 401(k)'s/IRAs
-date:   2016-12-16 21:12:00 -0400
+date:   2016-12-16 21:12:00
 categories: retirement
 cover: cover/roth_vs_traditional.jpeg
 ---
@@ -56,4 +56,4 @@ A common factor in determining how you want to be taxed is your age and salary p
 
 Keep in mind that the ideal situation is to contribute to both accounts. Props to those who are able to hit the contribution maximum for both 401ks and IRAs. Since both accounts offer some sort of tax benefit that supplements the other, having both accounts is another example of way it's key to properly [diversify your portfolio](http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html).
 
-Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends. Any donations are much appreciated.
+Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.
