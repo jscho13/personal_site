@@ -1,4 +1,6 @@
-// Primary site layout for Centrarium Theme
+// Primary site layout for Centrarium Theme.
+// Organized by "Variables", "Globals", etc.
+
 /*
 *	Variables
 */
@@ -450,5 +452,23 @@ pre code.hljs {
 		a {
 			text-decoration: underline;
 		}
+	}
+}
+
+/*
+*	Archives
+*/
+.archives {
+	hr {
+		margin: 0;
+	}
+	
+	ul {
+		list-style-type: none;
+		padding-left: 3em;
+	}
+	
+	h3 {
+		padding-left: 1em;
 	}
 }

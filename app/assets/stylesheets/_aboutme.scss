@@ -1,40 +1,48 @@
-.intro {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+$b3: 480px;
+$mobile: $b3;
+$b2: 768px;
+$tablet: $b2;
+$b1: 960px;
+$desktop: $b1;
+
+.aboutme__container {
+  @include clearfix;
   margin: auto;
   max-width: 55em;
-  
-  .intro__picture {
-    width: 50%;
-    img {
-      border-radius: 25px;
-      height: 350px;      
-    }
-  }
+}
 
-  .intro__description {
-    width: 50%;
+.intro__picture {
+  img {
+    border-radius: 25px;
+  }
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
   }
 }
 
-.project__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 3em;
-  margin-right: 3em;
+.intro__description {
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
 }
 
 .project__list--label {
   float: left;
   padding: 1em;
-  width: 50%;
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
 }
 
 .project__list--image {
   float: left;
-  width: 45%;
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
 }
 
 .aboutme__footer {
