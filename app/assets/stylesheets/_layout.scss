@@ -39,6 +39,11 @@ pre code.hljs {
 	font-size: modular-scale(-1);
 }
 
+// Used like
+// <span class="page-divider">
+// 	<span class="one"></span>
+// 	<span class="two"></span>
+// </span>
 .page-divider {
 	$divider-color: $light-gray;
   display: block;
@@ -46,6 +51,7 @@ pre code.hljs {
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid $divider-color;
+	// It's making a tiny box and putting it up over the hr
   .one {
     position: relative;
     top: -9px;
@@ -55,7 +61,7 @@ pre code.hljs {
     height: 18px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    border-radius: 100%;
   }
   .two {
     position: relative;

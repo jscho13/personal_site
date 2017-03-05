@@ -39,9 +39,8 @@
     <span class="notice"><%= notice %></span>
     <span class="alert"><%= alert %></span>
 
-    <div class="aboutme__container">
-      <!-- This container is probably extraneous. -->
-      <div class="container">
+    <div class="container">
+      <div class="intro__container">
         <div class="intro__picture">
           <%= image_tag "peru.jpg", class: "animated fadeIn shadow" %>
         </div>
@@ -61,74 +60,71 @@
 
       <hr>
       
-      <!-- This container is probably extraneous. -->
-      <div class="container">
-        <div class="project__list--item">
-          <div class="project__list--image">
-            <%= image_tag "jumper.png", class: "shadow" %>
-          </div>
-          <div class="project__list--label">
-            <h3>Jumper</h3>
-            <h5>
-              <p>Jumper was a collaborative project aimed towards reviewing team-orientated entertainment venues. Rock climbing, Escape the Room, sky diving, and paintball are examples of fun group activity venues. Some pieces of technology used were Rails, Foundation, MiniTest and PostgreSQL.</p>
-              <p>Key experiences I took away from this project was leading a small team of three junior developers. Particularly we expanded on our css knowledge of positioning high res videos as a background, and animations.</p>
-            </h5>
-          </div>
+      <div class="project__list--item">
+        <div class="project__list--image">
+          <%= image_tag "jumper.png", class: "shadow" %>
         </div>
+        <div class="project__list--label">
+          <h3>Jumper</h3>
+          <h5>
+            <p>Jumper was a collaborative project aimed towards reviewing team-orientated entertainment venues. Rock climbing, Escape the Room, sky diving, and paintball are examples of fun group activity venues. Some pieces of technology used were Rails, Foundation, MiniTest and PostgreSQL.</p>
+            <p>Key experiences I took away from this project was leading a small team of three junior developers. Particularly we expanded on our css knowledge of positioning high res videos as a background, and animations.</p>
+          </h5>
+        </div>
+      </div>
 
-        <div class="project__list--item">
-          <div class="project__list--label">
-            <h3>WingMe</h3>
-            <h5>
-              <p>WingMe is a dating app where instead of you matching yourself, your friends match you.</p>
-              <p>It's a project aimed at helping singles connect in the most organic way possible - through people you already know.
-              Particular gems I experimented with were Masonry.js, Devise, Kaminari, PG Search, and Facebook API Authentication.</p>
-              <p>A key challenge was creating user-to-user (self-referential) associations for a friend and match system. Referencing another user required some ActiveRecord trickery, since users could consider someon a friend but necessairily the other way.
-              Other interesting problems tackled was overriding Foundations fixed grid system with Masonry's flexible grid system. Integrating Devise authentication with Facebook Authentication was also a first-hand experience with another API.</p>
-            </h5>
-          </div>
-          <div class="project__list--image">
-            <%= image_tag "wingme.png", class: "shadow" %>
-          </div>
+      <div class="project__list--item">
+        <div class="project__list--label">
+          <h3>WingMe</h3>
+          <h5>
+            <p>WingMe is a dating app where instead of you matching yourself, your friends match you.</p>
+            <p>It's a project aimed at helping singles connect in the most organic way possible - through people you already know.
+            Particular gems I experimented with were Masonry.js, Devise, Kaminari, PG Search, and Facebook API Authentication.</p>
+            <p>A key challenge was creating user-to-user (self-referential) associations for a friend and match system. Referencing another user required some ActiveRecord trickery, since users could consider someon a friend but necessairily the other way.
+            Other interesting problems tackled was overriding Foundations fixed grid system with Masonry's flexible grid system. Integrating Devise authentication with Facebook Authentication was also a first-hand experience with another API.</p>
+          </h5>
         </div>
+        <div class="project__list--image">
+          <%= image_tag "wingme.png", class: "shadow" %>
+        </div>
+      </div>
 
-        <div class="project__list--item">
-          <div class="project__list--image">
-            <%= image_tag "csgo.png", class: "shadow" %>
-          </div>
-          <div class="project__list--label">
-            <h3>CS:GO Webcrawler</h3>
-            <h5>
-              <p>This webcrawler was a project for a good friend. It parses and extracts Counter Strike: Global Offensive win rates, valuable items being bet, and who gambled the particular item into a CSV file.</p>
-              <p>An interesting problem I encountered was how to architect the data in an easy to manipulate way. When iterating through the websites I wavered between storing information in an array of hashes or an array of objects. An array of objects was chosen because it would have easier scalability. It’s significantly easier to manipulate objects as opposed to hashes in Ruby.
-              <p>On this project I took my first dive into Nokogiri and Xpath. The XML/HTML parsing functions Nokogiri offered helped pick out usernames and items. The extraction code was placed inside of a loop that executed over an interval and pushed the information to Google Docs. DOM manipulation was a key skill for the completion of this program.</p>
-            </h5>
-          </div>
+      <div class="project__list--item">
+        <div class="project__list--image">
+          <%= image_tag "csgo.png", class: "shadow" %>
         </div>
+        <div class="project__list--label">
+          <h3>CS:GO Webcrawler</h3>
+          <h5>
+            <p>This webcrawler was a project for a good friend. It parses and extracts Counter Strike: Global Offensive win rates, valuable items being bet, and who gambled the particular item into a CSV file.</p>
+            <p>An interesting problem I encountered was how to architect the data in an easy to manipulate way. When iterating through the websites I wavered between storing information in an array of hashes or an array of objects. An array of objects was chosen because it would have easier scalability. It’s significantly easier to manipulate objects as opposed to hashes in Ruby.
+            <p>On this project I took my first dive into Nokogiri and Xpath. The XML/HTML parsing functions Nokogiri offered helped pick out usernames and items. The extraction code was placed inside of a loop that executed over an interval and pushed the information to Google Docs. DOM manipulation was a key skill for the completion of this program.</p>
+          </h5>
+        </div>
+      </div>
 
-        <div class="project__list--item">
-          <div class="project__list--label">
-            <h3>Arcadia</h3>
-            <h5>
-              <p>Arcadia is a health care consulting company specializing in EHR data aggregation and advanced analytics.</p>
-              <p>I spent time here as a SQL Data Analyst and made queries that spanned across various healthcare databases. I picked up a ton of variations of SQL. T-SQL for Microsoft SQL Server Studio, P/L-SQL from Oracle, and using Informatica Cloud Software.</p>
-              <p>Some sample queries used a combination of joins and unions to link tables together. Queries would filter for certain results like NULL patient ID's, or abnormal health information. Informatica Cloud Agents were lightweight clients used to encrypt private health information, transfer it over secure SSH tunnels, and decrypt data locked with public and private keys.</p>
-            </h5>
-          </div>
-          <div class="project__list--image">
-            <%= image_tag "arcadia.png", class: "shadow" %>
-          </div>
+      <div class="project__list--item">
+        <div class="project__list--label">
+          <h3>Arcadia</h3>
+          <h5>
+            <p>Arcadia is a health care consulting company specializing in EHR data aggregation and advanced analytics.</p>
+            <p>I spent time here as a SQL Data Analyst and made queries that spanned across various healthcare databases. I picked up a ton of variations of SQL. T-SQL for Microsoft SQL Server Studio, P/L-SQL from Oracle, and using Informatica Cloud Software.</p>
+            <p>Some sample queries used a combination of joins and unions to link tables together. Queries would filter for certain results like NULL patient ID's, or abnormal health information. Informatica Cloud Agents were lightweight clients used to encrypt private health information, transfer it over secure SSH tunnels, and decrypt data locked with public and private keys.</p>
+          </h5>
         </div>
-        
-        <div class="project__list--item">
-          <div class="project__list--image">
-            <%= image_tag "mackey.png", class: "shadow" %>
-          </div>
-          <div class="project__list--label">
-            <h3>Mackey LLC</h3>
-            <h5>Currently I'm hacking away here as a Software Engineer.</h5>
-            <h5>I do anything ranging from adding features in Ruby, addressing custom client requests with HTML/CSS/jQuery, revamping pages in Elm, or tweaking services in Haskell.</h5>
-          </div>
+        <div class="project__list--image">
+          <%= image_tag "arcadia.png", class: "shadow" %>
+        </div>
+      </div>
+      
+      <div class="project__list--item">
+        <div class="project__list--image">
+          <%= image_tag "mackey.png", class: "shadow" %>
+        </div>
+        <div class="project__list--label">
+          <h3>Mackey LLC</h3>
+          <h5>Currently I'm hacking away here as a Software Engineer.</h5>
+          <h5>I do anything ranging from adding features in Ruby, addressing custom client requests with HTML/CSS/jQuery, revamping pages in Elm, or tweaking services in Haskell.</h5>
         </div>
       </div>
     </div>
