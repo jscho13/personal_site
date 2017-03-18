@@ -1,5 +1,5 @@
 Rails.application.config.after_initialize do
-  Rails.logger = Logger.new(STDOUT)
+  Rails.logger = ActiveSupport::TaggedLogging.new(ActiveSupport::Logger.new(STDOUT))
   begin
     # make a spot for the site
     dest = Rails.root.join('public/blog')
