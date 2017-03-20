@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
+  mount Payola::Engine => '/payola', as: :payola
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   devise_for :users
-  resources :posts
-  resources :posts do
-    resources :comments, :only => [:create]
-  end
+  resources :premiums
 
   # You can have the root of your site routed with "root"
   root to: "homes#blog"
