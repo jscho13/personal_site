@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170319235226) do
+ActiveRecord::Schema.define(version: 20170322020202) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "post_id"
@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(version: 20170319235226) do
     t.datetime "updated_at",               null: false
   end
 
-  create_table "premia", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "premiums", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "price"
     t.string   "name"
     t.string   "permalink"
@@ -145,6 +145,7 @@ ActiveRecord::Schema.define(version: 20170319235226) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "sale_id"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end

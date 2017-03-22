@@ -1,6 +1,6 @@
-class CreatePremia < ActiveRecord::Migration[5.0]
+class CreatePremiums < ActiveRecord::Migration[5.0]
   def change
-    create_table :premia do |t|
+    create_table :premiums do |t|
       t.integer :price
       t.string :name
       t.string :permalink
