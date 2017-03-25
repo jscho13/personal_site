@@ -11,5 +11,7 @@ module PersonalBlog
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    Rails.application.config.active_record.belongs_to_required_by_default = false
+    Rails.application.config.active_record.raise_in_transactional_callbacks = true
   end
 end

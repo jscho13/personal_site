@@ -1,13 +1,15 @@
 Payola.configure do |config|
   config.send_email_for :receipt, :admin_receipt
 
-  config.secret_key = 'sk_test_kX7g56t4EViisURoZze6iq9O'
-  config.publishable_key = 'pk_test_FLS9hTja1Bbd8nChgS9BLPn8'
-  
-  # config.secret_key = ENV["TEST_STRIPE_SECRET_KEY"]
-  # config.publishable_key = ENV["TEST_STRIPE_PUBLISHABLE_KEY"]
-  # config.secret_key = ENV["LIVE_STRIPE_SECRET_KEY"]
-  # config.publishable_key = ENV["LIVE_STRIPE_PUBLISHABLE_KEY"]
+  if ENV["RAILS_ENV"] == "development" || ENV["RAILS_ENV"] == "test"
+    config.secret_key = 'sk_test_kX7g56t4EViisURoZze6iq9O'
+    config.publishable_key = 'pk_test_FLS9hTja1Bbd8nChgS9BLPn8'
+  end
+
+  if ENV["RAILS_ENV"] == "production"
+    config.secret_key = ENV["LIVE_STRIPE_SECRET_KEY"]
+    config.publishable_key = ENV["LIVE_STRIPE_PUBLISHABLE_KEY"]
+  end
 
   # Example subscription:
   # 
@@ -31,9 +33,7 @@ Payola.configure do |config|
   end
   
   config.charge_verifier = lambda do |sale, custom_fields|
-    raise "Improper sale!" unless sale.user_id
-
-    customer = User.find(custom_fields[:user_id])
+    customer = User.find(custom_fields[:user_id]) 
     customer.sale_id = sale.guid
     customer.save!
     sale.owner = customer

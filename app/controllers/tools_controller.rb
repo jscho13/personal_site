@@ -6,8 +6,8 @@ class ToolsController < ApplicationController
   end
   
   def validate_premium_access
-    if current_user.sale_id.empty?
-      return false
+    if current_user.sale_id.nil?
+      redirect_to premiums_path
     else
       return true
     end
