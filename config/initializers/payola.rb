@@ -30,9 +30,9 @@ Payola.configure do |config|
     sale.refund! unless sale.refunded?
   end
   
-  config.charge_verifier = 'payola.sale.finished' do |sale, custom_fields|
+  config.charge_verifier = lambda do |sale, custom_fields|
     raise "Improper sale!" unless sale.user_id
-    
+
     customer = User.find(custom_fields[:user_id])
     customer.sale_id = sale.guid
     customer.save!
