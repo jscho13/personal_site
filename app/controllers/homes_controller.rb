@@ -5,7 +5,7 @@ class HomesController < ApplicationController
   end
 
   def about
-    render "homes/about", :layout => false
+    render "homes/about"
   end  
 
 end

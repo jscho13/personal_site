@@ -19,7 +19,7 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/tools/">Tools</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
@@ -29,15 +29,17 @@
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
         </li>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li>         -->
       </ul>
     </nav>
   </div>
 </header>
 
 <body>
-  <span class="notice"><%= notice %></span>
-  <span class="alert"><%= alert %></span>
+  <% if notice %>
+    <span class="notice"><%= notice %></span>
+  <% elsif alert %>
+    <span class="alert"><%= alert %></span>
+  <% end %>
     
   <div class="container">
     <%= yield %>

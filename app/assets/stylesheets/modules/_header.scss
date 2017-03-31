@@ -1,0 +1,8 @@
+.alert, .notice {
+  align-items: center;
+  background: $green;
+  color: $white;
+  display: flex;
+  height: 2.5em;
+  justify-content: center;
+}
