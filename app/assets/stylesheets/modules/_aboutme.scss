@@ -62,7 +62,8 @@ $desktop: $b1;
 .aboutme__footer {
   background-color: #2f2f2f;
   color: white;
-  padding: 1em;
+  padding: 1em 1em 1.1em 1em;
+  position: relative;
   text-align: right;
   
   a {

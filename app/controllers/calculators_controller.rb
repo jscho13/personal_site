@@ -1,4 +1,4 @@
-class ToolsController < ApplicationController
+class CalculatorsController < ApplicationController
   before_action :authenticate_user!
   before_action :validate_premium_access
   

@@ -29,6 +29,10 @@
   max-width: 55em;
 }
 
+.full-page {
+  min-height: 85%;  
+}
+
 @keyframes float {
   100% {
     transform: translateY(0);
