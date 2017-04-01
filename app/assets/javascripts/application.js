@@ -18,3 +18,20 @@
 // $( document ).ready(function() {
 //   $('body').attr('height',$(window).height());
 // });
+
+$(document).ready(function() {
+  // Header:
+  // First two lines cleans menu toggle
+  // On click handler slides the menu
+  // If menu is already hidden remove the hidden styling  
+  var menuToggle = $('#js-mobile-menu').off();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
