@@ -1,4 +1,4 @@
-class CalculatorsController < ApplicationController
+class FeaturesController < ApplicationController
   before_action :authenticate_user!
   before_action :validate_premium_access
   
@@ -7,7 +7,7 @@ class CalculatorsController < ApplicationController
   
   def validate_premium_access
     if current_user.sale_id.nil?
-      redirect_to premiums_path
+      redirect_to premium_path
     else
       return true
     end

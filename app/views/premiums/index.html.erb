@@ -1,5 +1,8 @@
-<% if current_user.sale_id.nil? %>
-  <%= render 'payola/transactions/checkout', sellable: Premium.first, custom_fields: { user_id: current_user.id } %>
-<% else %>
-    You've already purchased premium access!
-<% end %>
+<div>
+  <% if current_user.sale_id.nil? %>
+    
+    <%= render 'payola/transactions/checkout', sellable: Premium.first, custom_fields: { user_id: current_user.id } %>
+  <% else %>
+      You've already purchased premium access!
+  <% end %>
+</div>
