@@ -1,8 +1,13 @@
-<div>
-  <% if current_user.sale_id.nil? %>
-    
-    <%= render 'payola/transactions/checkout', sellable: Premium.first, custom_fields: { user_id: current_user.id } %>
-  <% else %>
-      You've already purchased premium access!
-  <% end %>
-</div>
+<% if current_user.sale_id.nil? %>
+  <div class="site-header-container" style="background-image: url('/assets/blog/coffee_work.jpg');">
+    <div class="scrim">
+      <header class="site-header">
+        <h1 class="title">Track Your Money</h1>
+        <p class="subtitle">Keep an eye on your daily spending habits with an intuitive system, instant feedback, and rich visualizations.</p>
+      </header>
+    </div>
+  </div>    
+  <%= render 'payola/transactions/checkout', sellable: Premium.first, custom_fields: { user_id: current_user.id }, id: "paynow" %>
+<% else %>
+    You've already purchased premium access!
+<% end %>
