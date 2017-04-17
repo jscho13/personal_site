@@ -4,6 +4,7 @@ title:  "The Trick To Hitting Your Budget"
 date:   2016-10-18 22:03:00
 categories: budgeting
 cover: cover/trick_to_hitting_budget.jpg
+permalink: /hitting-your-budget/
 ---
 During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. With no all-encompassing "correct" budget, it can be tough to figure out what fits your needs best. Luckily with a little time and attention you can begin to craft a plan that suits your own personal needs.
 
@@ -13,14 +14,14 @@ There are a couple of ways to outline your first budget, but for me effective bu
 Zero-based budgeting is a method that gives every dollar you earn a purpose. To start you need two numbers:
 
 * Your total income (the total amount of money you earn)
-* Your total expenses (the sum of your spendings, including [money that's been saved](http://brunchbucks.com/budget/2016/12/10/saved-money-is-spent-money.html))
+* Your total expenses (the sum of your spendings, including [money that's been saved](http://brunchbucks.com/budget/saved-money-is-spent-money.html))
 
 Lets say you make $2,000 a month. For an effective budget all of that cash needs to be assigned a task or have some sort of goal. Note that for a zero-based budget to work you need to keep proper track of all of your expenses. Rent, groceries, cash purchases, and savings transfers can be tough to keep track of, so I recommend a budgeting tools like Mint or YNAB to help keep track.
 
 ### Why's it useful?
 Plenty of people maintain a budget without zero-based budgeting, but I find it's significantly harder to respect your budgets limit when there's unfocused money. When 100% of income is delegated a task, we become less likely to go over a particular budgeted category. When I created my first preliminary budget I noticed I would frequently overspend in a key categories. Money would continue to pour into concert tickets, alcohol, and entertainment activities even after I hit my limit. Looking back, this happened because I had unfocused money, and knew I could get away with splurging a bit extra.
 
-Zero-based budgeting prevents that extra padding that can serve as an alluring rationale to go over budget. The "leftovers" that were intended for savings can quickly evaporate. I delegate my unbudgeted income towards productive outlets such as [IRA's](http://brunchbucks.com/retirement/2016/12/17/roth-vs-traditional/) or [mutual fund investments](http://brunchbucks.com/investing/2016/11/01/early-investing.html). With it, I noticed I started to consistently hit my budget. 
+Zero-based budgeting prevents that extra padding that can serve as an alluring rationale to go over budget. The "leftovers" that were intended for savings can quickly evaporate. I delegate my unbudgeted income towards productive outlets such as [IRA's](http://brunchbucks.com/retirement/roth-vs-traditional/) or [mutual fund investments](http://brunchbucks.com/investing/early-investing.html). With it, I noticed I started to consistently hit my budget. 
 
 There are studies that show zero-based budgeting can lead to a double whammy of paying off debt faster, and saving more money! I hope these reasons are enough to convince you that creating a zero-based budget goes a long way towards paving a stable financial future.
 
@@ -46,4 +47,4 @@ Creating an initial plan for [your first budget][building-a-budget] can feel int
 
 Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.
 
-[building-a-budget]: http://brunchbucks.com/budgeting/2016/10/19/budgeting-tips.html
+[building-a-budget]: http://brunchbucks.com/budgeting/budgeting-tips.html

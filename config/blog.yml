@@ -18,6 +18,7 @@ description: "BrunchBucks is aimed at helping others learn essential personal fi
 url: "http://brunchbucks.com"
 cover: "/assets/blog/coffee_work.jpg"
 logo: "/assets/logo.png"
+permalink: /:categories/:title.html
 
 # Build settings
 markdown: kramdown
