@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170420030845) do
+ActiveRecord::Schema.define(version: 20170421040038) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "post_id"
@@ -22,9 +22,11 @@ ActiveRecord::Schema.define(version: 20170420030845) do
 
   create_table "dsq_averages", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "user_id"
-    t.integer  "average"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "dsq_average"
+    t.integer  "allowable_spending"
+    t.integer  "days_left"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
     t.index ["user_id"], name: "fk_rails_88e3610efa", using: :btree
   end
 

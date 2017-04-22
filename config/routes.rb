@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'about' => 'homes#about'
   get 'features' => 'features#index'
   get 'premium' => 'premiums#index'
+
+  resources :dsq_averages
   
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

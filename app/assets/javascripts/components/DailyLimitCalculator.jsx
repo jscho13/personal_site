@@ -2,11 +2,12 @@ class DailyLimitCalculator extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      amount: 0,
-      days: 0,
-      dsq: 0
+      allowable_spending: 0,
+      days_left: 0,
+      dsq_average: 0
     }
     
+    // this.submitDsqAverage = this.submitDsqAverage.bind(this);
     this.updateAllowable = this.updateAllowable.bind(this);
     this.updateDaysLeft = this.updateDaysLeft.bind(this);
   }
@@ -14,20 +15,25 @@ class DailyLimitCalculator extends React.Component {
   componentDidMount() {
     date = new Date();
     daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate();
-    this.setState({days: daysLeft})
+    this.setState({days_left: daysLeft})
   }
   
   updateAllowable(event) {
     newAllowable = event.target.value;
-    let newDsq = newAllowable/this.state.days;
-    this.setState({dsq: newDsq, amount: newAllowable});
+    let newDsq = newAllowable/this.state.days_left;
+    this.setState({dsq_average: newDsq, allowable_spending: newAllowable});
   }
   
   updateDaysLeft(event) {
     newDaysLeft = event.target.value;
-    let newDsq = this.state.amount/newDaysLeft;
-    this.setState({dsq: newDsq, days: newDaysLeft});
+    let newDsq = this.state.allowable_spending/newDaysLeft;
+    this.setState({dsq_average: newDsq, days_left: newDaysLeft});
   }
+  
+  // submitDsqAverage() {
+  //   event.preventDefault();
+  //   JSON.stringify(this.state);
+  // }
   
   render() {
     return (
@@ -48,15 +54,22 @@ class DailyLimitCalculator extends React.Component {
             id="daysLeft"
             type="number"
             placeholder="Days Left"
-            value={this.state.days}
+            value={this.state.days_left}
             onChange={this.updateDaysLeft}
             className="half-width"
           />
         </div>
         <div>
           <label>Spending Per Day</label>
-          <div>{this.state.dsq}</div>
+          <div>{this.state.dsq_average}</div>
         </div>
+        <form action="/dsq_averages" method="post">
+          <input type='hidden' name='authenticity_token' value={this.props.authenticity_token}></input>
+          <input type='hidden' name='allowable_spending' value={this.state.allowable_spending}></input>
+          <input type='hidden' name='days_left' value={this.state.days_left}></input>
+          <input type='hidden' name='dsq_average' value={this.state.dsq_average}></input>
+          <input type="submit" value="Save"/>
+        </form>
       </div>
     )
   }
