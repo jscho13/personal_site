@@ -30,11 +30,6 @@ class DailyLimitCalculator extends React.Component {
     this.setState({dsq_average: newDsq, days_left: newDaysLeft});
   }
   
-  // submitDsqAverage() {
-  //   event.preventDefault();
-  //   JSON.stringify(this.state);
-  // }
-  
   render() {
     return (
       <div className="daily-spending-calc">

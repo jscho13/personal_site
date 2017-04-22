@@ -37,4 +37,13 @@ $(document).ready(function() {
       }
     });
   });
+  
+  var chart_data = {};
+  var ctx = document.getElementById("dsqAverageChart");
+  $.get( "/dsq_chart_data").done(function(data) {
+    var dsqAverageChart = new Chart(ctx, {
+      type: 'line',
+      data: data
+    });
+  });
 });

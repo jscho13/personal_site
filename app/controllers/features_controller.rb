@@ -3,7 +3,6 @@ class FeaturesController < ApplicationController
   before_action :validate_premium_access
   
   def index
-    @dsqChartData = current_user.dsq_averages
   end
   
   def validate_premium_access

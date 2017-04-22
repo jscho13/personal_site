@@ -3,13 +3,12 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   devise_for :users
 
-  # You can have the root of your site routed with "root"
   root to: "homes#blog"
 
-  # Example of regular route:
   get 'about' => 'homes#about'
   get 'features' => 'features#index'
   get 'premium' => 'premiums#index'
+  get 'dsq_chart_data' => 'dsq_averages#dsq_chart_data'
 
   resources :dsq_averages
   
