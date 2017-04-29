@@ -1,0 +1,75 @@
+$b3: 480px;
+$mobile: $b3;
+$b2: 768px;
+$tablet: $b2;
+$b1: 960px;
+$desktop: $b1;
+
+.intro__container {
+  display: table;
+  @include media ($mobile) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.intro__picture {
+  img {
+    border-radius: 25px;
+  }
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
+}
+
+.intro__description {
+  padding: 1em;
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
+}
+
+.project__list--item {
+  display: table;
+  @include media ($mobile) {
+    display: flex;
+    align-items: center;
+  }
+  &:last-child {
+    padding-bottom: 2em;
+  }
+}
+
+.project__list--label {
+  float: left;
+  padding: 1em;
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
+}
+
+.project__list--image {
+  float: left;
+  @include span-columns(12);
+  @include media ($mobile) {
+    @include span-columns(6);
+  }
+}
+
+.aboutme__footer {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 1em 1em 1.1em 1em;
+  position: relative;
+  text-align: right;
+  
+  a {
+    color: white;
+    &:hover {
+      color: $blue;      
+    }
+  }  
+}

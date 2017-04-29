@@ -69,25 +69,30 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
   
-  <li class="nav-link"><a href="/archives.html">Archives</a>
+  <li class="nav-link"><a href="/archives">Archives</a>
   
 
   
@@ -148,13 +153,13 @@
   <article class="post-content">
     <ul class="posts-list">
       
-      <li><strong><a class="post-link" href="/investing/2017/01/14/target-funds.html">Target Funds</a></strong><span class="post-date"> - January 14, 2017</span></li>
+      <li><strong><a class="post-link" href="/investing/target-funds.html">Target Funds</a></strong><span class="post-date"> - January 14, 2017</span></li>
       
-      <li><strong><a class="post-link" href="/investing/2017/01/07/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a></strong><span class="post-date"> - January 7, 2017</span></li>
+      <li><strong><a class="post-link" href="/investing/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a></strong><span class="post-date"> - January 7, 2017</span></li>
       
-      <li><strong><a class="post-link" href="/investing/2016/11/20/diversifying-your-portfolio.html">Diversifying Your Portfolio - Part 1</a></strong><span class="post-date"> - November 20, 2016</span></li>
+      <li><strong><a class="post-link" href="/investing/diversifying-your-portfolio.html">Diversifying Your Portfolio - Part 1</a></strong><span class="post-date"> - November 20, 2016</span></li>
       
-      <li><strong><a class="post-link" href="/investing/2016/10/31/early-investing.html">Your First Investment Purchase</a></strong><span class="post-date"> - October 31, 2016</span></li>
+      <li><strong><a class="post-link" href="/investing/early-investing.html">Your First Investment Purchase</a></strong><span class="post-date"> - October 31, 2016</span></li>
       
     </ul>
   </article>
@@ -168,21 +173,19 @@
     <footer class="site-footer">
   <div class="wrapper">
     <h3>BrunchBucks</h3>
-    <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
       <ul>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+        </li> -->
       </ul>
     </div>
     <div class="site-contact">
@@ -242,7 +245,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
   // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
+  // hljs.initHighlightingOnLoad();
 
   // Header:
   // First two lines cleans menu toggle

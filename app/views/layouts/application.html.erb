@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <!-- maximum-scale=1 and user-scalable=no prevents zooming on mobile apps -->
-<head name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Joseph Cho Portfolio Site</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -19,27 +20,40 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <% if current_user %>
+          <li class="nav-link"><a href="/users/sign_out" data-method="delete"><button>Log Out</button></a></li>
+        <% else %>
+          <li class="nav-link"><a href="/users/sign_in"><button>Log In</button></a></li>
+        <% end %>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li>         -->
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
 
 <body>
-  <span class="notice"><%= notice %></span>
-  <span class="alert"><%= alert %></span>
+  <% if notice %>
+    <span class="notice"><%= flash.notice %></span>
+  <% elsif alert %>
+    <span class="alert"><%= flash.alert %></span>
+  <% end %>
     
-  <div class="container">
+  <div class="full-page">
     <%= yield %>
   </div>
     

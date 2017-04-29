@@ -69,25 +69,30 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
   
-  <li class="nav-link"><a href="/archives.html">Archives</a>
+  <li class="nav-link"><a href="/archives">Archives</a>
   
 
   
@@ -158,21 +163,21 @@
   
     <li>
       <strong>
-        <a href="/savings/budgeting/2017/03/04/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
+        <a href="/savings/budgeting/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
       </strong>
       <span class="post-date">- 04 March 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/budgeting/2016/12/10/saved-money-is-spent-money.html">Saved Money Is Spent Money</a>
+        <a href="/budgeting/saved-money-is-spent-money.html">Saved Money Is Spent Money</a>
       </strong>
       <span class="post-date">- 10 December 2016</span>
     </li>
   
     <li>
       <strong>
-        <a href="/budgeting/2016/10/18/budgeting-tips.html">The Trick To Hitting Your Budget</a>
+        <a href="/hitting-your-budget/">The Trick To Hitting Your Budget</a>
       </strong>
       <span class="post-date">- 18 October 2016</span>
     </li>
@@ -191,7 +196,7 @@
   
     <li>
       <strong>
-        <a href="/credit/2016/10/27/managing-credit-score.html">How to Boost Your Credit Score</a>
+        <a href="/credit/managing-credit-score.html">How to Boost Your Credit Score</a>
       </strong>
       <span class="post-date">- 27 October 2016</span>
     </li>
@@ -210,28 +215,28 @@
   
     <li>
       <strong>
-        <a href="/investing/2017/01/14/target-funds.html">Target Funds</a>
+        <a href="/investing/target-funds.html">Target Funds</a>
       </strong>
       <span class="post-date">- 14 January 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/investing/2017/01/07/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a>
+        <a href="/investing/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a>
       </strong>
       <span class="post-date">- 07 January 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/investing/2016/11/20/diversifying-your-portfolio.html">Diversifying Your Portfolio - Part 1</a>
+        <a href="/investing/diversifying-your-portfolio.html">Diversifying Your Portfolio - Part 1</a>
       </strong>
       <span class="post-date">- 20 November 2016</span>
     </li>
   
     <li>
       <strong>
-        <a href="/investing/2016/10/31/early-investing.html">Your First Investment Purchase</a>
+        <a href="/investing/early-investing.html">Your First Investment Purchase</a>
       </strong>
       <span class="post-date">- 31 October 2016</span>
     </li>
@@ -250,21 +255,21 @@
   
     <li>
       <strong>
-        <a href="/retirement/2017/01/17/picking-your-first-ira.html">Picking an IRA Account for 2017</a>
+        <a href="/retirement/picking-your-first-ira.html">Picking an IRA Account for 2017</a>
       </strong>
       <span class="post-date">- 17 January 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/savings/retirement/2017/01/01/money-milestones.html">Money Milestones</a>
+        <a href="/savings/retirement/money-milestones.html">Money Milestones</a>
       </strong>
       <span class="post-date">- 01 January 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/retirement/2016/12/16/roth-vs-traditional.html">Picking Between Roth and Traditional 401(k)'s/IRAs</a>
+        <a href="/retirement/roth-vs-traditional.html">Picking Between Roth and Traditional 401(k)'s/IRAs</a>
       </strong>
       <span class="post-date">- 16 December 2016</span>
     </li>
@@ -283,14 +288,14 @@
   
     <li>
       <strong>
-        <a href="/savings/budgeting/2017/03/04/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
+        <a href="/savings/budgeting/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
       </strong>
       <span class="post-date">- 04 March 2017</span>
     </li>
   
     <li>
       <strong>
-        <a href="/savings/retirement/2017/01/01/money-milestones.html">Money Milestones</a>
+        <a href="/savings/retirement/money-milestones.html">Money Milestones</a>
       </strong>
       <span class="post-date">- 01 January 2017</span>
     </li>
@@ -310,21 +315,19 @@
     <footer class="site-footer">
   <div class="wrapper">
     <h3>BrunchBucks</h3>
-    <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
       <ul>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+        </li> -->
       </ul>
     </div>
     <div class="site-contact">
@@ -384,7 +387,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
   // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
+  // hljs.initHighlightingOnLoad();
 
   // Header:
   // First two lines cleans menu toggle

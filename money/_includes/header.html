@@ -9,21 +9,26 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- {% for page in site.pages %}
   {% if page.title %}

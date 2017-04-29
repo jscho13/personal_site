@@ -69,25 +69,30 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
   
-  <li class="nav-link"><a href="/archives.html">Archives</a>
+  <li class="nav-link"><a href="/archives">Archives</a>
   
 
   
@@ -138,10 +143,8 @@
 
 
     <div class="page-content">
-      <div class="home">
-
-<div class="site-header-container has-cover" style="background-image: url(/assets/blog/coffee_work.jpg);">
-  <div class="scrim has-cover">
+      <div class="site-header-container" style="background-image: url(/assets/blog/coffee_work.jpg);">
+  <div class="scrim">
     <header class="site-header">
       <h1 class="title">BrunchBucks</h1>
       <p class="subtitle">Your Afternoon Guide to Personal Finance</p>
@@ -154,10 +157,10 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/budgeting/2016/10/18/budgeting-tips.html">The Trick To Hitting Your Budget</a>
+      <a class="post-link" href="/hitting-your-budget/">The Trick To Hitting Your Budget</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. There’s no all-encompassing “correct” budget out there, but with time and attention you can begin to craft a budget that fits your needs the best. There are many ways to...</p>
+      <p>During the beginning steps to financial freedom it can be tough to get a strong grasp of your personal finances. With no all-encompassing “correct” budget, it can be tough to figure out what fits your needs best. Luckily with a little time and attention you can begin to craft a...</p>
     </section>
     <section class="post-meta">
       <div class="post-date">October 18, 2016</div>
@@ -195,28 +198,25 @@
 </nav>
 
 </div>
-</div>
 
     </div>
 
     <footer class="site-footer">
   <div class="wrapper">
     <h3>BrunchBucks</h3>
-    <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
       <ul>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+        </li> -->
       </ul>
     </div>
     <div class="site-contact">
@@ -276,7 +276,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
   // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
+  // hljs.initHighlightingOnLoad();
 
   // Header:
   // First two lines cleans menu toggle

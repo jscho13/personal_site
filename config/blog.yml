@@ -1,0 +1,92 @@
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: BrunchBucks
+email: jscho13@gmail.com
+name: Joseph Cho
+subtitle: "Your Afternoon Guide to Personal Finance"
+baseurl: "" # the subpath of your site, e.g. /blog
+asseturl: "/assets/blog/"
+description: "BrunchBucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
+url: "http://brunchbucks.com"
+cover: "/assets/blog/coffee_work.jpg"
+logo: "/assets/logo.png"
+permalink: /:categories/:title.html
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+social:
+  - name: GitHub
+    icon: github
+    username: jscho13
+    url: https://github.com/jscho13
+    desc: Check out my other projects
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Joseph Cho
+    url: https://www.linkedin.com/in/jscho13
+    desc: Connect with me on LinkedIn
+    share: true
+
+  - name: YouTube
+    icon: youtube
+    username:
+    url:
+    desc: Subscribe on YouTube
+    share: false
+
+  - name: SoundCloud
+    icon: soundcloud
+    username: xjoecho
+    url: https://soundcloud.com/xjoecho/likes
+    desc: Listen to my favorite tunes
+    share: false
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/jscho13/personal_site"
+    os_rcs_type: "git"
+    os_src: "git@github.com:jscho13/personal_site.com.git"

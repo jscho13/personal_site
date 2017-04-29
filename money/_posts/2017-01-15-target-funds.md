@@ -5,7 +5,7 @@ date: 2017-01-15 01:05:00
 categories: investing
 cover: cover/target_retirement.jpg
 ---
-[Part one](http://brunchbucks.com/investing/2016/11/21/diversifying-your-portfolio.html) and [part two](http://brunchbucks.com/investing/2017/01/08/diversifying-your-portfolio-2.html) of "Diversifying Your Portfolio" cover the importance having a strong asset mix. In this article we're going to cover target funds. Target funds have been growing quickly in popularity because they are designed to ease the pain of ongoing rebalancing for proper diversification. Let's take a took look at Vanguard's Target Retirement 2055 [(VFFVX)](https://personal.vanguard.com/us/funds/snapshot?FundId=1487&FundIntExt=INT#tab=2){:rel="nofollow"} fund to see how it's structured.
+[Part one](http://brunchbucks.com/diversifying-your-portfolio.html) and [part two](http://brunchbucks.com/investing/diversifying-your-portfolio-2.html) of "Diversifying Your Portfolio" cover the importance having a strong asset mix. In this article we're going to cover target funds. Target funds have been growing quickly in popularity because they are designed to ease the pain of ongoing rebalancing for proper diversification. Let's take a took look at Vanguard's Target Retirement 2055 [(VFFVX)](https://personal.vanguard.com/us/funds/snapshot?FundId=1487&FundIntExt=INT#tab=2){:rel="nofollow"} fund to see how it's structured.
 
 ### Target Retirement 2055 Breakdown
 The Target Retirement 2055 is a fund that invests in four other funds. Below is a breakdown of the fund name and their corresponding percentages.

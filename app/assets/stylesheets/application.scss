@@ -20,14 +20,17 @@
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
-@import "layout";
-@import "aboutme";
+@import "modules";
 
 // This sets the standard width as the same as jekyll. Very generic name.
 .container {
   @include clearfix;
   margin: auto;
   max-width: 55em;
+}
+
+.full-page {
+  min-height: 85%;  
 }
 
 @keyframes float {

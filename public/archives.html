@@ -42,7 +42,7 @@
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/assets/application.css">
-  <link rel="canonical" href="http://brunchbucks.com/archives.html">
+  <link rel="canonical" href="http://brunchbucks.com/archives">
   <link rel="alternate" type="application/atom+xml" title="BrunchBucks" href="http://brunchbucks.com/feed.xml" />
   
   <script>
@@ -69,25 +69,30 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
   
-  <li class="nav-link"><a href="/archives.html">Archives</a>
+  <li class="nav-link"><a href="/archives">Archives</a>
   
 
   
@@ -161,7 +166,7 @@
       <ul>
     
 
-    <li><a href="/savings/budgeting/2017/03/04/being-more-frugal.html" class="text-tiny">4 - How To Be More Frugal In Daily Life</a></li>
+    <li><a href="/savings/budgeting/being-more-frugal.html" class="text-tiny">4 - How To Be More Frugal In Daily Life</a></li>
 
     
           
@@ -182,7 +187,7 @@
 
     
 
-    <li><a href="/retirement/2017/01/17/picking-your-first-ira.html" class="text-tiny">17 - Picking an IRA Account for 2017</a></li>
+    <li><a href="/retirement/picking-your-first-ira.html" class="text-tiny">17 - Picking an IRA Account for 2017</a></li>
 
     
           
@@ -199,7 +204,7 @@
 
     
 
-    <li><a href="/investing/2017/01/14/target-funds.html" class="text-tiny">14 - Target Funds</a></li>
+    <li><a href="/investing/target-funds.html" class="text-tiny">14 - Target Funds</a></li>
 
     
           
@@ -216,7 +221,7 @@
 
     
 
-    <li><a href="/investing/2017/01/07/diversifying-your-portfolio-2.html" class="text-tiny">7 - Diversifying Your Portfolio - Part 2</a></li>
+    <li><a href="/investing/diversifying-your-portfolio-2.html" class="text-tiny">7 - Diversifying Your Portfolio - Part 2</a></li>
 
     
           
@@ -233,7 +238,7 @@
 
     
 
-    <li><a href="/savings/retirement/2017/01/01/money-milestones.html" class="text-tiny">1 - Money Milestones</a></li>
+    <li><a href="/savings/retirement/money-milestones.html" class="text-tiny">1 - Money Milestones</a></li>
 
     
       
@@ -253,7 +258,7 @@
 
     
 
-    <li><a href="/retirement/2016/12/16/roth-vs-traditional.html" class="text-tiny">16 - Picking Between Roth and Traditional 401(k)'s/IRAs</a></li>
+    <li><a href="/retirement/roth-vs-traditional.html" class="text-tiny">16 - Picking Between Roth and Traditional 401(k)'s/IRAs</a></li>
 
     
           
@@ -270,7 +275,7 @@
 
     
 
-    <li><a href="/budgeting/2016/12/10/saved-money-is-spent-money.html" class="text-tiny">10 - Saved Money Is Spent Money</a></li>
+    <li><a href="/budgeting/saved-money-is-spent-money.html" class="text-tiny">10 - Saved Money Is Spent Money</a></li>
 
     
           
@@ -291,7 +296,7 @@
 
     
 
-    <li><a href="/investing/2016/11/20/diversifying-your-portfolio.html" class="text-tiny">20 - Diversifying Your Portfolio - Part 1</a></li>
+    <li><a href="/investing/diversifying-your-portfolio.html" class="text-tiny">20 - Diversifying Your Portfolio - Part 1</a></li>
 
     
           
@@ -312,7 +317,7 @@
 
     
 
-    <li><a href="/investing/2016/10/31/early-investing.html" class="text-tiny">31 - Your First Investment Purchase</a></li>
+    <li><a href="/investing/early-investing.html" class="text-tiny">31 - Your First Investment Purchase</a></li>
 
     
           
@@ -329,7 +334,7 @@
 
     
 
-    <li><a href="/credit/2016/10/27/managing-credit-score.html" class="text-tiny">27 - How to Boost Your Credit Score</a></li>
+    <li><a href="/credit/managing-credit-score.html" class="text-tiny">27 - How to Boost Your Credit Score</a></li>
 
     
           
@@ -346,7 +351,7 @@
 
     
 
-    <li><a href="/budgeting/2016/10/18/budgeting-tips.html" class="text-tiny">18 - The Trick To Hitting Your Budget</a></li>
+    <li><a href="/hitting-your-budget/" class="text-tiny">18 - The Trick To Hitting Your Budget</a></li>
 
     
       </ul>
@@ -364,21 +369,19 @@
     <footer class="site-footer">
   <div class="wrapper">
     <h3>BrunchBucks</h3>
-    <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
       <ul>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+        </li> -->
       </ul>
     </div>
     <div class="site-contact">
@@ -438,7 +441,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
   // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
+  // hljs.initHighlightingOnLoad();
 
   // Header:
   // First two lines cleans menu toggle

@@ -69,25 +69,30 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link"><a href="/archives/">Archives</a></li>
-        <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <li class="nav-link">
+          <div class="dropdown">
+            <a href="/archives/">Archives</a>
+            <div class="dropdown-content">
+              <a href="/categories/">Categories</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
-
 <!-- What is pages? It looks like posts.html, typography.html, and the categories made by jekyll -->
 <!-- 
   
-  <li class="nav-link"><a href="/archives.html">Archives</a>
+  <li class="nav-link"><a href="/archives">Archives</a>
   
 
   
@@ -138,10 +143,8 @@
 
 
     <div class="page-content">
-      <div class="home">
-
-<div class="site-header-container has-cover" style="background-image: url(/assets/blog/coffee_work.jpg);">
-  <div class="scrim has-cover">
+      <div class="site-header-container" style="background-image: url(/assets/blog/coffee_work.jpg);">
+  <div class="scrim">
     <header class="site-header">
       <h1 class="title">BrunchBucks</h1>
       <p class="subtitle">Your Afternoon Guide to Personal Finance</p>
@@ -154,7 +157,7 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/savings/budgeting/2017/03/04/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
+      <a class="post-link" href="/savings/budgeting/being-more-frugal.html">How To Be More Frugal In Daily Life</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>Keeping our wallets closed on impulsive buys is an important skill, but changing our habits accordingly is tougher. When it comes to changing how I act, no amount of tips and techniques really sticks until I change how I approach my goal. For example, going to the gym regularly is...</p>
@@ -180,7 +183,7 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/retirement/2017/01/17/picking-your-first-ira.html">Picking an IRA Account for 2017</a>
+      <a class="post-link" href="/retirement/picking-your-first-ira.html">Picking an IRA Account for 2017</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>Earlier in IRA’s we covered some of the advantages of independent retirement accounts. Whether you choose Roth or Traditional they offer a range of tax benefits. Congratulations if you’re ready to begin investing in an IRA. There’s a wide variety of options to choose from, but a majority of investors...</p>
@@ -202,7 +205,7 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/investing/2017/01/14/target-funds.html">Target Funds</a>
+      <a class="post-link" href="/investing/target-funds.html">Target Funds</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>Part one and part two of “Diversifying Your Portfolio” cover the importance having a strong asset mix. In this article we’re going to cover target funds. Target funds have been growing quickly in popularity because they are designed to ease the pain of ongoing rebalancing for proper diversification. Let’s take...</p>
@@ -224,7 +227,7 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/investing/2017/01/07/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a>
+      <a class="post-link" href="/investing/diversifying-your-portfolio-2.html">Diversifying Your Portfolio - Part 2</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>In Diversifying Your Portfolio - Part 1 we covered the importance of diversifying portfolios via stocks and bonds. Diversification helps cut back risk, and prevents “putting all your eggs in one basket”. Part 2 digs a little bit deeper by checking out other ways we can diversify our portfolios. Some...</p>
@@ -246,7 +249,7 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/savings/retirement/2017/01/01/money-milestones.html">Money Milestones</a>
+      <a class="post-link" href="/savings/retirement/money-milestones.html">Money Milestones</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>A lot of us know it’s a good idea to save money for retirement, but fewer have a solid game plan in place to set themselves up in the future. Below is a useful flowchart that shows us where we should put cash after we’ve hit certain money milestones. Source:...</p>
@@ -289,28 +292,25 @@
 </nav>
 
 </div>
-</div>
 
     </div>
 
     <footer class="site-footer">
   <div class="wrapper">
     <h3>BrunchBucks</h3>
-    <!-- refactor site-navigation, site-contact, and site-signature -->
     <div class="site-navigation">
       <p><strong>Site Map</strong></p>
       <ul>
-        <!-- <li class="nav-link"><a href="/tools/">Tools</a></li> -->
+        <li class="nav-link"><a href="/features/">Features</a></li>
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/archives/">Archives</a></li>
         <li class="nav-link"><a href="/categories/">Categories</a></li>
-        <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
+        <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="W7EZSGAKZSRY6">
           </form>
-        </li>
-        <!-- <li class="nav-link"><a href="/typography/">Typography</a> -->
+        </li> -->
       </ul>
     </div>
     <div class="site-contact">
@@ -370,7 +370,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
   // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
+  // hljs.initHighlightingOnLoad();
 
   // Header:
   // First two lines cleans menu toggle
