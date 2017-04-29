@@ -6,7 +6,7 @@ class DsqAveragesController < ApplicationController
       flash.notice = "Saved!"
       render "features/index"
     else
-      flash.notice = @dsqAverage.errors.full_messages.join(". ")
+      flash.alert = @dsqAverage.errors.full_messages.join(". ")
       render json: @dsqAverage.errors, status: :unprocessable_entity
     end
   end

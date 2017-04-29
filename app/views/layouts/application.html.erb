@@ -48,9 +48,9 @@
 
 <body>
   <% if notice %>
-    <span class="notice"><%= notice %></span>
+    <span class="notice"><%= flash.notice %></span>
   <% elsif alert %>
-    <span class="alert"><%= alert %></span>
+    <span class="alert"><%= flash.alert %></span>
   <% end %>
     
   <div class="full-page">
