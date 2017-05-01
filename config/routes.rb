@@ -5,10 +5,11 @@ Rails.application.routes.draw do
 
   root to: "homes#blog"
 
-  get 'about' => 'homes#about'
-  get 'features' => 'features#index'
-  get 'premium' => 'premiums#index'
-  get 'dsq_chart_data' => 'dsq_averages#dsq_chart_data'
+  get 'about', to: 'homes#about'
+  get 'features', to: 'features#index'
+  get 'premium', to: 'premiums#index'
+  get 'api/dsq_averages_chart_data', to: 'features#dsq_averages_chart_data'
+  get 'api/budget_data', to: 'features#budget_data'
 
   resources :dsq_averages
   

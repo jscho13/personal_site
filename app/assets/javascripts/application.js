@@ -39,7 +39,7 @@ $(document).ready(function() {
   });
   
   var ctx = document.getElementById("dsqAverageChart");
-  $.get( "/dsq_chart_data").done(function(data) {
+  $.get( "/api/dsq_averages_chart_data").done(function(data) {
     var dsqAverageChart = new Chart(ctx, {
       type: 'line',
       data: data
