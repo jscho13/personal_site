@@ -1,6 +1,6 @@
 class DsqAveragesController < ApplicationController
   def create
-    submission_day = Date.strptime(dsq_params[:submission_day], "%m/%d/%Y")      
+    submission_day = Date.strptime(dsq_params[:submission_day], "%m/%d/%Y")
     if DsqAverage.where(["submission_day = ?", submission_day]).any?
       @dsqAverage = DsqAverage.where(["submission_day = ?", submission_day])[0]
       @dsqAverage.dsq_average = dsq_params[:dsq_average]
@@ -8,6 +8,7 @@ class DsqAveragesController < ApplicationController
       @dsqAverage.days_left = dsq_params[:days_left]
     else
       @dsqAverage = DsqAverage.new(dsq_params)
+      @dsqAverage.submission_day = submission_day
       @dsqAverage.user = current_user
     end
     if @dsqAverage.save

@@ -9,8 +9,7 @@ class DailyLimitPanel extends React.Component {
     }
     
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.updateAllowable = this.updateAllowable.bind(this);
-    this.updateDaysLeft = this.updateDaysLeft.bind(this);
+    this.calculateDsq = this.calculateDsq.bind(this);
   }
   
   componentDidMount() {
@@ -24,6 +23,7 @@ class DailyLimitPanel extends React.Component {
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
                       , days_left: daysLeft
+                      , dsq_average: responseJson.allowable_spending/daysLeft
                       , submission_day: submissionDay });
       })
       .catch(error => {
@@ -31,29 +31,24 @@ class DailyLimitPanel extends React.Component {
       });
   }
 
-  updateSubmissionDay(event) {
-    
-  }
-  
-  updateAllowable(event) {
-    newAllowable = event.target.value;
-    let newDsq = newAllowable/this.state.days_left;
-    this.setState({dsq_average: newDsq, allowable_spending: newAllowable});
-  }
-  
-  updateDaysLeft(event) {
-    newDaysLeft = event.target.value;
-    let newDsq = this.state.allowable_spending/newDaysLeft;
-    this.setState({dsq_average: newDsq, days_left: newDaysLeft});
+  calculateDsq(event) {
+    let newAllowableSpending = $('#allowableSpending')[0].value;
+    let newDaysLeft = $('#daysLeft')[0].value;
+    let newSubmissionDay = $('#submissionDay')[0].value;
+    let newDsq = newAllowableSpending/newDaysLeft;
+    this.setState({ allowable_spending: newAllowableSpending
+                  , days_left: newDaysLeft
+                  , dsq_average: newDsq
+                  , submission_day: newSubmissionDay });
   }
   
   handleSubmit(event) {
     event.preventDefault();
     $.post( "/dsq_averages", {
       authenticity_token: this.props.authenticity_token,
-      dsq_average: this.state.dsq_average,
       allowable_spending: this.state.allowable_spending,
       days_left: this.state.days_left,
+      dsq_average: this.state.dsq_average,
       submission_day: this.state.submission_day
     }).done(window.location.replace("/features"));
   }
@@ -65,8 +60,8 @@ class DailyLimitPanel extends React.Component {
           <label>Date</label>
           <input
             id="submissionDay"
-            className="half-width"
-            onChange={this.updateSubmissionDay}
+            className="small-width-input"
+            onChange={this.calculateDsq}
             type="text"
             value={this.state.submission_day}
           />
@@ -75,8 +70,8 @@ class DailyLimitPanel extends React.Component {
           <label>Allowable Spending</label>
           <input
             id="allowableSpending"
-            className="half-width"
-            onChange={this.updateAllowable}
+            className="small-width-input"
+            onChange={this.calculateDsq}
             placeholder="Allowable Spending"
             type="number"
             value={this.state.allowable_spending}
@@ -86,8 +81,8 @@ class DailyLimitPanel extends React.Component {
           <label>Days Left</label>
           <input
             id="daysLeft"
-            className="half-width"
-            onChange={this.updateDaysLeft}
+            className="small-width-input"
+            onChange={this.calculateDsq}
             placeholder="Days Left"
             type="number"
             value={this.state.days_left}

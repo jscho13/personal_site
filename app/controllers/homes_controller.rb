@@ -6,6 +6,10 @@ class HomesController < ApplicationController
 
   def about
     render "homes/about"
-  end  
+  end
+  
+  def premium_access
+    render "homes/premium_access"
+  end
 
 end

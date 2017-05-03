@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   root to: "homes#blog"
 
   get 'about', to: 'homes#about'
+  get 'premium_access', to: 'homes#premium_access'
   get 'features', to: 'features#index'
-  get 'premium', to: 'premiums#index'
   get 'api/dsq_averages_chart_data', to: 'features#dsq_averages_chart_data'
   get 'api/budget_data', to: 'features#budget_data'
 
