@@ -1,6 +1,5 @@
 <div class="container">
   <!-- <%= react_component("MonthlyBudgetPanel", {authenticity_token: form_authenticity_token}) %> -->
   <%= react_component("DailyLimitPanel", {authenticity_token: form_authenticity_token}) %>
-  <hr>
-  <canvas id="dsqAverageChart" width="100" height="50"></canvas>
+  <%= react_component("DsqChartPanel") %>
 </div>

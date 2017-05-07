@@ -1,13 +1,13 @@
 class FeaturesController < ApplicationController
   before_action :authenticate_user!
-  before_action :validate_premium_access
+  # before_action :validate_premium_access
   
   def index
   end
   
-  def dsq_averages_chart_data
+  def dsq_month_data
     data = Hash.new
-    dsq_array = current_user.dsq_averages.to_ary
+    dsq_array = current_user.dsq_averages.where("MONTH(submission_date) = ? and YEAR(submission_date) = ?", params[:month], params[:year])
     data[:labels] = dsq_array.map { |x| x.id }
     data[:datasets] = [
       {

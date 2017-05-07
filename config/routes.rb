@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'about', to: 'homes#about'
   get 'premium_access', to: 'homes#premium_access'
   get 'features', to: 'features#index'
-  get 'api/dsq_averages_chart_data', to: 'features#dsq_averages_chart_data'
+  get 'api/dsq_month_data', to: 'features#dsq_month_data'
   get 'api/budget_data', to: 'features#budget_data'
 
   resources :dsq_averages

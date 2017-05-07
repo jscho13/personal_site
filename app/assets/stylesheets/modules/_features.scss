@@ -1,8 +1,15 @@
 .daily-spending-calc {
   display: flex;
+  flex-flow: column;
   justify-content: space-between;
 }
 
-.small-width-input {
-  width: 15%;
+input[type="number"].small-width-input,
+input[type="text"].small-width-input {
+  width: 50%;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
 }

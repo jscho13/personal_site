@@ -5,7 +5,7 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: 0,
       days_left: 0,
       dsq_average: 0,
-      submission_day: 0,
+      submission_date: 0,
     }
     
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -15,7 +15,7 @@ class DailyLimitPanel extends React.Component {
   componentDidMount() {
     date = new Date();
     daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
-    submissionDay = moment().format('l');
+    submissionDate = moment().format('l');
     fetch('/api/budget_data', {
         credentials: 'same-origin'
       })
@@ -24,7 +24,7 @@ class DailyLimitPanel extends React.Component {
         this.setState({ allowable_spending: responseJson.allowable_spending
                       , days_left: daysLeft
                       , dsq_average: responseJson.allowable_spending/daysLeft
-                      , submission_day: submissionDay });
+                      , submission_date: submissionDate });
       })
       .catch(error => {
         console.error(error);
@@ -34,12 +34,12 @@ class DailyLimitPanel extends React.Component {
   calculateDsq(event) {
     let newAllowableSpending = $('#allowableSpending')[0].value;
     let newDaysLeft = $('#daysLeft')[0].value;
-    let newSubmissionDay = $('#submissionDay')[0].value;
+    let newSubmissionDate = $('#submissionDate')[0].value;
     let newDsq = newAllowableSpending/newDaysLeft;
     this.setState({ allowable_spending: newAllowableSpending
                   , days_left: newDaysLeft
                   , dsq_average: newDsq
-                  , submission_day: newSubmissionDay });
+                  , submission_date: newSubmissionDate });
   }
   
   handleSubmit(event) {
@@ -49,7 +49,7 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: this.state.allowable_spending,
       days_left: this.state.days_left,
       dsq_average: this.state.dsq_average,
-      submission_day: this.state.submission_day
+      submission_date: this.state.submission_date
     }).done(window.location.replace("/features"));
   }
 
@@ -59,11 +59,11 @@ class DailyLimitPanel extends React.Component {
         <div>
           <label>Date</label>
           <input
-            id="submissionDay"
+            id="submissionDate"
             className="small-width-input"
             onChange={this.calculateDsq}
             type="text"
-            value={this.state.submission_day}
+            value={this.state.submission_date}
           />
         </div>
         <div>
