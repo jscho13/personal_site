@@ -8,11 +8,14 @@ Rails.application.routes.draw do
   get 'about', to: 'homes#about'
   get 'premium_access', to: 'homes#premium_access'
   get 'features', to: 'features#index'
-  get 'api/dsq_month_data', to: 'features#dsq_month_data'
-  get 'api/budget_data', to: 'features#budget_data'
+
+  scope '/api' do
+    get 'dsq_month_data', to: 'features#dsq_month_data'
+    get 'dsq_date_options', to: 'features#dsq_date_options'
+    get 'budget_data', to: 'features#budget_data'
+  end
 
   resources :dsq_averages
-  
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
@@ -48,11 +51,4 @@ Rails.application.routes.draw do
   #   end
   #   resources :posts, concerns: :toggleable
   #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
 end

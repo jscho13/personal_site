@@ -5,7 +5,7 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: 0,
       days_left: 0,
       dsq_average: 0,
-      submission_date: 0,
+      submission_date: 0
     }
     
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -16,9 +16,7 @@ class DailyLimitPanel extends React.Component {
     date = new Date();
     daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
     submissionDate = moment().format('l');
-    fetch('/api/budget_data', {
-        credentials: 'same-origin'
-      })
+    fetch('/api/budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending

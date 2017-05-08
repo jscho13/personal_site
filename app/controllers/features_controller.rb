@@ -36,6 +36,20 @@ class FeaturesController < ApplicationController
     render json: data
   end
   
+  def dsq_date_options
+    data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq!
+    data.each { |year|
+      year[:months] = []
+      current_user.dsq_averages.map { |month|
+        if month.submission_date.year == year[:year]
+          year[:months] << month.submission_date.month
+        end
+      }
+      year[:months].uniq!
+    }
+    render json: data
+  end
+
   def budget_data
     data = Hash.new
     if current_user.dsq_averages.last
