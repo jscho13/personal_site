@@ -12,7 +12,9 @@ const YearOption = (props) => {
   return (
     <li>
       {props.year}
-      {monthOptions}
+      <ul>
+        {monthOptions}
+      </ul>
     </li>
   )
 }

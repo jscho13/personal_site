@@ -8,7 +8,7 @@ class FeaturesController < ApplicationController
   def dsq_month_data
     data = Hash.new
     dsq_array = current_user.dsq_averages.where("MONTH(submission_date) = ? and YEAR(submission_date) = ?", params[:month], params[:year])
-    data[:labels] = dsq_array.map { |x| x.id }
+    data[:labels] = dsq_array.map { |x| x.submission_date.day }
     data[:datasets] = [
       {
         label: "Daily Spending Quota History",
@@ -37,7 +37,7 @@ class FeaturesController < ApplicationController
   end
   
   def dsq_date_options
-    data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq!
+    data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq!.reverse!
     data.each { |year|
       year[:months] = []
       current_user.dsq_averages.map { |month|
