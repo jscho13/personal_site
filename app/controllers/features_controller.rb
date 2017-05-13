@@ -7,7 +7,10 @@ class FeaturesController < ApplicationController
   
   def dsq_month_data
     data = Hash.new
-    dsq_array = current_user.dsq_averages.where("MONTH(submission_date) = ? and YEAR(submission_date) = ?", params[:month], params[:year])
+    dsq_array = current_user
+                  .dsq_averages
+                  .where("MONTH(submission_date) = ? and YEAR(submission_date) = ?", params[:month], params[:year])
+                  .order("submission_date ASC")
     data[:labels] = dsq_array.map { |x| x.submission_date.day }
     data[:datasets] = [
       {

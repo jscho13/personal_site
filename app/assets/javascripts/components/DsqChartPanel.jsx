@@ -2,7 +2,7 @@ class DsqChartPanel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      month: moment().month(),
+      month: moment().month()+1,
       year: moment().year(),
       date_options: []
     }
