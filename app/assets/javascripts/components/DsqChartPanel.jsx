@@ -53,7 +53,7 @@ class DsqChartPanel extends React.Component {
   render() {
     return(
       <div id="dsqChartPanelContainer">
-        <DateOptionsList
+        <DateFilterOptionsList
           dateOptions={this.state.date_options}
           updateDsqDateFilter={this.updateDsqDateFilter}
         />

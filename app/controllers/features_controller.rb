@@ -40,7 +40,7 @@ class FeaturesController < ApplicationController
   end
   
   def dsq_date_options
-    data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq!.reverse!
+    data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq.reverse!
     data.each { |year|
       year[:months] = []
       current_user.dsq_averages.map { |month|
@@ -48,7 +48,7 @@ class FeaturesController < ApplicationController
           year[:months] << month.submission_date.month
         end
       }
-      year[:months].uniq!
+      year[:months] = year[:months].sort.reverse.uniq
     }
     render json: data
   end

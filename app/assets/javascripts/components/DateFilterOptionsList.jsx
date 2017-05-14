@@ -1,13 +1,13 @@
-class DateOptionsList extends React.Component {
+class DateFilterOptionsList extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    let dateOptions = this.props.dateOptions.map((dateOption) => {
+    let dateBoxes = this.props.dateOptions.map((dateOption) => {
       const { months, year } = dateOption
       return (
-        <YearOption
+        <DateFilterOption
           months={months}
           year={year}
           updateDsqDateFilter={this.props.updateDsqDateFilter}/>
@@ -15,9 +15,9 @@ class DateOptionsList extends React.Component {
     });
 
     return(
-      <ul>
-        {dateOptions}
-      </ul>
+      <div className="date-filter">
+        {dateBoxes}
+      </div>
     );
   }
 };

@@ -21,7 +21,7 @@ class DailyLimitPanel extends React.Component {
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
                       , days_left: daysLeft
-                      , dsq_average: responseJson.allowable_spending/daysLeft
+                      , dsq_average: (responseJson.allowable_spending/daysLeft).toFixed(2)
                       , submission_date: submissionDate });
       })
       .catch(error => {
@@ -33,7 +33,7 @@ class DailyLimitPanel extends React.Component {
     let newAllowableSpending = $('#allowableSpending')[0].value;
     let newDaysLeft = $('#daysLeft')[0].value;
     let newSubmissionDate = $('#submissionDate')[0].value;
-    let newDsq = newAllowableSpending/newDaysLeft;
+    let newDsq = (newAllowableSpending/newDaysLeft).toFixed(2);
     this.setState({ allowable_spending: newAllowableSpending
                   , days_left: newDaysLeft
                   , dsq_average: newDsq
@@ -53,46 +53,54 @@ class DailyLimitPanel extends React.Component {
 
   render() {
     return (
-      <div className="daily-spending-calc">
-        <div>
-          <label>Date</label>
-          <input
-            id="submissionDate"
-            className="small-width-input"
-            onChange={this.calculateDsq}
-            type="text"
-            value={this.state.submission_date}
-          />
+      <div className="daily-limit-panel">
+        <div className="daily-limit-panel__left">
+          <div>
+            <label>Date</label>
+            <input
+              id="submissionDate"
+              className="small-width-input"
+              onChange={this.calculateDsq}
+              type="text"
+              value={this.state.submission_date}
+            />
+          </div>
+          <div>
+            <label>Allowable Spending</label>
+            <input
+              id="allowableSpending"
+              className="small-width-input"
+              onChange={this.calculateDsq}
+              placeholder="Allowable Spending"
+              type="number"
+              value={this.state.allowable_spending}
+            />
+          </div>
+          <div>
+            <label>Days Left</label>
+            <input
+              id="daysLeft"
+              className="small-width-input"
+              onChange={this.calculateDsq}
+              placeholder="Days Left"
+              type="number"
+              value={this.state.days_left}
+            />
+          </div>
         </div>
-        <div>
-          <label>Allowable Spending</label>
-          <input
-            id="allowableSpending"
-            className="small-width-input"
-            onChange={this.calculateDsq}
-            placeholder="Allowable Spending"
-            type="number"
-            value={this.state.allowable_spending}
-          />
+        
+        <div className="daily-limit-panel__right">
+          <div className="daily-limit-panel__right--spd">
+            <h3>Daily Quota</h3>
+            <div style={{fontSize: '4em'}}>{this.state.dsq_average}</div>
+          </div>
+
+          <div className="daily-limit-panel__right--submit">
+            <form onSubmit={this.handleSubmit}>
+              <input type="submit" value="Save"/>
+            </form>
+          </div>
         </div>
-        <div>
-          <label>Days Left</label>
-          <input
-            id="daysLeft"
-            className="small-width-input"
-            onChange={this.calculateDsq}
-            placeholder="Days Left"
-            type="number"
-            value={this.state.days_left}
-          />
-        </div>
-        <div>
-          <label>Spending Per Day</label>
-          <div>{this.state.dsq_average}</div>
-        </div>
-        <form onSubmit={this.handleSubmit}>
-          <input type="submit" value="Save"/>
-        </form>
       </div>
     )
   }
