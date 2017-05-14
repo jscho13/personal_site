@@ -1,4 +1,85 @@
-.daily-spending-calc {
+.panelContainer {
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1em;
+  margin: 1em 0;  
+}
+
+#dsqChartPanelContainer {
+  @extend .panelContainer;
+}
+
+.daily-limit-panel {
+  @extend .panelContainer;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row;
+
+  .daily-limit-panel__left {
+    width: 100%;
+  }
+  
+  .daily-limit-panel__right {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+
+    .daily-limit-panel__right--spd {
+      text-align: center;
+      width: 100%;    
+    }
+    
+    .daily-limit-panel__right--submit {
+      text-align: right;
+      
+      input {
+        padding: 1em;
+      }
+    }    
+  }
+}
+
+input[type="number"].small-width-input,
+input[type="text"].small-width-input {
+  width: 50%;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+}
+
+.date-filter {
+  display: flex;
+  
+  .date-filter--option {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+  }
+}
+
+.select-style {
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 120px;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
 }
