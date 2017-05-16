@@ -23,6 +23,6 @@ class DsqAveragesController < ApplicationController
   private
 
   def dsq_params
-    params.permit(:dsq_average, :allowable_spending, :days_left, :submission_date, :authenticity_token)
+    params.permit(:dsq_average, :allowable_spending, :days_left, :submission_date)
   end
 end
