@@ -1,0 +1,35 @@
+.diagonal-header {
+  background-color: $blue;
+  background-size: cover;
+  height:600px;
+  position:relative;
+  width:100%;
+  z-index:-1;
+}
+
+#backshape {
+  background:white;
+  display:block;
+  float:left;
+  margin-top:-100px;
+  transform:skew(0deg,10deg);
+  width:100%;
+  z-index:1;
+  -ms-transform:skew(0deg,10deg); /* IE 9 */
+  -webkit-transform:skew(0deg,5deg); /* Safari and Chrome */
+}
+
+#backshape .diagonal-wrapper {
+  display:block;
+  float:left;
+  margin: 5em 0;
+  padding:0 5%;
+  transform:skew(0deg,-5deg);
+  width:100%;
+  -ms-transform:skew(0deg,-10deg);
+  -webkit-transform:skew(0deg,-5deg); 
+}
+
+.diagonal-footer {
+  margin-top: 15em;
+}

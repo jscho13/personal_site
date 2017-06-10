@@ -25,57 +25,13 @@
 // This sets the standard width as the same as jekyll. Very generic name.
 .container {
   @include clearfix;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
   margin: auto;
-  max-width: 60em;
+  max-width: 70em;
 }
 
 .full-page {
   min-height: 85%;  
-}
-
-@keyframes float {
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes bob {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(8px);
-  }
-}
-
-.float {
-  animation-name: float, bob;
-  animation-duration: 0.3s, 0.7s;
-  animation-timing-function: ease-out, ease-in-out;
-  animation-delay: 0s, 0.3s;
-  animation-direction: normal, alternate;
-  animation-iteration-count: 1, infinite;
-  animation-fill-mode: forwards;
-}
-
-.shadow {
-  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-a {
-  /* First we need to help some browsers along for this to projects.
-     Just because a vendor prefix is there, doesn't mean it will
-     projects in a browser made by that vendor either, it's just for
-     future-proofing purposes I guess. */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 // * {

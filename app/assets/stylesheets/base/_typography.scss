@@ -47,12 +47,22 @@ a {
   color: $action-color;
   text-decoration: none;
   // transition: color 0.1s linear;
+  /* First we need to help some browsers along for this to projects.
+     Just because a vendor prefix is there, doesn't mean it will
+     projects in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 
   &:active,
   &:focus,
   &:hover {
     color: darken($action-color, 10%);
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &:active,
