@@ -132,7 +132,7 @@ pre code.hljs {
   }
   // Nav menu
   .navigation-wrapper {
-  	@include outer-container;
+  	@include outer-container(60em);
     @include clearfix;
     position: relative;
   }
@@ -154,7 +154,7 @@ pre code.hljs {
   }
   nav {
     float: none;
-    padding: 1.25em 0;
+    padding: 1em 0;
     @include media ($tablet) {
       float: right;
       line-height: 1.5em;
@@ -226,7 +226,7 @@ pre code.hljs {
 */
 .page-content {
 	.wrapper {
-		@include outer-container;
+		@include outer-container(60em);
 		padding: 1em;
 	}
 	/*
@@ -237,7 +237,7 @@ pre code.hljs {
 		@extend %default-ul;
 	}
 	.post-meta {
-		@include outer-container;
+		@include outer-container(60em);
 		// padding: 1em 0;
 		color: $medium-gray;
 		.post-date {
@@ -274,6 +274,8 @@ pre code.hljs {
 			.subtitle {
 				font-style: italic;
 				font-size: modular-scale(1);
+				max-width: 50em;
+				margin: auto;
 			}
 		}
 	}
@@ -398,7 +400,7 @@ pre code.hljs {
 	  }
 	}
 	.wrapper {
-		@include outer-container;
+		@include outer-container(60em);
 	}
 	/*
 	*	Site Navigation (left)

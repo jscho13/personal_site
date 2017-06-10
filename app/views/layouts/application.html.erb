@@ -20,21 +20,15 @@
     
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="/features/">Features</a></li>
-        <li class="nav-link"><a href="/about/">About</a></li>
-        <li class="nav-link">
-          <div class="dropdown">
-            <a href="/archives/">Archives</a>
-            <div class="dropdown-content">
-              <a href="/categories/">Categories</a>
-            </div>
-          </div>
-        </li>
+        <li class="nav-link"><a href="/features/">Spending Tracker</a></li>
+        <li class="nav-link"><a href="/blog/">Blog</a></li>
         <% if current_user %>
           <li class="nav-link"><a href="/users/sign_out" data-method="delete"><button>Log Out</button></a></li>
         <% else %>
           <li class="nav-link"><a href="/users/sign_in"><button>Log In</button></a></li>
+          <li class="nav-link"><a href="/users/sign_up"><button>Sign Up</button></a></li>
         <% end %>
+        <!-- <li class="nav-link"><a href="/about/">About</a></li> -->
         <!-- <li class="nav-link"><a href="#" onclick="donateButton()">Donate</a>
           <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">

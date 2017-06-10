@@ -1,7 +1,6 @@
 class HomesController < ApplicationController
-  
-  def blog
-    redirect_to "/index.html"
+  def landing
+    render "homes/landing"    
   end
 
   def about
@@ -11,5 +10,4 @@ class HomesController < ApplicationController
   def premium_access
     render "homes/premium_access"
   end
-
 end

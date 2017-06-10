@@ -7,12 +7,12 @@ Rails.application.config.after_initialize do
     Jekyll::Site.new(
       Jekyll.configuration({
         "config" => Rails.root.join('config', 'blog.yml').to_s,
-        "source" => Rails.root.join('money').to_s,
+        "source" => Rails.root.join('blog').to_s,
         "destination" => dest.to_s
       })
     ).process
-    FileUtils.cp_r('public/blog/.', 'public/')
-    FileUtils.rm_r('public/blog/')
+    # FileUtils.cp_r('public/blog/.', 'public/')
+    # FileUtils.rm_r('public/blog/')
     # the strange codes give the output color
     Rails.logger.info "\e[0;32;49mJekyll site built!\e[0m]]"
   rescue => e
