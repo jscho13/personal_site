@@ -1,14 +1,21 @@
+.landing-header {
+  color:$white;
+  margin: auto;
+  max-width:15em;
+  padding-top:4em;
+}
+
 .diagonal-header {
-  background-color: $blue;
-  background-size: cover;
+  background-size:cover;
   height:600px;
+  margin-top:2px;
   position:relative;
+  text-align: center;
   width:100%;
-  z-index:-1;
 }
 
 #backshape {
-  background:white;
+  background-color: $blue;
   display:block;
   float:left;
   margin-top:-100px;
