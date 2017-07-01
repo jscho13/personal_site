@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Be More Frugal In Daily Life
+title: Controlling Your Daily Spending
 date:   2017-03-04 12:37:00
 categories: [savings, budgeting]
 cover: cover/frugal_mindset.jpeg

@@ -41,41 +41,46 @@
   color:$white;
 }
 
-.diagonal__footer--lead {
-  font-size: 3.5em;
-  text-align: center;
-}
-
-.diagonal__footer--body {
-  text-align: center;
-  max-width: 55em;
-  margin: auto;
-  padding: 0 2em;
-}
-
 .diagonal__adhead {
   color: $white;
   text-align: center;
 }
 
-.diagonal__adbox--l,
-.diagonal__adbox--r, {
-  @include span-columns(6);
-  color: $white;
-}
+.diagonal__adbox {
+  @include clearfix;
+  padding-top: 2em;
+  
+  .diagonal__adbox--l,
+  .diagonal__adbox--r, {
+    @include span-columns(6);
+    color: $white;
+  }
 
-.diagonal__adbox--l {
-  text-align: left;
-}
+  .diagonal__adbox--l {
+    text-align: left;
+  }
 
-.diagonal__adbox--r {
-  @include shift(6);
-  text-align: right;
+  .diagonal__adbox--r {
+    text-align: right;
+  }  
 }
 
 .diagonal__footer {
   margin-top: 80em;
   @include media ($mobile) {
-    margin-top: 41em;
+    margin-top: 72em;
+  }
+  
+  .diagonal__footer--lead {
+    font-size: 3.5em;
+    font-family: $secondary-font-family;
+    text-align: center;
+  }
+
+  .diagonal__footer--body {
+    text-align: center;
+    max-width: 55em;
+    margin: auto;
+    padding: 0 2em;
   }
 }
