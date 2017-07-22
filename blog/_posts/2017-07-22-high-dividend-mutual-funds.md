@@ -1,7 +1,7 @@
 ---
 layout: post
 title: High Dividend Mutual Funds
-date:   2017-07-21 12:37:00
+date:   2017-07-22 17:22:00
 categories: [investing]
 cover: cover/high_dividend_funds.jpeg
 ---
@@ -67,8 +67,8 @@ Despite the attractive return, the Vanguard Utilities Index Fund is considered a
 5. Vanguard Dividend Appreciation Index Fund [(VDAIX)](http://portfolios.morningstar.com/fund/summary?t=VDAIX){:rel="nofollow"} - VDAIX is an index fund and carries an appropriately low expense ratio of 0.17%. It has a low minimum investment of $3,000 and TTM yield of 1.98%. The index is designed to track companies that have raised their dividends in the past 10 years, which leads to an end result heavy on consumer-defensive and industrial names.
 
 ### Keep In Mind
-While dividends are a nice form of income, regular payments basically take money out of a company's capital. Companies generally pay out dividends if they have excess cash flow and don't believe they can find a more attractive return by [reinvesting the money in itself](http://news.morningstar.com/articlenet/article.aspx?id=705369){:rel="nofollow"}.
+While dividends become a nice form of income, regular payments take money out of a company's available capital. Businesses generally pay out dividends if they can afford the excess cash flow and don't believe they can find a more attractive return by [reinvesting the money in themselves](http://news.morningstar.com/articlenet/article.aspx?id=705369){:rel="nofollow"}.
 
-On the upside dividend payments plays on the power of compounding, and for a company to maintain a dividend over an extended period of time the company must be in steady standing with good earnings quality. Businesses that return cash to shareholders are also less likely to chase after large mergers. Acquisitions are typically more favorable for the acquiree instead of the acquirer. It's a likely possibility that high-dividend mutual funds with low fees can outperform other funds while also generating more income.
+On the upside, dividend payments play with the power of compounding. For a company to maintain a dividend over an extended period of time generally requires steady standing with a good earnings quality. Businesses that return cash to shareholders are also less likely to chase after large mergers. These types of acquisitions typically end up more favorable for the acquiree instead of the acquirer. With all of this in mind, there is a possibility that high-dividend mutual funds with low fees can outperform other funds while also generating more income.
 
 Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.
