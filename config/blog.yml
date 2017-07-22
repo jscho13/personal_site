@@ -8,13 +8,13 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: BrunchBucks
+title: The BrunchBucks Blog
 email: jscho13@gmail.com
 name: Joseph Cho
-subtitle: "Your Afternoon Guide to Personal Finance"
-baseurl: "" # the subpath of your site, e.g. /blog
+subtitle: "Learn essential personal finance knowledge here. We love planning out our financial roadmap so we can enjoy our hard earned cash the way it was meant to."
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 asseturl: "/assets/blog/"
-description: "BrunchBucks is aimed at helping others learn essential personal finance skills to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
+description: "BrunchBucks is aimed at helping others learn essential personal finance techniques and knowledge to manage their own wealth. It's a place for people to gather and discuss ways to get richer together."
 url: "http://brunchbucks.com"
 cover: "/assets/blog/coffee_work.jpg"
 logo: "/assets/logo.png"
@@ -33,14 +33,6 @@ jekyll-archives:
   layout: 'archive'
   permalinks:
     category: '/category/:name/'
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 # Social icons and sharing options
 #

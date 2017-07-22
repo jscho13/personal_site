@@ -1,5 +1,4 @@
-#{$all-button-inputs},
-button {
+#{$all-button-inputs} {
   @include appearance(none);
   -webkit-font-smoothing: antialiased;
   background-color: $action-color;
@@ -12,20 +11,84 @@ button {
   font-size: $base-font-size;
   font-weight: 600;
   line-height: 1;
-  padding: 0.4em 0.7em;
+  padding: 0.8em 0.7em;
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+  transition: background-color 0.3s ease-out;
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 15%);
+    background-color: darken($action-color, 10%);
     color: #fff;
+    transition: background-color 0.3s ease-in;
   }
 
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+  }
+}
+
+#sign_up {
+  background-color: $yellow;
+  transition: background-color 0.3s ease-out;
+  
+  &:hover,
+  &:focus {
+    background-color: darken($yellow, 10%);
+    transition: background-color 0.3s ease-in;
+  }
+}
+
+// #bottom_sign_up {
+//   background-color: $yellow;
+//   font-size: 30px;
+//   margin-bottom: 1em;
+//   transition: background-color 0.3s ease-out;
+// 
+//   &:hover,
+//   &:focus {
+//     background-color: darken($yellow, 10%);
+//     transition: background-color 0.3s ease-in;
+//   }  
+// }
+
+.cbtn {
+  color: $dark-gray;
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  margin: 1em auto;
+  max-width: 350px;
+  position: relative;
+}
+
+.cbtn-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+  
+  &:after {
+    background: $dark-gray;
+    content: "";
+    height: 120px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -45px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+  }
+  
+  &:hover {
+    border-color: $yellow;
+    color: $yellow;
+    &:after {
+      left: 110%;
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    }    
   }
 }
