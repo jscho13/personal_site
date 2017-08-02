@@ -66,7 +66,7 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
           <div>
-            <label>Allowable Spending</label>
+            <label>Remainding Monthly Spending</label>
             <input
               id="allowableSpending"
               className="small-width-input"
@@ -77,7 +77,7 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
           <div>
-            <label>Days Left</label>
+            <label>Days Left in Month</label>
             <input
               id="daysLeft"
               className="small-width-input"

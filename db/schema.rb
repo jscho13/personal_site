@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170507035913) do
+ActiveRecord::Schema.define(version: 20170730051146) do
+
+  create_table "budgets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.integer  "monthly_budget"
+    t.integer  "yearly_budget"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.integer  "transaction_id"
+    t.index ["transaction_id"], name: "index_budgets_on_transaction_id", using: :btree
+  end
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "post_id"
@@ -143,6 +152,13 @@ ActiveRecord::Schema.define(version: 20170507035913) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "transactions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.string   "label"
+    t.integer  "amount"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -157,11 +173,14 @@ ActiveRecord::Schema.define(version: 20170507035913) do
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.string   "sale_id"
-    t.integer  "monthly_budget"
+    t.integer  "budget_id"
+    t.index ["budget_id"], name: "index_users_on_budget_id", using: :btree
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  add_foreign_key "budgets", "transactions"
   add_foreign_key "comments", "posts"
   add_foreign_key "dsq_averages", "users"
+  add_foreign_key "users", "budgets"
 end
