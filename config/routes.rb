@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   scope '/api' do
     get 'dsq_month_data', to: 'features#dsq_month_data'
     get 'dsq_date_options', to: 'features#dsq_date_options'
-    get 'budget_data', to: 'features#budget_data'
+    get 'user_budget_data', to: 'features#user_budget_data'
   end
 
   resources :dsq_averages

@@ -1,4 +1,4 @@
-class DateFilterOptionsList extends React.Component {
+class DsqDateFilterList extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -7,10 +7,9 @@ class DateFilterOptionsList extends React.Component {
     let dateBoxes = this.props.dateOptions.map((dateOption) => {
       const { months, year } = dateOption
       return (
-        <DateFilterOption
+        <DsqDateFilterItem
           months={months}
-          year={year}
-          updateDsqDateFilter={this.props.updateDsqDateFilter}/>
+          year={year}/>
       )
     });
 

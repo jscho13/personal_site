@@ -53,7 +53,7 @@ class FeaturesController < ApplicationController
     render json: data
   end
 
-  def budget_data
+  def user_budget_data
     data = Hash.new
     if current_user.dsq_averages.last
       allowable_spending = current_user.dsq_averages.last.allowable_spending

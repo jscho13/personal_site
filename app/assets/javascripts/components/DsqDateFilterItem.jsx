@@ -1,11 +1,24 @@
-class DateFilterOption extends React.Component {
+class DsqDateFilterItem extends React.Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
-    this.props.updateDsqDateFilter(event.target.value, this.props.year);
+    fetch(`/api/dsq_month_data?month=${event.target.value}&year=${this.props.year}`, { credentials: "same-origin" })
+    .then(response => response.json())
+    .then(responseJson => {
+      $('#dsqAverageChart').remove();
+      $('#dsqPanelContainer').append('<canvas id="dsqAverageChart" width="100" height="50"></canvas>');
+      var ctx = $('#dsqAverageChart');
+      var dsqAverageChart = new Chart(ctx, {
+        type: 'line',
+        data: responseJson
+      });
+    })
+    .catch(error => {
+      console.error(error);
+    });
   }
 
   render() {

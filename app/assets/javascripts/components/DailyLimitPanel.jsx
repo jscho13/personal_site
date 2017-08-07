@@ -16,7 +16,7 @@ class DailyLimitPanel extends React.Component {
     date = new Date();
     daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
     submissionDate = moment().format('l');
-    fetch('/api/budget_data', { credentials: 'same-origin' })
+    fetch('/api/user_budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
@@ -56,7 +56,7 @@ class DailyLimitPanel extends React.Component {
       <div className="daily-limit-panel">
         <div className="daily-limit-panel__left">
           <div>
-            <label>Date</label>
+            <label>Today's Date</label>
             <input
               id="submissionDate"
               className="small-width-input"
@@ -66,7 +66,7 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
           <div>
-            <label>Remainding Monthly Spending</label>
+            <label>Monthly Spending</label>
             <input
               id="allowableSpending"
               className="small-width-input"
@@ -91,7 +91,7 @@ class DailyLimitPanel extends React.Component {
         
         <div className="daily-limit-panel__right">
           <div className="daily-limit-panel__right--spd">
-            <h3>Daily Quota</h3>
+            <h3>Daily Spending Quota</h3>
             <div style={{fontSize: '4em'}}>{this.state.dsq_average}</div>
           </div>
 

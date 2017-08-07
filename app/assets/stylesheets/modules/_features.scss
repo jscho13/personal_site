@@ -2,11 +2,16 @@
   background-color: #FFFFFF;
   border: 1px solid #ccc;
   border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
   padding: 1em;
   margin: 1em 0;  
 }
 
-#dsqChartPanelContainer {
+#dsqPanelContainer {
+  @extend .panelContainer;
+}
+
+#annualBudgetContainer {
   @extend .panelContainer;
 }
 

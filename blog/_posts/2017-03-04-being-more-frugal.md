@@ -5,18 +5,18 @@ date:   2017-03-04 12:37:00
 categories: [savings, budgeting]
 cover: cover/frugal_mindset.jpeg
 ---
-Keeping our wallets closed on impulsive buys is an important skill, but changing our habits accordingly is tougher. When it comes to changing how I act, no amount of tips and techniques really sticks until I change how I approach my goal. For example, going to the gym regularly is a healthy habit, but did you know exercising regularly also improves your cognitive function? It wasn't until I read the book Spark by John Ratey that I realized exercise isn't just a chore I should be doing, it's also a cheat code to help me learn faster and remember better. By viewing exercise in another lens I began to think "I'm helping myself become smarter by exercising" instead of "I'm going to exercise because I'm supposed to".
+Keeping our wallets closed on impulsive buys is an important skill, but changing our habits accordingly is tougher. When it comes to changing my behavior, no amount of tips and techniques really stick until I change my mentality. Everyone knows that going to the gym regularly is a healthy habit, but what I didn't know is that exercising regularly also improves your cognitive function and memory. It wasn't until I read the book Spark by John Ratey that I began to think about the "why" behind exercise. It struck me that exercise isn't a chore, but a cheat code to help me learn faster and remember better. By viewing exercise from another lens I began to think "I'm doing myself a favor by exercising" instead of "I'm tiring myself out going to the gym every week".
 
-Being a smart spender is no exception. Understanding why we're spending too much is key to changing our spending habits. I believe a lot of us today are trapped in a **Consumer mindset**.
+Being a smart spender is no exception. Understanding why we're spending too much is key to changing our spending habits. I believe a lot of us today are trapped in what I call the **Consumer Mindset**.
 
-### Ways We're Geared Towards a Consumer Mindset
-For me a consumer mindset is another way to describe our need to spend more money on things we don't need. The lines between want and need become easily blurred because of how our peers and society in generally has shaped how we think. Take the perceived value of a watch for example.
+### Ways We're Geared Towards the Consumer Mindset
+For me a consumer mindset is another way to describe our need to spend more money on things we don't need. I believe the lines between what we want and need are easily blurred because our peers and society around us have shaped how we think. Take the perceived value of a watch for example.
 
 ![oldwatch_newwatch](/assets/blog/oldwatch_newwatch.jpg){:style="width: 800px"}
 
-While originally watches were a tool help us keep track of time, they've turned into something that represents much more than their original function. Watches now function less as a tool, and more of an accessory for us to show off our status and fashion taste. Someone wearing a Rolex watch gives off the impression of wealth since they're so expensive, even though they might have broken the bank to purchase one! At the end of the day if we really wanted to check the time a simple battery powered Casio watch would do. In the age of smartphones where we always have access to the time watches have become even more unnecessary. We've essentially socially engineered ourselves with good marketing to create a perceived value watches! Our justification of the iconic value of watches over the actual utility it provides is a classic example of a consumer mindset.
+Originally watches were a tool help us keep track of time. Today, watches are symbolic accessories that have taken on more than their original function. We use them as objects to show off our status and fashion taste instead their original function as a tool. Ironically someone wearing a Rolex watch gives off the impression of wealth since they're so expensive, but what we don't know is that they might have broken the bank just to get their hands on one! At the end of the day if we really wanted to check the time a simple battery powered Casio watch would do. In the age of smartphones where we always have access to the time watches have become even more unnecessary. Our perceived value of watches is the result of good marketing and social engineering to create an illusionary value! Our justification for an expensive brand name watch despite it's actual utility is a classic example of a consumer mindset.
 
-Presenting ourselves in certain social settings with the need to fit in is another way consumer mindsets manifest themselves.
+Our desire to present ourselves in certain social settings to fit in is another manifestation of the consumer mindset.
 
 ![dating_asian_couple](/assets/blog/dating_asian_couple.jpeg){:style="width: 800px"}
 
