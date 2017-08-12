@@ -4,7 +4,7 @@
   border-radius: 3px;
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
   padding: 1em;
-  margin: 1em 0;  
+  margin: 1em 0;
 }
 
 #dsqPanelContainer {
@@ -55,10 +55,10 @@ label {
   text-align: left;
 }
 
-.date-filter {
+.dsq-date-filter {
   display: flex;
   
-  .date-filter--option {
+  .dsq-date-filter--option {
     border: 1px solid #ccc;
     border-radius: 3px;
     margin: 0.5em;
@@ -76,15 +76,54 @@ label {
 }
 
 .select-style select {
-    padding: 5px 8px;
-    width: 130%;
-    border: none;
-    box-shadow: none;
-    background: transparent;
-    background-image: none;
-    -webkit-appearance: none;
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
 }
 
 .select-style select:focus {
     outline: none;
+}
+
+.ab-row {
+  display: flex;
+  
+  .ab-row__item--remove-item {
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .ab-row__item {
+    &:nth-child(1) {
+      flex-basis: 5em;
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      flex-basis: 12em;
+      margin: 0 0.5em;
+    }
+    
+    &:nth-child(3) {
+      flex-basis: 8em;        
+      margin: 0 0.5em;
+    }
+    
+    &:nth-child(4) {
+      flex-basis: 45em;
+    }
+    
+    &:nth-child(5) {
+      flex-basis: 10em;
+    }      
+  }
+}
+
+.ab-list {
+  list-style-type: none;
+  padding-left: 0;
 }

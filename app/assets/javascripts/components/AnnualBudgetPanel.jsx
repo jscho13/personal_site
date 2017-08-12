@@ -59,6 +59,14 @@ class AnnualBudgetPanel extends React.Component {
           budgetItems={this.state.budgetItems}
           removeBudgetItem={this.removeBudgetItem}
         />
+        <hr/>
+        <div className="ab-row">
+          <div className="ab-row__item">&nbsp;</div>
+          <label className="ab-row__item">Sum</label>
+          <div className="ab-row__item">&nbsp;</div>
+          <div className="ab-row__item">&nbsp;</div>
+          <div className="ab-row__item">$$$$$</div>
+        </div>
       </div>
     );
   }

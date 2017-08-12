@@ -14,7 +14,7 @@ class DsqDateFilterList extends React.Component {
     });
 
     return(
-      <div className="date-filter">
+      <div className="dsq-date-filter">
         {dateBoxes}
       </div>
     );

@@ -3,9 +3,9 @@ class HomesController < ApplicationController
     render "homes/landing"    
   end
 
-  def about
-    render "homes/about"
-  end
+  # def about
+  #   render "homes/about"
+  # end
   
   def premium_access
     render "homes/premium_access"

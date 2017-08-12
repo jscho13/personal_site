@@ -22,17 +22,6 @@
 @import "neat/neat";
 @import "modules";
 
-// This sets the standard width as the same as jekyll. Very generic name.
-.container {
-  @include clearfix;
-  margin: auto;
-  max-width: 70em;
-}
-
-.full-page {
-  min-height: 85%;  
-}
-
 // * {
 //   background: #000 !important;
 //   color: #0f0 !important;

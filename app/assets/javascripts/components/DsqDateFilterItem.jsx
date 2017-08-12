@@ -33,7 +33,7 @@ class DsqDateFilterItem extends React.Component {
     });
 
     return (
-      <div className="date-filter--option">
+      <div className="dsq-date-filter--option">
         <label>{this.props.year}</label>
         <select className="select-style" onClick={this.handleChange}>
           {monthOptions}
