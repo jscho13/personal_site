@@ -1,3 +1,4 @@
+// change this to a class for it to work properly
 const AnnualBudgetForm = (props) => {
   return (
     <form onSubmit={props.addBudgetItem}>
@@ -15,16 +16,14 @@ const AnnualBudgetForm = (props) => {
           id="budgetInputLabel"
           className="ab-row__item"
           style={{margin: 0}}
-          placeholder="e.g. Transportation"
+          placeholder={props.label}
           type="text"
-          value={props.label}
         />
         <input
           id="budgetInputAmount"
           className="ab-row__item"
-          placeholder="120"
+          placeholder={props.amount}
           type="number"
-          value={props.amount}
         />
         <div className="ab-row__item"><input type="submit" value="+"/></div>
         <span className="ab-row__item"></span>

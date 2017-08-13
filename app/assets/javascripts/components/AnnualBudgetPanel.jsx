@@ -2,17 +2,15 @@ class AnnualBudgetPanel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      budgetItems: [
-        {id: 1, label: "Food", amount: 700},
-        {id: 2, label: "Transportation", amount: 200},
-        {id: 3, label: "Entertainment", amount: 600}
-      ],
-      label: '',
-      amount: ''
+      budgetItems: [],
+      label: 'Transportation',
+      amount: '120',
+      yearlyBudget: ''
     }
     
     this.addBudgetItem = this.addBudgetItem.bind(this);
     this.removeBudgetItem = this.removeBudgetItem.bind(this);
+    this.sumBudgetItems = this.sumBudgetItems.bind(this);
   }
 
   addBudgetItem(event) {
@@ -20,22 +18,34 @@ class AnnualBudgetPanel extends React.Component {
     let newId = this.state.budgetItems.length + 1
     let newBudgetItem = {
       id: newId,
-      label: $('#budgetInputLabel').val(),
-      amount: $('#budgetInputAmount').val()
+      label: event.currentTarget.elements.budgetInputLabel.value,
+      amount: event.currentTarget.elements.budgetInputAmount.value,
+      annualAmount: event.currentTarget.elements.budgetInputAmount.value * 12
     }
+    event.currentTarget.elements.budgetInputLabel.value = ''
+    event.currentTarget.elements.budgetInputAmount.value = ''
     let newBudgetItems = [...this.state.budgetItems, newBudgetItem]
+    let yearlyBudget = this.sumBudgetItems(newBudgetItems)
     this.setState({
       budgetItems: newBudgetItems,
-      label: '',
-      amount: ''
+      yearlyBudget: yearlyBudget
     })
   }
-
+  
   removeBudgetItem(id) {
     let newBudgetItems = this.state.budgetItems.filter(budgetItem => {
       return budgetItem.id !== id
     })
-    this.setState({ budgetItems: newBudgetItems })
+    let yearlyBudget = this.sumBudgetItems(newBudgetItems)
+    this.setState({
+        budgetItems: newBudgetItems,
+        yearlyBudget: yearlyBudget
+    })
+  }
+  
+  sumBudgetItems(budgetItemList) {
+    let total = budgetItemList.reduce(function(a, b){ return a + b.annualAmount }, 0)
+    return total
   }
     
   componentDidMount() {    
@@ -53,6 +63,8 @@ class AnnualBudgetPanel extends React.Component {
     return(
       <div id="annualBudgetContainer">
         <AnnualBudgetForm
+          label={this.state.label}
+          amount={this.state.amount}
           addBudgetItem={this.addBudgetItem}
         />
         <AnnualBudgetList
@@ -65,7 +77,7 @@ class AnnualBudgetPanel extends React.Component {
           <label className="ab-row__item">Sum</label>
           <div className="ab-row__item">&nbsp;</div>
           <div className="ab-row__item">&nbsp;</div>
-          <div className="ab-row__item">$$$$$</div>
+          <div className="ab-row__item">{this.state.yearlyBudget}</div>
         </div>
       </div>
     );

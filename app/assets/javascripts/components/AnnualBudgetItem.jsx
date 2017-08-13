@@ -5,7 +5,7 @@ const AnnualBudgetItem = (props) => {
       <div className="ab-row__item">{props.label}</div>
       <div className="ab-row__item">{props.amount}</div>
       <div className="ab-row__item"></div>
-      <div className="ab-row__item">$$$</div>
+      <div className="ab-row__item">{props.annualAmount}</div>
     </li>
   )
 }
