@@ -1,3 +1,6 @@
+import React from 'react'
+import DsqDateFilterList from './DsqDateFilterList'
+
 class DsqPanel extends React.Component {
   constructor(props) {
     super(props);
@@ -42,3 +45,4 @@ class DsqPanel extends React.Component {
     );
   }
 };
+export default DsqPanel

@@ -1,3 +1,5 @@
+import React from 'react'
+
 class DsqDateFilterItem extends React.Component {
   constructor(props) {
     super(props);
@@ -42,3 +44,4 @@ class DsqDateFilterItem extends React.Component {
     );
   }
 }
+export default DsqDateFilterItem

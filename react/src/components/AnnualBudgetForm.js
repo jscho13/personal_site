@@ -1,4 +1,5 @@
-// change this to a class for it to work properly
+import React from 'react'
+
 const AnnualBudgetForm = (props) => {
   return (
     <form onSubmit={props.addBudgetItem}>
@@ -31,3 +32,4 @@ const AnnualBudgetForm = (props) => {
     </form>
   )
 }
+export default AnnualBudgetForm

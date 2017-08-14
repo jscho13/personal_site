@@ -1,3 +1,6 @@
+import React from 'react'
+import AnnualBudgetItem from './AnnualBudgetItem'
+
 class AnnualBudgetList extends React.Component {
   constructor(props) {
     super(props);
@@ -25,3 +28,4 @@ class AnnualBudgetList extends React.Component {
     );
   }
 };
+export default AnnualBudgetList

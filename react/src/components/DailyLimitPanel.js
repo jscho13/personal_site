@@ -1,3 +1,5 @@
+import React from 'react'
+
 class DailyLimitPanel extends React.Component {
   constructor(props) {
     super(props)
@@ -13,9 +15,9 @@ class DailyLimitPanel extends React.Component {
   }
   
   componentDidMount() {
-    date = new Date();
-    daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
-    submissionDate = moment().format('l');
+    let date = new Date();
+    let daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
+    let submissionDate = moment().format('l');
     fetch('/api/user_budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
@@ -105,3 +107,4 @@ class DailyLimitPanel extends React.Component {
     )
   }
 }
+export default DailyLimitPanel

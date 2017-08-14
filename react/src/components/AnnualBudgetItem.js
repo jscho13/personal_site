@@ -1,3 +1,5 @@
+import React from 'react'
+
 const AnnualBudgetItem = (props) => {
   return (
     <li className="ab-row">
@@ -9,3 +11,4 @@ const AnnualBudgetItem = (props) => {
     </li>
   )
 }
+export default AnnualBudgetItem

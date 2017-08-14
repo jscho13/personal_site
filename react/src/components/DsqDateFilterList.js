@@ -1,3 +1,6 @@
+import React from 'react'
+import DsqDateFilterItem from './DsqDateFilterItem'
+
 class DsqDateFilterList extends React.Component {
   constructor(props) {
     super(props);
@@ -20,3 +23,4 @@ class DsqDateFilterList extends React.Component {
     );
   }
 };
+export default DsqDateFilterList

@@ -28,7 +28,6 @@ gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'payola-payments'
-gem 'react-rails'
 
 group :development, :test do
   gem 'pry'
