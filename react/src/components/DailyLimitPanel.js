@@ -1,4 +1,6 @@
 import React from 'react'
+import DatePicker from 'react-datepicker';
+import moment from 'moment';
 
 class DailyLimitPanel extends React.Component {
   constructor(props) {
@@ -7,7 +9,7 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: 0,
       days_left: 0,
       dsq_average: 0,
-      submission_date: 0
+      submission_date: moment()
     }
     
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -17,14 +19,12 @@ class DailyLimitPanel extends React.Component {
   componentDidMount() {
     let date = new Date();
     let daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
-    let submissionDate = moment().format('l');
     fetch('/api/user_budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
                       , days_left: daysLeft
-                      , dsq_average: (responseJson.allowable_spending/daysLeft).toFixed(2)
-                      , submission_date: submissionDate });
+                      , dsq_average: (responseJson.allowable_spending/daysLeft).toFixed(2) });
       })
       .catch(error => {
         console.error(error);
@@ -34,7 +34,7 @@ class DailyLimitPanel extends React.Component {
   calculateDsq(event) {
     let newAllowableSpending = $('#allowableSpending')[0].value;
     let newDaysLeft = $('#daysLeft')[0].value;
-    let newSubmissionDate = $('#submissionDate')[0].value;
+    let newSubmissionDate = event;
     let newDsq = (newAllowableSpending/newDaysLeft).toFixed(2);
     this.setState({ allowable_spending: newAllowableSpending
                   , days_left: newDaysLeft
@@ -59,13 +59,7 @@ class DailyLimitPanel extends React.Component {
         <div className="daily-limit-panel__left">
           <div>
             <label>Today's Date</label>
-            <input
-              id="submissionDate"
-              className="small-width-input"
-              onChange={this.calculateDsq}
-              type="text"
-              value={this.state.submission_date}
-            />
+            <DatePicker selected={this.state.submission_date} onChange={this.calculateDsq} />
           </div>
           <div>
             <label>Monthly Spending</label>
