@@ -19,22 +19,15 @@
   @extend .panelContainer;
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
+  padding-left: 5em;
 
-  .daily-limit-panel__left {
-    width: 100%;
-  }
-  
   .daily-limit-panel__right {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 100%;
+    margin-right: 5em;
 
-    .daily-limit-panel__right--spd {
-      text-align: center;
-      width: 100%;    
-    }
-    
     .daily-limit-panel__right--submit {
       text-align: right;
       
@@ -42,6 +35,11 @@
         padding: 1em;
       }
     }    
+  }
+
+  .daily-limit-panel__middle,
+  .daily-limit-panel__right--spd {
+    text-align: center;
   }
 }
 

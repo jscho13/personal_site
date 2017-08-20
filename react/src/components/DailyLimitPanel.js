@@ -13,12 +13,14 @@ class DailyLimitPanel extends React.Component {
     }
     
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.calculateDsq = this.calculateDsq.bind(this);
+    this.handleSpendingChange = this.handleSpendingChange.bind(this);
+    this.handleDateChange = this.handleDateChange.bind(this);
   }
-  
+
   componentDidMount() {
-    let date = new Date();
-    let daysLeft = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate() + 1;
+    let start = moment();
+    let end = moment().endOf('month');
+    let daysLeft  = end.diff(start, 'days') + 1;
     fetch('/api/user_budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
@@ -31,60 +33,65 @@ class DailyLimitPanel extends React.Component {
       });
   }
 
-  calculateDsq(event) {
-    let newAllowableSpending = $('#allowableSpending')[0].value;
-    let newDaysLeft = $('#daysLeft')[0].value;
-    let newSubmissionDate = event;
-    let newDsq = (newAllowableSpending/newDaysLeft).toFixed(2);
+  handleSpendingChange(event) {
+    let newAllowableSpending = event.target.value;
+    let newDsq = (newAllowableSpending/this.state.days_left).toFixed(2);
     this.setState({ allowable_spending: newAllowableSpending
-                  , days_left: newDaysLeft
-                  , dsq_average: newDsq
-                  , submission_date: newSubmissionDate });
+                  , dsq_average: newDsq });
   }
-  
+
+  handleDateChange(date) {
+    let end = moment().endOf('month');
+    let newDaysLeft = end.diff(date, 'days') + 1;
+    let newDsq = (this.state.allowable_spending/newDaysLeft).toFixed(2);
+    this.setState({ submission_date: date
+                  , days_left: newDaysLeft
+                  , dsq_average: newDsq });
+  }
+
   handleSubmit(event) {
     event.preventDefault();
     $.post( "/dsq_averages", {
-      authenticity_token: this.props.authenticity_token,
       allowable_spending: this.state.allowable_spending,
       days_left: this.state.days_left,
       dsq_average: this.state.dsq_average,
-      submission_date: this.state.submission_date
+      submission_date: this.state.submission_date.format("MM DD YYYY")
     }).done(window.location.replace("/features"));
+    
+    // update the chart
+    // https://stackoverflow.com/questions/17354163/dynamically-update-values-of-a-chartjs-chart
   }
 
   render() {
     return (
-      <div className="daily-limit-panel">
+      <form className="daily-limit-panel" onSubmit={this.handleSubmit}>
         <div className="daily-limit-panel__left">
           <div>
-            <label>Today's Date</label>
-            <DatePicker selected={this.state.submission_date} onChange={this.calculateDsq} />
+            <label>Date</label>
+            <DatePicker
+              id="submissionDate"
+              selected={this.state.submission_date}
+              onChange={this.handleDateChange}
+            />
           </div>
           <div>
-            <label>Monthly Spending</label>
+            <label>Remaning Monthly Spending</label>
             <input
               id="allowableSpending"
               className="small-width-input"
-              onChange={this.calculateDsq}
+              onChange={this.handleSpendingChange}
               placeholder="Allowable Spending"
               type="number"
               value={this.state.allowable_spending}
             />
           </div>
-          <div>
-            <label>Days Left in Month</label>
-            <input
-              id="daysLeft"
-              className="small-width-input"
-              onChange={this.calculateDsq}
-              placeholder="Days Left"
-              type="number"
-              value={this.state.days_left}
-            />
-          </div>
         </div>
         
+        <div className="daily-limit-panel__middle">
+          <h3>Days Left in Month</h3>
+          <div style={{fontSize: '4em'}}>{this.state.days_left}</div>
+        </div>
+
         <div className="daily-limit-panel__right">
           <div className="daily-limit-panel__right--spd">
             <h3>Daily Spending Quota</h3>
@@ -92,12 +99,10 @@ class DailyLimitPanel extends React.Component {
           </div>
 
           <div className="daily-limit-panel__right--submit">
-            <form onSubmit={this.handleSubmit}>
-              <input type="submit" value="Save"/>
-            </form>
+            <input type="submit" value="Save"/>
           </div>
         </div>
-      </div>
+      </form>
     )
   }
 }

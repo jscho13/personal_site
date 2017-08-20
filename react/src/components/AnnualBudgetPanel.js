@@ -24,16 +24,23 @@ class AnnualBudgetPanel extends React.Component {
       id: newId,
       label: event.currentTarget.elements.budgetInputLabel.value,
       amount: event.currentTarget.elements.budgetInputAmount.value,
-      annualAmount: event.currentTarget.elements.budgetInputAmount.value * 12
+      yearlyBudget: event.currentTarget.elements.budgetInputAmount.value * 12
     }
     event.currentTarget.elements.budgetInputLabel.value = ''
     event.currentTarget.elements.budgetInputAmount.value = ''
     let newBudgetItems = [...this.state.budgetItems, newBudgetItem]
-    let yearlyBudget = this.sumBudgetItems(newBudgetItems)
+    let annualBudget = this.sumBudgetItems(newBudgetItems)
+    
+    // Send out budget item create request
+    $.post( "/budget_items", {
+      budget_item: newBudgetItem,
+      yearly_budget: annualBudget
+    })
+    
     this.setState({
       budgetItems: newBudgetItems,
       yearlyBudget: yearlyBudget
-    })
+    })    
   }
   
   removeBudgetItem(id) {
@@ -41,18 +48,23 @@ class AnnualBudgetPanel extends React.Component {
       return budgetItem.id !== id
     })
     let yearlyBudget = this.sumBudgetItems(newBudgetItems)
+    
+    // send out a delete request here
+    
     this.setState({
-        budgetItems: newBudgetItems,
-        yearlyBudget: yearlyBudget
+      budgetItems: newBudgetItems,
+      yearlyBudget: yearlyBudget
     })
   }
   
   sumBudgetItems(budgetItemList) {
-    let total = budgetItemList.reduce(function(a, b){ return a + b.annualAmount }, 0)
+    let total = budgetItemList.reduce(function(a, b){ return a + b.yearlyBudget }, 0)
     return total
   }
     
-  componentDidMount() {    
+  componentDidMount() {
+    // this will be the index
+    
     // fetch("/api/dsq_date_options", { credentials: "same-origin" })
     //   .then(response => response.json())
     //   .then(responseJson => {

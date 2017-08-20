@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= require payola
 //= require jquery_ujs
+//= require payola
 //= require_tree .
 
 // $( document ).ready(function() {

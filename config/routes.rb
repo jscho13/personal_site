@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   end
 
   resources :dsq_averages
+  resources :budget_items
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
