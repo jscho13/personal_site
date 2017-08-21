@@ -7,10 +7,11 @@ class DsqDateFilterList extends React.Component {
   }
 
   render() {
-    let dateBoxes = this.props.dateOptions.map((dateOption) => {
+    let dateBoxes = this.props.dateOptions.map((dateOption, index) => {
       const { months, year } = dateOption
       return (
         <DsqDateFilterItem
+          key={year}
           months={months}
           year={year}/>
       )

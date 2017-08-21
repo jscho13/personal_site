@@ -32,18 +32,14 @@ class AnnualBudgetPanel extends React.Component {
 
   addBudgetItem(event) {
     event.preventDefault()
-    let newId = Math.max(...this.state.budgetItems.map(o => o.id))+1
     let label = event.currentTarget.elements.budgetInputLabel.value
     let amount = event.currentTarget.elements.budgetInputAmount.value
     let annualBudget = event.currentTarget.elements.budgetInputAmount.value * 12
     let newBudgetItem = {
-      id: newId,
       label: label,
       amount: amount,
       annual_budget: annualBudget
     }
-    event.currentTarget.elements.budgetInputLabel.value = ''
-    event.currentTarget.elements.budgetInputAmount.value = ''
     let newBudgetItems = [...this.state.budgetItems, newBudgetItem]
     let yearlyBudget = this.sumBudgetItems(newBudgetItems)
     
@@ -51,23 +47,36 @@ class AnnualBudgetPanel extends React.Component {
     $.post( "/budget_items", {
       budget_item: newBudgetItem,
       yearly_budget: yearlyBudget
+    }).done(function() {
+      fetch("/budget_items", { credentials: "same-origin" })
+        .then(response => response.json())
+        .then(responseJson => {
+          newBudgetItem.id = responseJson.budgetItems.pop().id
+        })
+        .catch(error => {
+          console.error(error);
+        })
     })
-    
+    // Replace the last item because it has an id
+    newBudgetItems[newBudgetItems.length-1] = newBudgetItem
+    event.currentTarget.elements.budgetInputLabel.value = ''
+    event.currentTarget.elements.budgetInputAmount.value = ''
+        
     this.setState({
       budgetItems: newBudgetItems,
       yearlyBudget: yearlyBudget
     })
   }
   
-  removeBudgetItem(id) {
+  removeBudgetItem(removeItem) {
     let newBudgetItems = this.state.budgetItems.filter(budgetItem => {
-      return budgetItem.id !== id
+      return budgetItem !== removeItem
     })
     let yearlyBudget = this.sumBudgetItems(newBudgetItems)
     
     // Send out budget delete request
     $.ajax({
-      url: "/budget_items/"+id,
+      url: "/budget_items/"+removeItem.id,
       type: 'DELETE',
       contentType: 'application/json',
       error: function(request,msg,error) {

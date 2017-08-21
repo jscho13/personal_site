@@ -9,10 +9,11 @@ class AnnualBudgetList extends React.Component {
   render() {
     let budgetItems = this.props.budgetItems.map((budgetItem) => {
       const { id, label, amount, annual_budget } = budgetItem
-      let removeBudgetItem = () => this.props.removeBudgetItem(id)
+      let removeBudgetItem = () => this.props.removeBudgetItem(budgetItem)
 
       return (
         <AnnualBudgetItem
+          key={id}
           id={id}
           label={label}
           amount={amount}

@@ -28,7 +28,7 @@ class DsqDateFilterItem extends React.Component {
       let monthName = moment(month, 'M').format('MMM');
       
       return (
-        <option value={month}>
+        <option value={month} key={month}>
           {monthName}
         </option>
       )
