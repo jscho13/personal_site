@@ -1,3 +1,14 @@
+.full-page {
+  min-height: 85%;
+}
+
+// This sets the standard width as the same as jekyll. Very generic name.
+.container {
+  @include clearfix;
+  margin: auto;
+  max-width: 70em;
+}
+
 .text-white {
   color: $white;
 }

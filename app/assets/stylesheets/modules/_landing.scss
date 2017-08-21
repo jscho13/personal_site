@@ -1,3 +1,11 @@
+#landing-container {
+  @include clearfix;
+  margin: auto;
+  max-width: 70em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;  
+}
+
 .diagonal__header {
   background-size:cover;
   height:600px;
@@ -67,6 +75,7 @@
 
 .diagonal__footer {
   margin-top: 80em;
+
   @include media ($mobile) {
     margin-top: 72em;
   }

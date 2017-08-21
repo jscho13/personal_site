@@ -12,10 +12,11 @@ Rails.application.routes.draw do
   scope '/api' do
     get 'dsq_month_data', to: 'features#dsq_month_data'
     get 'dsq_date_options', to: 'features#dsq_date_options'
-    get 'budget_data', to: 'features#budget_data'
+    get 'user_budget_data', to: 'features#user_budget_data'
   end
 
   resources :dsq_averages
+  resources :budget_items
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
