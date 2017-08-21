@@ -1,6 +1,6 @@
 class AddUsersToBudgets < ActiveRecord::Migration[5.1]
   def change
-    remove_column :budgets, :user_id, foreign_key: true
+    add_foreign_key :budgets, :users
     
     change_table :budgets do |t|
       t.references :user
