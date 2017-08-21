@@ -8,7 +8,7 @@ class AnnualBudgetList extends React.Component {
 
   render() {
     let budgetItems = this.props.budgetItems.map((budgetItem) => {
-      const { id, label, amount, yearlyBudget } = budgetItem
+      const { id, label, amount, annual_budget } = budgetItem
       let removeBudgetItem = () => this.props.removeBudgetItem(id)
 
       return (
@@ -16,7 +16,7 @@ class AnnualBudgetList extends React.Component {
           id={id}
           label={label}
           amount={amount}
-          yearlyBudget={yearlyBudget}
+          annualBudget={annual_budget}
           removeBudgetItem={removeBudgetItem}/>
       )
     });
@@ -27,5 +27,6 @@ class AnnualBudgetList extends React.Component {
       </ul>
     );
   }
-};
+}
+
 export default AnnualBudgetList

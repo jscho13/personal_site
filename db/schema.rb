@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170820211700) do
+ActiveRecord::Schema.define(version: 20170821015828) do
 
   create_table "budget_items", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "label"
@@ -18,11 +18,11 @@ ActiveRecord::Schema.define(version: 20170820211700) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "budget_id"
+    t.integer "annual_budget"
     t.index ["budget_id"], name: "index_budget_items_on_budget_id"
   end
 
   create_table "budgets", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
-    t.integer "monthly_budget"
     t.integer "yearly_budget"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
