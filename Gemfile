@@ -27,7 +27,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
-gem 'payola-payments', git: 'https://github.com/naterexw/payola'
+gem 'payola-payments'
 
 group :development, :test do
   gem 'pry'
