@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/payolapayments/payola
+  revision: 7d9cfdc744cb1472a569675174a3bf2a8dcae2ba
+  specs:
+    payola-payments (1.5.0)
+      aasm (>= 4.0.7)
+      jquery-rails
+      rails (>= 4.1)
+      stripe (>= 1.20.1)
+      stripe_event (>= 1.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -121,12 +132,6 @@ GEM
     orm_adapter (0.5.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    payola-payments (1.5.0)
-      aasm (>= 4.0.7)
-      jquery-rails
-      rails (>= 4.1)
-      stripe (>= 1.20.1)
-      stripe_event (>= 1.3.0)
     pg (0.21.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -240,7 +245,7 @@ DEPENDENCIES
   jquery-rails
   mysql
   mysql2 (>= 0.3.13, < 0.5)
-  payola-payments
+  payola-payments!
   pg
   pry
   puma
