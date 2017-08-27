@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require payola
 //= require_tree .
+//= stub bundle.js
 
 // $( document ).ready(function() {
 //   $('body').attr('height',$(window).height());

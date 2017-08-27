@@ -60,8 +60,12 @@
   
   .diagonal__adbox--l,
   .diagonal__adbox--r, {
-    @include span-columns(6);
+    @include span-columns(12);
     color: $white;
+
+    @include media ($mobile) {
+      @include span-columns(6);
+    }
   }
 
   .diagonal__adbox--l {
@@ -81,7 +85,7 @@
   }
   
   .diagonal__footer--lead {
-    font-size: 3.5em;
+    font-size: 3em;
     font-family: $secondary-font-family;
     text-align: center;
   }
