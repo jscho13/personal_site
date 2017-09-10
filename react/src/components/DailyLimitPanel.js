@@ -9,12 +9,14 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: 0,
       days_left: 0,
       dsq_average: 0,
-      submission_date: moment()
+      monthly_budget: 0,
+      submission_date: moment(),
+      correct_dsq_average: 0
     }
-    
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSpendingChange = this.handleSpendingChange.bind(this);
     this.handleDateChange = this.handleDateChange.bind(this);
+    this.handleBudgetChange = this.handleBudgetChange.bind(this);
     this.dollarFormatter = new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: 'USD',
@@ -31,7 +33,8 @@ class DailyLimitPanel extends React.Component {
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
                       , days_left: daysLeft
-                      , dsq_average: this.dollarFormatter.format((responseJson.allowable_spending/daysLeft).toFixed(2)) });
+                      , dsq_average: this.dollarFormatter.format((responseJson.allowable_spending/daysLeft).toFixed(2))
+                      , monthly_budget: responseJson.monthly_budget });
       })
       .catch(error => {
         console.error(error);
@@ -40,7 +43,7 @@ class DailyLimitPanel extends React.Component {
 
   handleSpendingChange(event) {
     let newAllowableSpending = event.target.value;
-    let newDsq = (newAllowableSpending/this.state.days_left).toFixed(2);
+    let newDsq = (newAllowableSpending/this.state.days_left);
     this.setState({ allowable_spending: newAllowableSpending
                   , dsq_average: this.dollarFormatter.format(newDsq) });
   }
@@ -48,10 +51,18 @@ class DailyLimitPanel extends React.Component {
   handleDateChange(date) {
     let end = moment().endOf('month');
     let newDaysLeft = end.diff(date, 'days') + 1;
-    let newDsq = (this.state.allowable_spending/newDaysLeft).toFixed(2);
+    let newDsq = (this.state.allowable_spending/newDaysLeft);
     this.setState({ submission_date: date
                   , days_left: newDaysLeft
                   , dsq_average: this.dollarFormatter.format(newDsq) });
+  }
+  
+  handleBudgetChange(event) {
+    let newMonthlyBudget = event.target.value;
+    let newCorrectDsqAverage = (newMonthlyBudget/this.state.days_left);
+    this.setState({ monthly_budget: newMonthlyBudget
+                  , correct_dsq_average: this.dollarFormatter.format(newCorrectDsqAverage) });
+    
   }
 
   handleSubmit(event) {
@@ -60,6 +71,7 @@ class DailyLimitPanel extends React.Component {
       allowable_spending: this.state.allowable_spending,
       days_left: this.state.days_left,
       dsq_average: this.state.dsq_average,
+      monthly_budget: this.state.monthly_budget,
       submission_date: this.state.submission_date.format("MM DD YYYY")
     }).done(window.location.replace("/features"));
     
@@ -80,7 +92,18 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
           <div>
-            <label>Remaning Monthly Spending</label>
+            <label>Monthly Budget</label>
+            <input
+              id="monthlySpending"
+              className="small-width-input"
+              onChange={this.handleBudgetChange}
+              placeholder="Monthly Budget"
+              type="number"
+              value={this.state.monthly_budget}
+            />
+          </div>
+          <div>
+            <label>Remaining Budget</label>
             <input
               id="allowableSpending"
               className="small-width-input"
@@ -91,7 +114,7 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
         </div>
-        
+        {this.state.correct_dsq_average}
         <div className="daily-limit-panel__middle">
           <h3>Days Left in Month</h3>
           <div style={{fontSize: '4em'}}>{this.state.days_left}</div>

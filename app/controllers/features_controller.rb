@@ -57,10 +57,13 @@ class FeaturesController < ApplicationController
     data = Hash.new
     if current_user.dsq_averages.last
       allowable_spending = current_user.dsq_averages.last.allowable_spending
+      monthly_budget = current_user.monthly_budget
     else
       allowable_spending = 0
+      monthly_budget = 0
     end
     data[:allowable_spending] = allowable_spending
+    data[:monthly_budget] = monthly_budget
     render json: data
   end
 
