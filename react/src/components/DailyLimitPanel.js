@@ -33,9 +33,9 @@ class DailyLimitPanel extends React.Component {
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
-                      , correct_dsq_average: this.dollarFormatter.format(responseJson.monthly_budget/daysLeft)
+                      , correct_dsq_average: responseJson.monthly_budget/daysLeft
                       , days_left: daysLeft
-                      , dsq_average: this.dollarFormatter.format((responseJson.allowable_spending/daysLeft).toFixed(2))
+                      , dsq_average: responseJson.allowable_spending/daysLeft
                       , monthly_budget: responseJson.monthly_budget });
       })
       .catch(error => {
@@ -47,7 +47,7 @@ class DailyLimitPanel extends React.Component {
     let newAllowableSpending = event.target.value;
     let newDsq = (newAllowableSpending/this.state.days_left);
     this.setState({ allowable_spending: newAllowableSpending
-                  , dsq_average: this.dollarFormatter.format(newDsq) });
+                  , dsq_average: newDsq });
   }
 
   handleDateChange(date) {
@@ -56,14 +56,14 @@ class DailyLimitPanel extends React.Component {
     let newDsq = (this.state.allowable_spending/newDaysLeft);
     this.setState({ submission_date: date
                   , days_left: newDaysLeft
-                  , dsq_average: this.dollarFormatter.format(newDsq) });
+                  , dsq_average: newDsq });
   }
   
   handleBudgetChange(event) {
     let newMonthlyBudget = event.target.value;
     let newCorrectDsqAverage = (newMonthlyBudget/this.state.days_left);
     this.setState({ monthly_budget: newMonthlyBudget
-                  , correct_dsq_average: this.dollarFormatter.format(newCorrectDsqAverage) });
+                  , correct_dsq_average: newCorrectDsqAverage });
     
   }
 
@@ -90,6 +90,8 @@ class DailyLimitPanel extends React.Component {
   }
 
   render() {
+    let dsqDiff = this.dollarFormatter.format(Math.abs(this.state.dsq_average-this.state.correct_dsq_average));
+    
     return (
       <form className="daily-limit-panel" onSubmit={this.handleSubmit}>
         <div className="daily-limit-panel__left">
@@ -124,7 +126,6 @@ class DailyLimitPanel extends React.Component {
             />
           </div>
         </div>
-        {this.state.correct_dsq_average}
         <div className="daily-limit-panel__middle">
           <h3>Days Left in Month</h3>
           <div style={{fontSize: '4em'}}>{this.state.days_left}</div>
@@ -133,7 +134,10 @@ class DailyLimitPanel extends React.Component {
         <div className="daily-limit-panel__right">
           <div className="daily-limit-panel__right--spd">
             <h3>Daily Spending Quota</h3>
-            <div className={(this.aboveCorrectDsq() ? 'text-green' : 'text-red')} style={{fontSize: '4em'}}>{this.state.dsq_average}</div>
+            <div className={(this.aboveCorrectDsq() ? 'text-green' : 'text-red')} style={{fontSize: '4em'}}>
+              {this.dollarFormatter.format(this.state.dsq_average)}
+            </div>
+            You're currently {this.aboveCorrectDsq() ? <span>over</span> : <span>under</span>} the average by {dsqDiff}
           </div>
 
           <div className="daily-limit-panel__right--submit">
