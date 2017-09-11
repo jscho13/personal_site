@@ -22,6 +22,7 @@ class DailyLimitPanel extends React.Component {
       currency: 'USD',
       minimumFractionDigits: 2,
     })
+    this.aboveCorrectDsq = this.aboveCorrectDsq.bind(this);
   }
 
   componentDidMount() {
@@ -32,6 +33,7 @@ class DailyLimitPanel extends React.Component {
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
+                      , correct_dsq_average: this.dollarFormatter.format(responseJson.monthly_budget/daysLeft)
                       , days_left: daysLeft
                       , dsq_average: this.dollarFormatter.format((responseJson.allowable_spending/daysLeft).toFixed(2))
                       , monthly_budget: responseJson.monthly_budget });
@@ -78,6 +80,14 @@ class DailyLimitPanel extends React.Component {
     // update the chart
     // https://stackoverflow.com/questions/17354163/dynamically-update-values-of-a-chartjs-chart
   }
+  
+  aboveCorrectDsq() {
+    if (this.state.dsq_average >= this.state.correct_dsq_average) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   render() {
     return (
@@ -123,7 +133,7 @@ class DailyLimitPanel extends React.Component {
         <div className="daily-limit-panel__right">
           <div className="daily-limit-panel__right--spd">
             <h3>Daily Spending Quota</h3>
-            <div style={{fontSize: '4em'}}>{this.state.dsq_average}</div>
+            <div className={(this.aboveCorrectDsq() ? 'text-green' : 'text-red')} style={{fontSize: '4em'}}>{this.state.dsq_average}</div>
           </div>
 
           <div className="daily-limit-panel__right--submit">
