@@ -15,6 +15,11 @@ class AnnualBudgetPanel extends React.Component {
     this.addBudgetItem = this.addBudgetItem.bind(this);
     this.removeBudgetItem = this.removeBudgetItem.bind(this);
     this.sumBudgetItems = this.sumBudgetItems.bind(this);
+    this.dollarFormatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      minimumFractionDigits: 0,
+    })
   }
   
   componentDidMount() {
@@ -109,13 +114,12 @@ class AnnualBudgetPanel extends React.Component {
           budgetItems={this.state.budgetItems}
           removeBudgetItem={this.removeBudgetItem}
         />
-        <hr/>
         <div className="ab-row">
           <div className="ab-row__item">&nbsp;</div>
           <label className="ab-row__item">Sum</label>
           <div className="ab-row__item">&nbsp;</div>
           <div className="ab-row__item">&nbsp;</div>
-          <div className="ab-row__item">{this.state.yearlyBudget}</div>
+          <label className="ab-row__item text-right">{this.dollarFormatter.format(this.state.yearlyBudget)}</label>
         </div>
       </div>
     );

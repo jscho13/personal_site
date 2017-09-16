@@ -13,6 +13,7 @@
 
 #annualBudgetContainer {
   @extend .panelContainer;
+  padding: 1em 3em; 
 }
 
 .daily-limit-panel {
@@ -117,7 +118,11 @@ label {
     
     &:nth-child(5) {
       flex-basis: 15em;
-    }      
+    }
+    
+    &:last-child {
+      padding-right: 5em;
+    }
   }
 }
 
