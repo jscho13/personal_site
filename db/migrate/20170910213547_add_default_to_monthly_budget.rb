@@ -1,9 +1,9 @@
 class AddDefaultToMonthlyBudget < ActiveRecord::Migration[5.1]
   def up
-    change_column :users, :monthly_budget, :integer, default: 0
+    add_column :users, :monthly_budget, :integer, default: 0
   end
 
   def down
-    change_column :users, :monthly_budget, :integer, default: nil
+    remove_column :users, :monthly_budget
   end
 end
