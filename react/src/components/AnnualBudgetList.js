@@ -32,7 +32,7 @@ class AnnualBudgetList extends React.Component {
     });
 
     return(
-      <ul className="ab-list">
+      <ul className="ab-list border-bottom">
         {budgetItems}
       </ul>
     );

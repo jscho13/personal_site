@@ -13,8 +13,13 @@
 .text-green { color: green; }
 .text-red { color: red; }
 
-.text-center {
-  text-align: center;
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.border-bottom { 
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 
 .shadow {
