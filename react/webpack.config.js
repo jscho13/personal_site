@@ -21,8 +21,10 @@ var config = {
 if (process.env.NODE_ENV === 'production') {
   delete config.devtool;
   var webpack = require('webpack');
+  const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
   config.plugins = [
-    new webpack.DefinePlugin({ 'process.env.NODE_ENV': '"production"' })
+    new webpack.DefinePlugin({ 'process.env.NODE_ENV': '"production"' }),
+    new UglifyJSPlugin()
   ];
 }
 
