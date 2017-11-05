@@ -29,11 +29,12 @@ class DailyLimitPanel extends React.Component {
     let start = moment();
     let end = moment().endOf('month');
     let daysLeft  = end.diff(start, 'days') + 1;
+    let daysInMonth = moment().daysInMonth();
     fetch('/api/user_budget_data', { credentials: 'same-origin' })
       .then(response => response.json())
       .then(responseJson => {
         this.setState({ allowable_spending: responseJson.allowable_spending
-                      , correct_dsq_average: responseJson.monthly_budget/daysLeft
+                      , correct_dsq_average: responseJson.monthly_budget/daysInMonth
                       , days_left: daysLeft
                       , dsq_average: responseJson.allowable_spending/daysLeft
                       , monthly_budget: responseJson.monthly_budget });
