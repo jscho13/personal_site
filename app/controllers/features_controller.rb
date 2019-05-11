@@ -39,6 +39,8 @@ class FeaturesController < ApplicationController
     render json: data
   end
   
+  # In hindsight you could probably structure this data better.
+  # Make the controller skinner and have the model figure out the logic.
   def dsq_date_options
     data = current_user.dsq_averages.map { |x| {year: x.submission_date.year} }.uniq.reverse!
     data.each { |year|
