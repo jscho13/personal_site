@@ -24,7 +24,7 @@ Rails.application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   # The default for this is false. We set it to true because we DO want to fallback to assets pipeline.
-  config.assets.compile = true
+  config.assets.compile = false
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
