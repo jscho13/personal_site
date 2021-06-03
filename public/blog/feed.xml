@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://brunchbucks.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://brunchbucks.com/blog/" rel="alternate" type="text/html" /><updated>2017-10-07T10:59:00-04:00</updated><id>http://brunchbucks.com/blog/</id><title type="html">The BrunchBucks Blog</title><subtitle>BrunchBucks is aimed at helping others learn essential personal finance techniques and knowledge to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</subtitle><entry><title type="html">High Dividend Mutual Funds</title><link href="http://brunchbucks.com/blog/investing/high-dividend-mutual-funds.html" rel="alternate" type="text/html" title="High Dividend Mutual Funds" /><published>2017-07-22T13:22:00-04:00</published><updated>2017-07-22T13:22:00-04:00</updated><id>http://brunchbucks.com/blog/investing/high-dividend-mutual-funds</id><content type="html" xml:base="http://brunchbucks.com/blog/investing/high-dividend-mutual-funds.html">&lt;p&gt;A friend of mine mentioned making money faster from the stock market by investing in high dividend mutual funds. The idea is that these funds target companies that shell out returns to their investors in the form of cold hard cash. In the finance world these types of returns are called &lt;a href=&quot;http://www.investopedia.com/terms/d/dividend.asp&quot; rel=&quot;nofollow&quot;&gt;dividends&lt;/a&gt;. Dividends can be an effective source of supplementary income since they generate cash, but typically experience less capitals gains. If you own a slice of a company that pays out dividends you can expect to receive monthly, quarterly, or yearly dividends that can be received as cash, additional shares, or some other property.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://brunchbucks.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://brunchbucks.com/blog/" rel="alternate" type="text/html" /><updated>2020-09-26T18:41:58-04:00</updated><id>http://brunchbucks.com/blog/</id><title type="html">The BrunchBucks Blog</title><subtitle>BrunchBucks is aimed at helping others learn essential personal finance techniques and knowledge to manage their own wealth. It's a place for people to gather and discuss ways to get richer together.</subtitle><entry><title type="html">Example content</title><link href="http://brunchbucks.com/blog/example-content.html" rel="alternate" type="text/html" title="Example content" /><published>2020-01-01T00:00:00-05:00</published><updated>2020-01-01T00:00:00-05:00</updated><id>http://brunchbucks.com/blog/example-content</id><content type="html" xml:base="http://brunchbucks.com/blog/example-content.html">&lt;p&gt;&lt;a href=&quot;link here&quot; rel=&quot;nofollow&quot;&gt;Text here&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code class=&quot;highlighter-rouge&quot;&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function
+&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Text here Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Inline HTML elements HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network. To bold text, use &amp;lt;strong&amp;gt;. To italicize text, use &amp;lt;em&amp;gt;. Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase. Citations, like — Mark otto, should use &amp;lt;cite&amp;gt;. Deleted text should use &amp;lt;del&amp;gt; and inserted text should use &amp;lt;ins&amp;gt;. Superscript text uses &amp;lt;sup&amp;gt; and subscript text uses &amp;lt;sub&amp;gt;. Most of these elements are styled by browsers with few modifications on our part. Heading Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Code Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus. // Example can be run directly in your JavaScript console // Create a function that takes two arguments and returns the sum of those arguments var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;); // Call the function adder(2, 6); // &amp;gt; 8 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa. Lists Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. HyperText Markup Language (HTML) The language used to describe and define the content of a Web page Cascading Style Sheets (CSS) Used to describe the appearance of Web content JavaScript (JS) The programming language used to build advanced Web sites and applications Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Tables Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Name Upvotes Downvotes Totals 21 23 Alice 10 11 Bob 4 3 Charlie 7 9 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Want to see something else added? Open an issue.</summary></entry><entry><title type="html">High Dividend Mutual Funds</title><link href="http://brunchbucks.com/blog/investing/high-dividend-mutual-funds.html" rel="alternate" type="text/html" title="High Dividend Mutual Funds" /><published>2017-07-22T13:22:00-04:00</published><updated>2017-07-22T13:22:00-04:00</updated><id>http://brunchbucks.com/blog/investing/high-dividend-mutual-funds</id><content type="html" xml:base="http://brunchbucks.com/blog/investing/high-dividend-mutual-funds.html">&lt;p&gt;A friend of mine mentioned making money faster from the stock market by investing in high dividend mutual funds. The idea is that these funds target companies that shell out returns to their investors in the form of cold hard cash. In the finance world these types of returns are called &lt;a href=&quot;http://www.investopedia.com/terms/d/dividend.asp&quot; rel=&quot;nofollow&quot;&gt;dividends&lt;/a&gt;. Dividends can be an effective source of supplementary income since they generate cash, but typically experience less capitals gains. If you own a slice of a company that pays out dividends you can expect to receive monthly, quarterly, or yearly dividends that can be received as cash, additional shares, or some other property.&lt;/p&gt;
 
 &lt;p&gt;High dividend mutual funds can boast returns that significantly out perform even the S&amp;amp;P 500! After hearing about them I had to research them more. Are they really worth the money? And if they’re such a good investment why hasn’t everyone bought into them?&lt;/p&gt;
 
@@ -410,46 +536,4 @@ This last bit attempts to address the root problem of having a consumer mindset.
 &lt;h3 id=&quot;optimizing-your-portfolio&quot;&gt;Optimizing Your Portfolio&lt;/h3&gt;
 &lt;p&gt;Diversifying your portfolio works wonders because not all the action happens in one place. Here we covered covered two of the most common investment options to understand the subtle differences between each other. &lt;a href=&quot;http://brunchbucks.com/investing/diversifying-your-portfolio-2.html&quot;&gt;Part 2&lt;/a&gt; covers other ways portfolio start to vary such as different sized companies, domestic/foreign stocks, savings accounts, CD’s, and bonds. They’re all tools with their own purpose once we hit certain money milestones. Congratulations to those who have covered all these bases and can consider their portfolios well-rounded.&lt;/p&gt;
 
-&lt;p&gt;Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.&lt;/p&gt;</content><author><name></name></author><summary type="html">A tip every investor or financial planner will eventually tell you is that you need to diversify your portfolio. Diversification is simply the idea that you don’t want to put all your eggs in one basket, with money. By diversifying your cash into a variety of investments, there’s less at stake if something goes wrong and crashes.</summary></entry><entry><title type="html">Your First Investment Purchase</title><link href="http://brunchbucks.com/blog/investing/early-investing.html" rel="alternate" type="text/html" title="Your First Investment Purchase" /><published>2016-10-31T18:40:00-04:00</published><updated>2016-10-31T18:40:00-04:00</updated><id>http://brunchbucks.com/blog/investing/early-investing</id><content type="html" xml:base="http://brunchbucks.com/blog/investing/early-investing.html">&lt;p&gt;Have you ever looked at the list of investment options and thought to yourself “where on Earth should I start?” Getting started is easily one of the largest barriers to investing. Once you’ve made your first investment it becomes significantly easier to learn more. The key is to start with a small initial investment that will get the snowball of personal wealth rolling.&lt;/p&gt;
-
-&lt;h3 id=&quot;which-stock-should-i-pick&quot;&gt;Which Stock Should I Pick?&lt;/h3&gt;
-&lt;p&gt;While its true there’s a wealth of knowledge required to become a successful investor, there are simple ways to get your best bang for buck. A majority of us (myself included) don’t have the time or desire to do laborious, detailed, industry specific research. Our goal is to get from 0 to 80%  with a sound investment plan. We want the other 20% to consist of fine grained details we can sweat later. For our purposes, it’s good to begin by purchasing shares of Vanguard’s Total Stock Market Index &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VTSMX/quote.html&quot; rel=&quot;nofollow&quot;&gt;(VTSMX)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Below is a list of the top 15 holdings that make up our chosen fund. Notice any familiar names?
-&lt;img src=&quot;/assets/blog/vtsmx_top_holdings.png&quot; alt=&quot;vtsmx-breakdown&quot; style=&quot;width: 800px&quot; /&gt;
-&lt;em&gt;Source: &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VTSMX/quote.html&quot; rel=&quot;nofollow&quot; alt=&quot;vtsmx portfolio image&quot;&gt;Morningstar&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;By purchasing a single share of VTSMX we are essentially buying a tiny slice of largest companies in America, as well as slices of mid to small companies. An example of a similar fund is the Vanguard 500 Index Mutual Fund &lt;a href=&quot;http://www.morningstar.com/funds/XNAS/VFINX/quote.html&quot; rel=&quot;nofollow&quot;&gt;VFINX&lt;/a&gt;. As you can guess, this index fund tracks the top 500 companies in America. By purchasing a share of VFINX we essentially own a piece of America’s largest 500 companies.&lt;/p&gt;
-
-&lt;h3 id=&quot;index-funds-vs-managed-funds&quot;&gt;Index Funds vs Managed Funds&lt;/h3&gt;
-&lt;p&gt;Let’s take a step back and take a look at the name of our fund: Vanguard Total Stock Market Index Fund (VTSMX). We can figure out that “Total Stock Market” means the fund tracks the entire U.S. stock market, but what does the index mean? An index fund is passively managed, meaning their portfolios have rules to track a certain group of investments and can run fairly autonomously. On the opposite spectrum are managed funds. Managed funds are actively managed by individuals which aim to outperform a certain investment benchmark.&lt;/p&gt;
-
-&lt;p&gt;Index funds consistently outperform any active fund for three main reasons:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;They have lower management fees&lt;/li&gt;
-  &lt;li&gt;They have a lower turnover ratio (less buying and selling of securities means less taxes)&lt;/li&gt;
-  &lt;li&gt;They aren’t prone to human error&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On the topic of human error, there are plenty of poor portfolio managers out there. Experts can check portfolio manager histories before purchasing any their shares, but even then it’s possible a funding manager can switch over to another portfolio to leave them in the dust. Well managed active funds do exist. Funds with performance above their benchmarks and peers can make excellent investment vehicles, but index funds are able to consistently deliver long-term returns.&lt;/p&gt;
-
-&lt;h3 id=&quot;paying-less-is-earning-more&quot;&gt;Paying Less Is Earning More&lt;/h3&gt;
-&lt;p&gt;John C. Bogle is a famous investor best known for his low cost portfolios that paid off in longer time horizons. He’s been labeled as one of the “Four Giants of the 20th Century” among the investment community, and ranks among Warren Buffet, Peter Lynch, and George Soros. His investment strategy can be summarized as:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;You get exactly what you don’t pay for.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;He drives home how important it is to have low management fees with consistent performance over time. Manged funds have trouble consistently beating index funds over longer time horizons, because of the compounding cost of their higher management fees. Below is a graph that draws out a Vanguard Fund with a yearly fee of 0.07% compared to a fund that runs for 1.32%. The difference between their management fees is a 1.25%, which doesn’t seem like such a big deal right?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/retirement_chart.jpg&quot; alt=&quot;retirement fund comparison&quot; style=&quot;width: 640px;&quot; /&gt;
-&lt;em&gt;Source: &lt;a href=&quot;http://www.theatlantic.com/business/archive/2014/02/the-crushingly-expensive-mistake-killing-your-retirement/283866/&quot; rel=&quot;nofollow&quot; alt=&quot;retirement fund comparison&quot;&gt;theatlantic&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Woah there. It turns out a whopping 27% of your potential retirement savings is lost when estimated over a 40 year period. Higher management fees bring a double whammy of shelling out cash to managers, and with it the potential earnings of your hard earned cash. To add the cherry on top, we already know that actively managed accounts have trouble beating index funds in the first place. That’s even before accounting for all the management fees!&lt;/p&gt;
-
-&lt;h3 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h3&gt;
-&lt;p&gt;While it’s possible to get excellent returns from investing in particular stocks or portfolios, a majority of people simply don’t have the time to do that level of homework. Most of us don’t need to look deep into portfolios to actively maintain it. By skipping exorbitantly high fees we can ensure simplicity while also achieving the best bang for buck. Keep an eye out for lower portfolios when investing in your &lt;a href=&quot;http://brunchbucks.com/retirement/roth-vs-traditional/&quot;&gt;401(k) or Roth 401(k)&lt;/a&gt;. If your employer doesn’t offer any matches, consider opening an IRA instead.&lt;/p&gt;
-
-&lt;p&gt;Once you’ve gotten the ball rolling towards a stable financial future, take another step. We’ve already started diversifying our portfolios with a good index fund choice, but we can also learn more about the importance of diversifying your portfolio &lt;a href=&quot;http://brunchbucks.com/investing/diversifying-your-portfolio.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.&lt;/p&gt;</content><author><name></name></author><summary type="html">Have you ever looked at the list of investment options and thought to yourself “where on Earth should I start?” Getting started is easily one of the largest barriers to investing. Once you’ve made your first investment it becomes significantly easier to learn more. The key is to start with a small initial investment that will get the snowball of personal wealth rolling.</summary></entry></feed>
+&lt;p&gt;Per usual, thanks for taking the time to read BrunchBucks. If you find a typo just contact me via email! Feel free to leave a comment below or share this with friends.&lt;/p&gt;</content><author><name></name></author><summary type="html">A tip every investor or financial planner will eventually tell you is that you need to diversify your portfolio. Diversification is simply the idea that you don’t want to put all your eggs in one basket, with money. By diversifying your cash into a variety of investments, there’s less at stake if something goes wrong and crashes.</summary></entry></feed>

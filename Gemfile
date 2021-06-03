@@ -9,8 +9,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'turbolinks'
  
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.3.13', '< 0.5'
-gem 'mysql'
+gem 'mysql2', '~> 0.4.10'
 
 # Frontend Gems
 # Use Uglifier as compressor for JavaScript assets
